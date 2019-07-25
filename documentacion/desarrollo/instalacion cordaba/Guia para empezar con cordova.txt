@@ -1,0 +1,26 @@
+Instalando cordova
+
+1. se debe tener insatalado nodejs para esto se debe ir a la pagina oficial https://nodejs.org/es/ se descargaria la version LTS
+
+2. se debe tener instalado y configurado las variables de entorno para jdk https://parzibyte.me/blog/2017/12/26/instalar-configurar-jdk-compilador-java-windows/
+
+3. se debe tener instalado y configurado las variables de entorno para sdk de android: 
+para esto existen dos opciones la mas sencilla es instalar android studio y esto nos trae todo incluido, 
+si no se quiere android studio podemos instalar por separado. https://www.xatakandroid.com/programacion-android/como-instalar-el-android-sdk-y-para-que-nos-sirve
+
+4. se debe instalar cordova en el equipo para esto se ejecuta el siguiente comando por la consola cmd-> npm install -g cordova
+
+5. se puede verificar esta instalacion tratando de crear un proyecto con el siguiente comando por la consola cmd -> cordova create nombreProyecto 
+
+6. el comando anterior te creara una serie de archivos en la ruta en la cual se ejecuto 
+
+7. vamos a instalar las plataformas en las cuales vamos a compilar la apk en este caso para android y ios con los siguientes comandos: cordova platform add android,cordova platform add ios
+
+6. y por utlimo vamos a conectar el movil a nuestra maquina via usb permitiendo la depuracion usb desde el movil:
+
+ *Ingresamos al nuestro movil a la parte de configuracion 
+ *despues a la parte de acerca del telefono 
+ *luego nos vamos a la parte donde nos da la informacion del software
+ *y vamos a tocar varias veces la opcion que diga numero de compilacion para lograr que se nos habilite una opcion que diga modo desarrollador en la pantalla de nuestros ajustes
+ *entramos en la opcion opciones desarrolador o modo desarrollador  y activamos la opcion que diga depuracion por USB
+ *cuando hacemos esto conectamos nuestro movil a la maquina y ejecutamos el siguiente comando para lanzar el apk de ejemplo que creamos: cordova run android

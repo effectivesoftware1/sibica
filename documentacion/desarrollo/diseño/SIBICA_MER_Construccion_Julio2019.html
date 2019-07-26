@@ -1,0 +1,2784 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' >
+<head>
+<title>MER SIBICA&#95;Terreno&#45;Construccion</title>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+
+<style type='text/css'>
+body {
+    font-family: 'Segoe UI', 'Lucida sans', Dialog;
+    font-size: 13px;
+    background-color:#f5f5f5;
+    margin: 10px;
+}
+</style>
+</head>
+
+<body>
+<div class='svg-container'>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='1755' height='1280' viewBox='0 0 1755 1280' >
+  <script type='text/ecmascript'>
+  <![CDATA[
+  function hghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','highlight');  }  }
+  function uhghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','scene'); }  } 
+  ]]>
+  </script> 
+
+<style type='text/css'>
+  text                { fill:#000000; font-family: System, 'Trebuchet MS', Dialog; font-size:12px; }
+  a text:hover        { fill:#94025f; text-shadow: 0px 0px 6px #d0ce00; font-size:13px; }
+  text.highlight      { fill:#94025f; text-shadow: 0px 0px 4px #eac533; font-size:13px; }
+  text.colType        { fill:#b3b3b3; }
+  text.relName        { fill:#b09c7c; }
+  path                { stroke:#5c554f; stroke-width:1.15; fill:none; stroke-dasharray: 1000px; stroke-dashoffset: 1000px; animation: dash 5s linear forwards;}
+  path                { stroke:#5c554f; stroke-width:1.15; fill:none; stroke-dasharray: 1605px; stroke-dashoffset: 1605px; animation: dash 5s linear forwards; }@keyframes dash { to { stroke-dashoffset: 0px; } }
+  path.virtual        { stroke:#b7642d; }
+  path.logo           { fill:#fbeac0;fill-opacity:1;stroke-width:0.3;stroke:#222222; }
+  path.dotted         { stroke-dasharray:4,2; }
+  path.scene          { stroke-width:10; opacity:0;}
+  path.highlight      { stroke-width:5; stroke:#c1a662; opacity:0.6;}
+  rect.entity         { fill:#ffffff; stroke:#aaa; stroke-width:1;shape-rendering:crispEdges;filter:url(#shadow); }
+  line.delim          { stroke-width:1; shape-rendering:crispEdges; }
+  text.callout        { fill:#000000; font-family: Tahoma, 'Trebuchet MS', Dialog; font-size:12px; }
+  rect.callout        { fill:url(#calloutGradient); stroke:#bebdbd; stroke-width:0.5; filter: url(#shadow);}
+  rect.grp            { stroke:#b1b1b1; stroke-width:1.7; opacity:0.8; }
+  path.st0            { fill:#ececec;fill-opacity:1;stroke-width:0.6;stroke:#d0d0d0; }
+</style>
+<defs>
+  <pattern id='layoutBgA' patternUnits='userSpaceOnUse'  width='10' height='20' x='0' y='0' viewBox='0 0 5 10'>  
+     <line x1='-2' y1='1' x2='7' y2='10' stroke='#f3f3f3' stroke-width='.5'/>  
+     <line x1='-2' y1='6' x2='7' y2='15' stroke='#f3f3f3' stroke-width='.5'/>  
+     <line x1='-2' y1='-4' x2='7' y2='5' stroke='#f3f3f3' stroke-width='.5'/>  
+  </pattern>  
+  <radialGradient id='layoutBgB' gradientUnits='userSpaceOnUse' cx='50%' cy='50%' r='75%' fx='46%' fy='22%'>
+     <stop offset='0%' stop-opacity='.2' stop-color='#f5f5f5' />  
+     <stop offset='100%' stop-color='#efefef' />  
+  </radialGradient>
+  <pattern id='layoutBgTr' patternUnits='userSpaceOnUse'  width='300' height='300' x='0' y='0' viewBox='0 0 300 300'>  
+  <path class='st0' d='m 62.011835,91.267143 c 3.536475,3.175214 2.262669,8.705999 -1.637711,11.015197 -3.594697,5.8423 -6.34682,-2.892623 -9.715478,-4.653898 -5.609222,-2.838926 2.050802,-6.680123 4.77004,-8.319046 2.334696,-0.724067 4.935143,0.312302 6.583149,1.957747 z m -2.720492,2.538595 c -2.698397,-3.517732 -9.282815,1.269287 -3.69635,3.568637 2.765331,5.605665 7.052809,-0.56184 3.69635,-3.568637 z' />
+  <path class='st0' d='m 72.25864,84.624638 c 4.108046,3.143003 -0.737059,6.895259 -1.994918,8.323564 -3.586718,5.561143 -6.495079,-4.197379 -10.07759,-5.582178 -4.443422,-1.088878 1.349298,-7.249213 2.503526,-2.503449 2.464639,4.517161 2.304019,-3.70697 6.291113,-1.995914 1.280083,0.137865 2.410691,0.864819 3.277869,1.757977 z m -2.646109,2.323242 c -4.797162,-3.078383 -2.810517,6.305507 0.515161,1.990646 0.296432,-0.688582 0.01209,-1.493412 -0.515161,-1.990646 z' />
+  <path class='st0' d='m 78.230641,79.436735 c 4.142121,3.027466 -2.020102,10.435276 -3.450543,5.477315 3.306312,-5.248112 -9.186019,-2.220094 -5.805994,-8.77679 -0.544141,-3.93011 6.797826,-2.102227 3.386015,0.245477 -0.181085,2.915838 4.637371,1.019311 5.870522,3.053982 z' />
+  <path class='st0' d='m 82.744502,72.597397 c -4.901605,1.926521 1.146497,6.285555 2.559694,2.225783 6.21817,3.539297 -6.640186,8.416664 -7.590325,1.997457 -2.24365,-2.914883 4.026676,-10.148618 5.030631,-4.22324 z' />
+  <path class='st0' d='m 90.727458,64.259158 c 1.583987,1.690029 3.321317,3.2696 4.81267,5.026353 -2.535706,6.849794 -6.445583,-5.918773 -8.388458,-0.167017 0.782768,2.03426 5.877405,3.752079 2.670979,5.711199 -3.315119,1.519161 -5.782422,-5.157931 -8.858893,-6.780537 -4.229842,-1.139816 1.510134,-7.074128 2.586227,-2.385939 3.141198,5.495193 1.840537,-5.598295 7.177489,-1.404062 z' />
+  <path class='st0' d='m 99.622027,58.374253 c 1.493293,1.9548 -6.281936,7.024659 -0.885258,4.740447 0.386238,-4.434477 6.131941,-1.133173 2.175851,1.618005 -4.421491,6.12739 -13.666659,-3.151506 -7.058299,-7.136537 1.785129,-1.119329 4.348209,-0.743179 5.767706,0.778085 z m -2.900824,1.89746 c -3.608188,-2.208543 -2.280489,5.00803 -0.12563,0.329531 z' />
+  <path class='st0' d='m 115.18023,50.570441 c -1.61703,5.201678 -4.6204,-0.364502 -7.01598,-1.749619 -4.40977,2.122562 4.89641,4.913939 1.89606,7.018157 -2.48061,3.877635 -4.11404,-4.060614 -7.01192,-2.6391 -1.76318,3.107252 7.28394,6.252304 0.87346,7.876177 -1.74515,-2.956649 -9.055498,-5.610518 -3.950378,-8.66062 1.696478,1.897023 1.770418,-5.43503 5.347308,-3.072411 -0.44014,-5.474701 6.11995,-4.950882 7.7846,-0.815355 0.69076,0.682329 1.39587,1.351469 2.07685,2.042771 z' />
+  <path class='st0' d='m 120.54891,39.417125 c 2.50681,1.334124 4.80466,4.941837 0.75044,5.297362 -0.46414,1.89865 -5.25369,5.602652 -8.01742,1.815475 -3.87345,-2.809139 -0.0676,-7.603869 2.3036,-8.133924 1.6795,-3.853018 3.16703,-1.199465 4.96338,1.021087 z m -2.2464,2.175828 c -4.8049,-2.992167 -3.08987,6.380358 0.42374,2.036159 0.33052,-0.677508 0.12099,-1.525836 -0.42374,-2.036159 z' />
+  <path class='st0' d='m 128.50836,24.06821 c -5.10403,3.035506 3.20535,6.383175 5.05938,9.450276 -0.91853,2.95886 -4.06493,3.650723 -5.34691,0.265618 -2.25715,-2.089033 -4.65672,-6.948595 -7.07024,-2.584686 -4.71758,-3.764394 3.81217,-5.812054 5.12382,-9.226328 0.75738,0.677487 1.38637,1.498638 2.23389,2.095175 z' />
+  <path class='st0' d='m 137.14366,22.299812 c -3.09615,2.259885 0.71537,4.412454 1.99042,6.435866 -3.08975,5.080354 -5.91384,-2.98648 -8.92144,-4.094939 1.44369,-3.219573 3.3497,-1.335928 4.27156,-4.41058 0.97822,-0.894325 1.75044,1.871047 2.65946,2.069653 z' />
+  <path class='st0' d='m 136.85093,14.890174 c 2.31562,5.283511 -7.17975,1.771993 -1.29675,-0.475107 l 0.7108,0.08973 z m 4.867,5.317354 c 2.56912,1.439678 4.26517,4.725219 0.30678,5.233637 -1.56592,-3.098864 -9.51683,-5.749448 -3.64502,-8.633714 1.17746,0.325095 2.15375,2.591149 3.33824,3.400077 z' />
+  <path class='st0' d='m 149.95578,11.976423 c 2.50679,1.334142 4.80455,4.94192 0.75041,5.297394 -0.4641,1.898604 -5.25368,5.602645 -8.0174,1.81545 -3.87347,-2.80918 -0.0676,-7.603844 2.30366,-8.133968 1.67949,-3.8530525 3.16695,-1.1993573 4.96333,1.021124 z m -2.24641,2.175828 c -4.80489,-2.992177 -3.08986,6.380343 0.42374,2.036167 0.33055,-0.677518 0.121,-1.52585 -0.42374,-2.036167 z' />
+  <path class='st0' d='m 153.26135,7.538431 c 2.60497,1.5799548 6.03999,5.944272 1.08117,6.050232 -2.53319,-3.231828 -7.20316,-6.4304525 -8.84748,-9.4582682 1.89121,-2.8664883 3.78452,-2.247699 5.38514,0.8929426 0.78017,0.8503859 1.57195,1.6911437 2.38118,2.5150667 z' />
+  </pattern>  
+  <linearGradient id='groupUnderTitleLine' x1='0%' y1='0%' x2='100%' y2='0%' >
+          <stop offset='0%' stop-color='#999999' stop-opacity='0.7'/> 
+          <stop offset='100%' stop-color='#999999' stop-opacity='0' /> 
+   </linearGradient>
+  <radialGradient id='calloutGradient' cx='25%' cy='20%' r='80%' fx='10%' fy='10%'>
+	   <stop offset='0%' stop-color='#ffffff' />
+    <stop offset='100%' stop-color='#f8f6d1' />
+  </radialGradient>
+  <filter id='shadow' width='120%' height='120%'> 
+      <feOffset result='offOut' in='SourceGraphic' dx='1' dy='1' /> 
+      <feColorMatrix result='matrixOut' in='offOut' type='matrix' 
+      values='0.1 0 0 0 0 0 0.4 0 0 0 0 0 0.6 0 0 0 0 0 0.3 0' /> 
+      <feGaussianBlur result='blurOut' in='matrixOut' stdDeviation='3' /> 
+      <feBlend in='SourceGraphic' in2='blurOut' mode='normal' /> 
+    </filter> 
+  <filter id='fkShadow' height='130%'> 
+    <feGaussianBlur in='SourceAlpha' stdDeviation='1.5'/> <!-- stdDeviation is how much to blur -->
+    <feOffset dx='1.2' dy='1.2' result='offsetblur'/> <!-- how much to offset -->
+    <feMerge>
+    <feMergeNode/> <!-- this contains the offset blurred image -->
+    <feMergeNode in='SourceGraphic'/> <!-- this contains the element that the filter is applied to -->
+    </feMerge>
+  </filter>
+  <radialGradient id='legendGradient' fx='5%' fy='5%' r='75%' spreadMethod='pad'>
+          <stop offset='0%' stop-color='#eefbf2' stop-opacity='1'/> 
+          <stop offset='100%' stop-color='#cff9cb' stop-opacity='1' /> 
+   </radialGradient>
+  <symbol id='calloutArrowDown' overflow='visible' >
+      <path d='M 0,0 L 7,11 L 15,0 z' style='fill:#f8f6d1;stroke:none; filter: url(#shadow);' />
+      <path d='M 0,0 L 7,11 L 15,0' style='stroke:#bebdbd; stroke-width:0.5;' />
+  </symbol>
+  <symbol id='calloutArrowUp' overflow='visible' >
+      <path d='M 0,15 L 7,3 L 15,15 z' style='fill:#ffffff; stroke:none; filter: url(#shadow);' />
+      <path d='M 0,15 L 7,3 L 15,15' style='stroke:#bebdbd; stroke-width:0.5;' />
+  </symbol>
+  <symbol id='pk' overflow='visible' >
+    <g transform='scale(0.99)'>
+     <path style='fill:#fffa7d;stroke:#765f03;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;'
+        d='M 9.3678877,3.5695485 C 9.1030218,3.2729386 9.0796382,2.7628519 9.3396185,2.4517097 9.5449651,2.1956495 9.9040386,2.0980533 10.199638,2.2169415 10.533525,2.3415459 10.775153,2.706942 10.750675,3.0842709 10.737029,3.3980003 10.541153,3.699122 10.258248,3.8066067 9.966649,3.9250429 9.6169668,3.8418805 9.4008073,3.6062324 9.3894892,3.5943518 9.3785264,3.582104 9.3678886,3.5695487 z M 11.226617,6.9916004 C 11.888137,6.3548946 12.293488,5.4172188 12.311087,4.442353 12.378144,2.7379364 11.248678,1.0541269 9.7322318,0.44767357 8.3887112,-0.1280313 6.7865012,0.26822889 5.8918395,1.4007929 5.080823,2.3839145 4.9336815,3.8452096 5.3635544,5.101615 L 4.3670905,5.315913 C 4.0664984,5.3682645 4.0967703,5.6316724 4.2574957,5.8208829 L 4.9124,6.5655244 4.1543436,7.2512357 3.2136002,7.2163506 3.1674775,8.5586827 2.0406832,8.5086512 1.5965306,8.9299953 1.5471661,10.179833 0.75616674,10.195223 0.2112857,10.758575 0.15354288,11.735988 0.07199052,12.765553 c 0.36440953,0.238225 0.79006967,0.195492 1.44938278,-0.02675 L 6.3033562,8.1282037 6.8217102,8.6765688 C 6.9985465,8.8799427 7.3003699,8.7497574 7.358381,8.5016252 L 7.4938877,7.5084164 c 0.8537488,0.3985387 1.8303125,0.4711541 2.6851793,0.1427713 0.393927,-0.1407258 0.746858,-0.3701772 1.04755,-0.6595873 z'/>
+     <path d='M 6.8014948,6.3102123 0.15369063,13.024481 0.21560535,12.141962 6.0062342,6.2683782 z'
+        style='fill:#ffe5a5;fill-opacity:1;stroke:#854e31;stroke-width:0.06912433;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:3.00300009'/>
+    </g>
+  </symbol>
+  <symbol id='dist' overflow='visible' >
+    <g transform='scale(0.99)'>
+      <path style='fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;' d='M 0.177,11.431 12.28,11.449'/>
+      <path style='fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;' d='m 6.124,3.954 0.066,7.154 v 0'/>
+      <rect width='11.78' height='3.40' x='0.40' y='0.44' style='fill:#fffa7d;stroke:#765f03;stroke-width:0.6;' ry='0.83'/>
+      <rect width='11.78' height='3.40' x='0.40' y='5.609' style='fill:#fffa7d;stroke:#765f03;stroke-width:0.6;' ry='0.832'/>
+    </g>
+  </symbol>
+  <symbol id='unq' overflow='visible' >
+    <g transform='scale(0.99)'>
+      <rect style='fill:#fbea8e;stroke:#7e4d31;stroke-width:0.71934468;stroke-linecap:round;stroke-linejoin:round;'
+         width='2.29' height='8.43' x='7.48' y='-0.76' ry='1.14' transform='matrix(0.701,0.713,-0.727,0.685,0,0)' />
+      <path style='fill:white;stroke:#858585;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;'
+         d='m 26.04,8.64 a 4.13,4.13 0 1 1 -8.26,0 4.13,4.13 0 1 1 8.26,0 z'
+         transform='matrix(1.025,0,0,0.987,-14.690,-3.862)' />
+      <text x='5.8' y='7.4' style='font-size:7px;fill:#8a8a8a;'>1</text>
+    </g>
+  </symbol>
+  <symbol id='idx' overflow='visible' >
+    <g transform='scale(0.99)'>
+      <rect style='fill:#fbea8e;stroke:#7e4d31;stroke-width:0.71934468;stroke-linecap:round;stroke-linejoin:round;'
+         width='2.29' height='8.43' x='7.48' y='-0.76' ry='1.14' transform='matrix(0.701,0.713,-0.727,0.685,0,0)' />
+      <path style='fill:white;stroke:#858585;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;'
+         d='m 26.04,8.64 a 4.13,4.13 0 1 1 -8.26,0 4.13,4.13 0 1 1 8.26,0 z'
+         transform='matrix(1.025,0,0,0.987,-14.690,-3.862)' />
+    </g>
+  </symbol>
+  <symbol id='fk' overflow='visible' >
+    <g transform='scale(0.87)'>
+      <path style='fill:#f3e1b7;stroke:#7e471f;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+      d='M 12.48,0.33 7.07,0.89 9.067,2.974 0.329,11.731 1.073,12.597 9.811,3.841 11.77,5.78 z' />
+    </g>
+  </symbol>
+  <symbol id='ref' overflow='visible' >
+    <g transform='scale(0.87)'>
+      <path style='fill:#f3e1b7;stroke:#7e471f;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0.10,12.70 5.31,12.15 3.40,10.06 11.82,1.32 11.11,0.45 2.68,9.19 0.80,7.24 z'/>
+    </g>
+  </symbol>
+  <symbol id='flag0' overflow='visible' >
+    <g transform='scale(0.92)'>
+      <path style='fill:#b7d0f6;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0.12,12.67 0.16,7.22 C 2.59,7.22 4.13,8.78 9.22,4.22 5.68,4.98 2.53,4.50 0.09,1.80 z'/>
+    </g>
+  </symbol>
+  <symbol id='flag1' overflow='visible' >
+    <g transform='scale(0.92)'>
+      <path style='fill:#f4a393;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0.12,12.67 0.16,7.22 C 2.59,7.22 4.13,8.78 9.22,4.22 5.68,4.98 2.53,4.50 0.09,1.80 z'/>
+    </g>
+  </symbol>
+  <symbol id='flag2' overflow='visible' >
+    <g transform='scale(0.92)'>
+      <path style='fill:#77ec8b;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0.12,12.67 0.16,7.22 C 2.59,7.22 4.13,8.78 9.22,4.22 5.68,4.98 2.53,4.50 0.09,1.80 z'/>
+    </g>
+  </symbol>
+  <symbol id='nn' overflow='visible' >
+  <path style='stroke:#9b3e50;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0,0 3,3 M 0,3 3,0 z'/>
+  </symbol>
+  <symbol id='view' overflow='visible' >
+    <g transform='scale(0.99)'>
+     <line x1='12' y1='6' x2='19' y2='0' stroke='black' stroke-width='0.5' />
+     <line x1='0' y1='6' x2='7' y2='0' stroke='black' stroke-width='0.5' />
+     <circle cx='3' cy='6' r='3' fill='#f9ebbc' stroke='black' stroke-width='0.5'/>
+     <circle cx='10' cy='6' r='3' fill='#f9ebbc' stroke='black' stroke-width='0.5'/>
+    </g>
+  </symbol>
+  <marker id='arrow01' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 7.500,3.750 L 15.000,3.750 L 7.500,0.000 L 15.000,3.750 L 7.500,7.500' />
+  </marker>
+  <marker id='arrow1' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 7.500,3.750 L 15.000,3.750 L 7.500,0.000 L 15.000,3.750 L 7.500,7.500' />
+  </marker>
+  <marker id='foot01' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 0.00,3.75 L 15.00,3.75 z' />
+    <circle cx='11.25' cy='3.75' r='2.50' style='fill:white;stroke:#5e554d;' />
+    <path d='M 3.75,0.00 L 3.75, 7.50 z' />
+  </marker>
+  <marker id='foot0p' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 0.00,3.75 L 15.00,3.75 z' />
+    <circle cx='11.25' cy='3.75' r='2.50' style='fill:white;stroke:#5e554d;' />
+    <path d='M 0.00,0.00 L 7.50,3.75 L 0.00,7.50' />
+  </marker>
+  <marker id='foot1' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 0.00,3.75 L 15.00,3.75 z' />
+    <path d='M 7.50,0.00 L 7.50, 7.50 z' />
+    <path d='M 3.75,0.00 L 3.75, 7.50 z' />
+  </marker>
+  <marker id='foot1p' viewBox='0 0 15.00 7.50' refX='7.50' refY='3.75' markerUnits='strokeWidth' markerWidth='15.00' markerHeight='7.50' orient='auto'>
+    <path d='M 0.00,3.75 L 15.00,3.75 z' />
+    <path d='M 7.50,0.00 L 7.50, 7.50 z' />
+    <path d='M 0.00,0.00 L 7.50,3.75 L 0.00,7.50' />
+  </marker>
+  <linearGradient id='tbg_1a4d1a' x1='0%' y1='0%' x2='0%' y2='100%' >
+     <stop offset='0%' stop-color='#e0f8e0' /> 
+     <stop offset='60%' stop-color='#c1eec1' /> 
+     <stop offset='100%' stop-color='#e0f8e0' /> 
+  </linearGradient>
+  <linearGradient id='tbg_c1d8ee' x1='0%' y1='0%' x2='0%' y2='100%' >
+     <stop offset='0%' stop-color='#e0ecf8' /> 
+     <stop offset='60%' stop-color='#c1d8ee' /> 
+     <stop offset='100%' stop-color='#e0ecf8' /> 
+  </linearGradient>
+  <linearGradient id='tbg_b31a1a' x1='0%' y1='0%' x2='0%' y2='100%' >
+     <stop offset='0%' stop-color='#f8e0e0' /> 
+     <stop offset='60%' stop-color='#eec1c1' /> 
+     <stop offset='100%' stop-color='#f8e0e0' /> 
+  </linearGradient>
+  <linearGradient id='tbg_b3661a' x1='0%' y1='0%' x2='0%' y2='100%' >
+     <stop offset='0%' stop-color='#f8ece0' /> 
+     <stop offset='60%' stop-color='#eed7c1' /> 
+     <stop offset='100%' stop-color='#f8ece0' /> 
+  </linearGradient>
+</defs>
+
+<!-- == Desktop == -->
+<rect x='1' y='1' width='1753' height='1278' rx='7' ry='7' style='fill:url(#layoutBgB); stroke:#777777; stroke-width:0.5;' />
+<rect x='1' y='1' width='1753' height='1278' rx='7' ry='7' style='fill:url(#layoutBgA); stroke:#777777; stroke-width:0.5;' />
+<rect x='1' y='1' width='1753' height='1278' rx='7' ry='7' style='fill:url(#la);' />  <!--style='fill:url(#layoutBgTr);' Elimino marca de agua...***-->
+
+<!-- == Legend == -->
+<g transform='translate(10,10)'>
+  <rect x='10' y='10' width='360' height='69' rx='6' ry='6' style='fill:url(#legendGradient);filter:url(#shadow);'/> 
+  <text x='20' y='25'style='fill:#2320D9; font-size:14px;'>MER-SIBICA (TERRENO + CONSTRUCCIÓN). Julio/2019</text> 
+  <text x='20' y='39' style='fill:#5B5A5C; font-size:11px;'><tspan>Mueva el mouse sobre tablas y columnas para leer los comentarios</tspan></text> 
+  <text x='20' y='55' style='fill:#AC2A21; font-size:12px;'><tspan>Diseñado por: Wilmar Ruiz -UAEGBS</tspan></text> 
+  <a xlink:href='http://172.18.1.147/Bienes_inmuebles/public.prediomunicipio.php'><text x='20' y='73' style='fill:#486dc1; font-size:12px;'><tspan>Regresar a Inventario SIBICA</tspan></text></a>
+</g>
+
+<g transform='translate(0,110)'>
+<!-- == Fk 'terreno_id_capa_fk' == -->
+<path id='terreno_id_capa_fk'  onmouseover="hghl(['terreno_id_capa_fk','public.terreno.id_capa','public.capa.id_capa'])" onmouseout="uhghl(['terreno_id_capa_fk','public.terreno.id_capa','public.capa.id_capa'])" transform='translate(7,0)' class='scene' d='M 1140 945 L 487,945 Q 480,945 480,937 L 480,885' >
+	<title>Fk id_capa_fk
+terreno ref capa ( id_capa )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 945 L 487,945 Q 480,945 480,937 L 480,885' ></path>
+<text x='1110' y='941' transform='rotate(0 1110,941)' title='Fk id_capa_fk
+terreno ref capa ( id_capa )' class='relName' style='fill:#74a774'>id_capa</text>
+<!-- == Fk 'terreno_cuenta_t' == -->
+<path id='terreno_cuenta_t'  onmouseover="hghl(['terreno_cuenta_t','public.terreno.cuenta_terreno_p','public.cuenta.num_cuenta'])" onmouseout="uhghl(['terreno_cuenta_t','public.terreno.cuenta_terreno_p','public.cuenta.num_cuenta'])" transform='translate(7,0)' class='scene' d='M 1140 855 L 780,855' >
+	<title>Fk cuenta_t
+terreno ref cuenta ( cuenta_terreno_p -&gt; num_cuenta )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 855 L 780,855' ></path>
+<text x='1058' y='851' transform='rotate(0 1058,851)' title='Fk cuenta_t
+terreno ref cuenta ( cuenta_terreno_p -&gt; num_cuenta )' class='relName' style='fill:#74a774'>cuenta_terreno_p</text>
+<!-- == Fk 'terreno_id_depe_fk' == -->
+<path id='terreno_id_depe_fk'  onmouseover="hghl(['terreno_id_depe_fk','public.terreno.id_depen_fk','public.dependencia.id_depen'])" onmouseout="uhghl(['terreno_id_depe_fk','public.terreno.id_depen_fk','public.dependencia.id_depen'])" transform='translate(7,0)' class='scene' d='M 1140 675 L 915,675' >
+	<title>Fk id_depe_fk
+terreno ref dependencia ( id_depen_fk -&gt; id_depen )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 675 L 915,675' ></path>
+<text x='1086' y='671' transform='rotate(0 1086,671)' title='Fk id_depe_fk
+terreno ref dependencia ( id_depen_fk -&gt; id_depen )' class='relName' style='fill:#74a774'>id_depen_fk</text>
+<!-- == Fk 'terreno_id_estado_fk' == -->
+<path id='terreno_id_estado_fk'  onmouseover="hghl(['terreno_id_estado_fk','public.terreno.id_estado_fk','public.estado.id_estado'])" onmouseout="uhghl(['terreno_id_estado_fk','public.terreno.id_estado_fk','public.estado.id_estado'])" transform='translate(7,0)' class='scene' d='M 1140 210 L 682,210 Q 675,210 675,202 L 675,195' >
+	<title>Fk id_estado_fk
+terreno ref estado ( id_estado_fk -&gt; id_estado )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 210 L 682,210 Q 675,210 675,202 L 675,195' ></path>
+<text x='1084' y='206' transform='rotate(0 1084,206)' title='Fk id_estado_fk
+terreno ref estado ( id_estado_fk -&gt; id_estado )' class='relName' style='fill:#74a774'>id_estado_fk</text>
+<!-- == Fk 'terreno_mat_inmob_fk' == -->
+<path id='terreno_mat_inmob_fk'  onmouseover="hghl(['terreno_mat_inmob_fk','public.terreno.mat_inmob_p','public.matricula.numero_mat'])" onmouseout="uhghl(['terreno_mat_inmob_fk','public.terreno.mat_inmob_p','public.matricula.numero_mat'])" transform='translate(7,0)' class='scene' d='M 1140 360 L 990,360' >
+	<title>Fk mat_inmob_fk
+terreno ref matricula ( mat_inmob_p -&gt; numero_mat )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 360 L 990,360' ></path>
+<text x='1078' y='356' transform='rotate(0 1078,356)' title='Fk mat_inmob_fk
+terreno ref matricula ( mat_inmob_p -&gt; numero_mat )' class='relName' style='fill:#74a774'>mat_inmob_p</text>
+<!-- == Fk 'terreno_nit_cedente_fk' == -->
+<path id='terreno_nit_cedente_fk'  onmouseover="hghl(['terreno_nit_cedente_fk','public.terreno.nit_cede_fk','public.tercero.nit_tcro'])" onmouseout="uhghl(['terreno_nit_cedente_fk','public.terreno.nit_cede_fk','public.tercero.nit_tcro'])" transform='translate(7,0)' class='scene' d='M 1140 960 L 142,960 Q 135,960 135,952 L 135,390' >
+	<title>Fk nit_cedente_fk
+terreno ref tercero ( nit_cede_fk -&gt; nit_tcro )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 960 L 142,960 Q 135,960 135,952 L 135,390' ></path>
+<text x='1091' y='956' transform='rotate(0 1091,956)' title='Fk nit_cedente_fk
+terreno ref tercero ( nit_cede_fk -&gt; nit_tcro )' class='relName' style='fill:#74a774'>nit_cede_fk</text>
+<!-- == Fk 'terreno_prop_antes_fk' == -->
+<path id='terreno_prop_antes_fk'  onmouseover="hghl(['terreno_prop_antes_fk','public.terreno.propietario_antes_p','public.tercero.nit_tcro'])" onmouseout="uhghl(['terreno_prop_antes_fk','public.terreno.propietario_antes_p','public.tercero.nit_tcro'])" transform='translate(7,0)' class='scene' d='M 1140 975 L 127,975 Q 120,975 120,967 L 120,390' >
+	<title>Fk prop_antes_fk
+terreno ref tercero ( propietario_antes_p -&gt; nit_tcro )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 975 L 127,975 Q 120,975 120,967 L 120,390' ></path>
+<text x='1045' y='971' transform='rotate(0 1045,971)' title='Fk prop_antes_fk
+terreno ref tercero ( propietario_antes_p -&gt; nit_tcro )' class='relName' style='fill:#74a774'>propietario_antes_p</text>
+<!-- == Fk 'terreno_id_tb_fk' == -->
+<path id='terreno_id_tb_fk'  onmouseover="hghl(['terreno_id_tb_fk','public.terreno.id_tb_fk','public.tipo_bien.id_tb'])" onmouseout="uhghl(['terreno_id_tb_fk','public.terreno.id_tb_fk','public.tipo_bien.id_tb'])" transform='translate(7,0)' class='scene' d='M 1140 585 L 990,585' >
+	<title>Fk id_tb_fk
+terreno ref tipo_bien ( id_tb_fk -&gt; id_tb )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 585 L 990,585' ></path>
+<text x='1109' y='581' transform='rotate(0 1109,581)' title='Fk id_tb_fk
+terreno ref tipo_bien ( id_tb_fk -&gt; id_tb )' class='relName' style='fill:#74a774'>id_tb_fk</text>
+<!-- == Fk 'terreno_id_tu_fk' == -->
+<path id='terreno_id_tu_fk'  onmouseover="hghl(['terreno_id_tu_fk','public.terreno.id_tu_fk','public.uso_predio.id_tu'])" onmouseout="uhghl(['terreno_id_tu_fk','public.terreno.id_tu_fk','public.uso_predio.id_tu'])" transform='translate(7,0)' class='scene' d='M 1140 780 L 990,780' >
+	<title>Fk id_tu_fk
+terreno ref uso_predio ( id_tu_fk -&gt; id_tu )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1140 780 L 990,780' ></path>
+<text x='1109' y='776' transform='rotate(0 1109,776)' title='Fk id_tu_fk
+terreno ref uso_predio ( id_tu_fk -&gt; id_tu )' class='relName' style='fill:#74a774'>id_tu_fk</text>
+<!-- == Fk 'avaluo_predial_terreno_aval_fk' == -->
+<path id='avaluo_predial_terreno_aval_fk'  onmouseover="hghl(['avaluo_predial_terreno_aval_fk','public.avaluo.predial_terreno_aval','public.terreno.identifica_p'])" onmouseout="uhghl(['avaluo_predial_terreno_aval_fk','public.avaluo.predial_terreno_aval','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 1440 195 L 1320,195' >
+	<title>Fk predial_terreno_aval_fk
+avaluo ref terreno ( predial_terreno_aval -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1440 195 L 1320,195' ></path>
+<text x='1343' y='191' transform='rotate(0 1343,191)' title='Fk predial_terreno_aval_fk
+avaluo ref terreno ( predial_terreno_aval -&gt; identifica_p )' class='relName' style='fill:#748ea7'>predial_terreno_aval</text>
+<!-- == Fk 'avaluo_catastral_predial-terreno_avac_fk' == -->
+<path id='avaluo_catastral_predial-terreno_avac_fk'  onmouseover="hghl(['avaluo_catastral_predial-terreno_avac_fk','public.avaluo_catastral.predial_terreno_avalc','public.terreno.identifica_p'])" onmouseout="uhghl(['avaluo_catastral_predial-terreno_avac_fk','public.avaluo_catastral.predial_terreno_avalc','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 1515 345 L 1320,345' >
+	<title>Fk predial-terreno_avac_fk
+avaluo_catastral ref terreno ( predial_terreno_avalc -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1515 345 L 1320,345' ></path>
+<text x='1413' y='341' transform='rotate(0 1413,341)' title='Fk predial-terreno_avac_fk
+avaluo_catastral ref terreno ( predial_terreno_avalc -&gt; identifica_p )' class='relName' style='fill:#748ea7'>predial_terreno_avalc</text>
+<!-- == Fk 'libro_predial_terreno_lib_fk' == -->
+<path id='libro_predial_terreno_lib_fk'  onmouseover="hghl(['libro_predial_terreno_lib_fk','public.libro.predial_terreno_lib','public.terreno.identifica_p'])" onmouseout="uhghl(['libro_predial_terreno_lib_fk','public.libro.predial_terreno_lib','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 1515 600 L 1320,600' >
+	<title>Fk predial_terreno_lib_fk
+libro ref terreno ( predial_terreno_lib -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 1515 600 L 1320,600' ></path>
+<text x='1426' y='596' transform='rotate(0 1426,596)' title='Fk predial_terreno_lib_fk
+libro ref terreno ( predial_terreno_lib -&gt; identifica_p )' class='relName' style='fill:#748ea7'>predial_terreno_lib</text>
+<!-- == Fk 'servicio_publico_predial_sp_fk' == -->
+<path id='servicio_publico_predial_sp_fk'  onmouseover="hghl(['servicio_publico_predial_sp_fk','public.servicio_publico.predial_sp','public.construccion.predial_edificacion_const'])" onmouseout="uhghl(['servicio_publico_predial_sp_fk','public.servicio_publico.predial_sp','public.construccion.predial_edificacion_const'])" transform='translate(7,0)' class='scene' d='M 525 525 L 525,517 Q 525,510 532,510 L 540,510' >
+	<title>Fk predial_sp_fk
+servicio_publico ref construccion ( predial_sp -&gt; predial_edificacion_const )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 525 525 L 525,517 Q 525,510 532,510 L 540,510' ></path>
+<text x='528' y='521' transform='rotate(270 528,521)' title='Fk predial_sp_fk
+servicio_publico ref construccion ( predial_sp -&gt; predial_edificacion_const )' class='relName' style='fill:#748ea7'>predial_sp</text>
+<!-- == Fk 'construccion_id_capa_const_fk' == -->
+<path id='construccion_id_capa_const_fk'  onmouseover="hghl(['construccion_id_capa_const_fk','public.construccion.id_capa_const','public.capa.id_capa'])" onmouseout="uhghl(['construccion_id_capa_const_fk','public.construccion.id_capa_const','public.capa.id_capa'])" transform='translate(7,0)' class='scene' d='M 570 705 L 570,712 Q 570,720 562,720 L 487,720 Q 480,720 480,727 L 480,795' >
+	<title>Fk id_capa_const_fk
+construccion ref capa ( id_capa_const -&gt; id_capa )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 570 705 L 570,712 Q 570,720 562,720 L 487,720 Q 480,720 480,727 L 480,795' ></path>
+<text x='585' y='707' transform='rotate(90 585,707)' title='Fk id_capa_const_fk
+construccion ref capa ( id_capa_const -&gt; id_capa )' class='relName' style='fill:#a78d74'>id_capa_const</text>
+<!-- == Fk 'construccion_organismo_fk' == -->
+<path id='construccion_organismo_fk'  onmouseover="hghl(['construccion_organismo_fk','public.construccion.id_depen_fk','public.dependencia.id_depen'])" onmouseout="uhghl(['construccion_organismo_fk','public.construccion.id_depen_fk','public.dependencia.id_depen'])" transform='translate(7,0)' class='scene' d='M 720 660 L 780,660' >
+	<title>Fk organismo_fk
+construccion ref dependencia ( id_depen_fk -&gt; id_depen )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 720 660 L 780,660' ></path>
+<text x='729' y='656' transform='rotate(0 729,656)' title='Fk organismo_fk
+construccion ref dependencia ( id_depen_fk -&gt; id_depen )' class='relName' style='fill:#a78d74'>id_depen_fk</text>
+<!-- == Fk 'construccion_gid_fk' == -->
+<path id='construccion_gid_fk'  onmouseover="hghl(['construccion_gid_fk','public.construccion.gid','public.geo_constr_mc.gid'])" onmouseout="uhghl(['construccion_gid_fk','public.construccion.gid','public.geo_constr_mc.gid'])" transform='translate(7,0)' class='scene' d='M 585 705 L 585,735' >
+	<title>Fk gid_fk
+construccion ref geo_constr_mc ( gid )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 585 705 L 585,735' ></path>
+<text x='600' y='707' transform='rotate(90 600,707)' title='Fk gid_fk
+construccion ref geo_constr_mc ( gid )' class='relName' style='fill:#a78d74'>gid</text>
+<!-- == Fk 'construccion_mat_inmob_const_fk' == -->
+<path id='construccion_mat_inmob_const_fk'  onmouseover="hghl(['construccion_mat_inmob_const_fk','public.construccion.mat_inmob_const','public.matricula.numero_mat'])" onmouseout="uhghl(['construccion_mat_inmob_const_fk','public.construccion.mat_inmob_const','public.matricula.numero_mat'])" transform='translate(7,0)' class='scene' d='M 720 345 L 810,345' >
+	<title>Fk mat_inmob_const_fk
+construccion ref matricula ( mat_inmob_const -&gt; numero_mat )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 720 345 L 810,345' ></path>
+<text x='729' y='341' transform='rotate(0 729,341)' title='Fk mat_inmob_const_fk
+construccion ref matricula ( mat_inmob_const -&gt; numero_mat )' class='relName' style='fill:#a78d74'>mat_inmob_const</text>
+<!-- == Fk 'construccion_predial_terreno_fk' == -->
+<path id='construccion_predial_terreno_fk'  onmouseover="hghl(['construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 720 255 L 1140,255' >
+	<title>Fk predial_terreno_fk
+construccion ref terreno ( predialterreno_const_fk -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 720 255 L 1140,255' ></path>
+<text x='729' y='251' transform='rotate(0 729,251)' title='Fk predial_terreno_fk
+construccion ref terreno ( predialterreno_const_fk -&gt; identifica_p )' class='relName' style='fill:#a78d74'>predialterreno_const_fk</text>
+<!-- == Fk 'construccion_tipo_bien_fk' == -->
+<path id='construccion_tipo_bien_fk'  onmouseover="hghl(['construccion_tipo_bien_fk','public.construccion.id_tb_fk','public.tipo_bien.id_tb'])" onmouseout="uhghl(['construccion_tipo_bien_fk','public.construccion.id_tb_fk','public.tipo_bien.id_tb'])" transform='translate(7,0)' class='scene' d='M 720 570 L 870,570' >
+	<title>Fk tipo_bien_fk
+construccion ref tipo_bien ( id_tb_fk -&gt; id_tb )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 720 570 L 870,570' ></path>
+<text x='729' y='566' transform='rotate(0 729,566)' title='Fk tipo_bien_fk
+construccion ref tipo_bien ( id_tb_fk -&gt; id_tb )' class='relName' style='fill:#a78d74'>id_tb_fk</text>
+<!-- == Fk 'construccion_tipouso_fk' == -->
+<path id='construccion_tipouso_fk'  onmouseover="hghl(['construccion_tipouso_fk','public.construccion.id_tu_fk','public.uso_predio.id_tu'])" onmouseout="uhghl(['construccion_tipouso_fk','public.construccion.id_tu_fk','public.uso_predio.id_tu'])" transform='translate(7,0)' class='scene' d='M 705 705 L 705,757 Q 705,765 712,765 L 870,765' >
+	<title>Fk tipouso_fk
+construccion ref uso_predio ( id_tu_fk -&gt; id_tu )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 705 705 L 705,757 Q 705,765 712,765 L 870,765' ></path>
+<text x='720' y='707' transform='rotate(90 720,707)' title='Fk tipouso_fk
+construccion ref uso_predio ( id_tu_fk -&gt; id_tu )' class='relName' style='fill:#a78d74'>id_tu_fk</text>
+<!-- == Fk 'construccion_cuenta_const_fk' == -->
+<path id='construccion_cuenta_const_fk'  onmouseover="hghl(['construccion_cuenta_const_fk','public.construccion.cuenta_const','public.cuenta.num_cuenta'])" onmouseout="uhghl(['construccion_cuenta_const_fk','public.construccion.cuenta_const','public.cuenta.num_cuenta'])" transform='translate(7,0)' class='scene' d='M 675 705 L 675,825' >
+	<title>Fk cuenta_const_fk
+construccion ref cuenta ( cuenta_const -&gt; num_cuenta )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 675 705 L 675,825' ></path>
+<text x='690' y='707' transform='rotate(90 690,707)' title='Fk cuenta_const_fk
+construccion ref cuenta ( cuenta_const -&gt; num_cuenta )' class='relName' style='fill:#a78d74'>cuenta_const</text>
+<!-- == Fk 'observacion_predial_obs_fk' == -->
+<path id='observacion_predial_obs_fk'  onmouseover="hghl(['observacion_predial_obs_fk','public.observacion.predial_obs_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['observacion_predial_obs_fk','public.observacion.predial_obs_fk','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 1125 150 L 1162,150 Q 1170,150 1170,157 L 1170,165' >
+	<title>Fk predial_obs_fk
+observacion ref terreno ( predial_obs_fk -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1125 150 L 1162,150 Q 1170,150 1170,157 L 1170,165' ></path>
+<text x='1134' y='146' transform='rotate(0 1134,146)' title='Fk predial_obs_fk
+observacion ref terreno ( predial_obs_fk -&gt; identifica_p )' class='relName' style='fill:#748ea7'>predial_obs_fk</text>
+<!-- == Fk 'observacion_tipo_ob' == -->
+<path id='observacion_tipo_ob'  onmouseover="hghl(['observacion_tipo_ob','public.observacion.tipo_ob','public.tipo_observacion.id_to'])" onmouseout="uhghl(['observacion_tipo_ob','public.observacion.tipo_ob','public.tipo_observacion.id_to'])" transform='translate(7,0)' class='scene' d='M 975 60 L 930,60' >
+	<title>Fk tipo_ob
+observacion ref tipo_observacion ( tipo_ob -&gt; id_to )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 975 60 L 930,60' ></path>
+<text x='944' y='56' transform='rotate(0 944,56)' title='Fk tipo_ob
+observacion ref tipo_observacion ( tipo_ob -&gt; id_to )' class='relName' style='fill:#748ea7'>tipo_ob</text>
+<!-- == Fk 'contrato_id_constr_fk' == -->
+<path id='contrato_id_constr_fk'  onmouseover="hghl(['contrato_id_constr_fk','public.contrato.id_const_fk','public.construccion.id_const'])" onmouseout="uhghl(['contrato_id_constr_fk','public.contrato.id_const_fk','public.construccion.id_const'])" transform='translate(7,0)' class='scene' d='M 435 240 L 540,240' >
+	<title>Fk id_constr_fk
+contrato ref construccion ( id_const_fk -&gt; id_const )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 435 240 L 540,240' ></path>
+<text x='444' y='236' transform='rotate(0 444,236)' title='Fk id_constr_fk
+contrato ref construccion ( id_const_fk -&gt; id_const )' class='relName' style='fill:#748ea7'>id_const_fk</text>
+<!-- == Fk 'contrato_id_estado_fk' == -->
+<path id='contrato_id_estado_fk'  onmouseover="hghl(['contrato_id_estado_fk','public.contrato.id_estado_fk','public.estado.id_estado'])" onmouseout="uhghl(['contrato_id_estado_fk','public.contrato.id_estado_fk','public.estado.id_estado'])" transform='translate(7,0)' class='scene' d='M 435 210 L 577,210 Q 585,210 585,202 L 585,195' >
+	<title>Fk id_estado_fk
+contrato ref estado ( id_estado_fk -&gt; id_estado )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 435 210 L 577,210 Q 585,210 585,202 L 585,195' ></path>
+<text x='444' y='206' transform='rotate(0 444,206)' title='Fk id_estado_fk
+contrato ref estado ( id_estado_fk -&gt; id_estado )' class='relName' style='fill:#748ea7'>id_estado_fk</text>
+<!-- == Fk 'contrato_nit_entidad_cont_fk' == -->
+<path id='contrato_nit_entidad_cont_fk'  onmouseover="hghl(['contrato_nit_entidad_cont_fk','public.contrato.nit_entidad_cont','public.tercero.nit_tcro'])" onmouseout="uhghl(['contrato_nit_entidad_cont_fk','public.contrato.nit_entidad_cont','public.tercero.nit_tcro'])" transform='translate(7,0)' class='scene' d='M 255 330 L 150,330' >
+	<title>Fk nit_entidad_cont_fk
+contrato ref tercero ( nit_entidad_cont -&gt; nit_tcro )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 255 330 L 150,330' ></path>
+<text x='177' y='326' transform='rotate(0 177,326)' title='Fk nit_entidad_cont_fk
+contrato ref tercero ( nit_entidad_cont -&gt; nit_tcro )' class='relName' style='fill:#748ea7'>nit_entidad_cont</text>
+<!-- == Fk 'contrato_predial_contrato_fk' == -->
+<path id='contrato_predial_contrato_fk'  onmouseover="hghl(['contrato_predial_contrato_fk','public.contrato.predial_cont_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['contrato_predial_contrato_fk','public.contrato.predial_cont_fk','public.terreno.identifica_p'])" transform='translate(7,0)' class='scene' d='M 345 510 L 345,922 Q 345,930 352,930 L 1140,930' >
+	<title>Fk predial_contrato_fk
+contrato ref terreno ( predial_cont_fk -&gt; identifica_p )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 345 510 L 345,922 Q 345,930 352,930 L 1140,930' ></path>
+<text x='360' y='512' transform='rotate(90 360,512)' title='Fk predial_contrato_fk
+contrato ref terreno ( predial_cont_fk -&gt; identifica_p )' class='relName' style='fill:#748ea7'>predial_cont_fk</text>
+<!-- == Fk 'contrato_id_tc_fk' == -->
+<path id='contrato_id_tc_fk'  onmouseover="hghl(['contrato_id_tc_fk','public.contrato.id_tc_fk','public.tipo_contrato.id_tc'])" onmouseout="uhghl(['contrato_id_tc_fk','public.contrato.id_tc_fk','public.tipo_contrato.id_tc'])" transform='translate(7,0)' class='scene' d='M 285 510 L 285,540' >
+	<title>Fk id_tc_fk
+contrato ref tipo_contrato ( id_tc_fk -&gt; id_tc )</title>
+</path>
+<path transform='translate(7,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'    d='M 285 510 L 285,540' ></path>
+<text x='300' y='512' transform='rotate(90 300,512)' title='Fk id_tc_fk
+contrato ref tipo_contrato ( id_tc_fk -&gt; id_tc )' class='relName' style='fill:#748ea7'>id_tc_fk</text>
+<!-- == Table 'terreno' == -->
+<rect class='entity' x='1155' y='173' width='165' height='945' rx='7' ry='7' style='stroke:none'/>
+<path d='M 1155 199 L 1155 180 Q 1155 173 1162 173 L 1313 173 Q 1320 173 1320 180 L 1320 199 L1155 199 ' style='fill:url(#tbg_1a4d1a);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='1155' y='173' width='165' height='945' rx='7' ry='7' style='fill:none;stroke:#aebfae'/>
+<a xlink:href='#terreno'><text x='1215' y='191'>terreno</text><title>Table public.terreno
+Almacena información del Bien Raíz (Bien Inmueble -Terreno) de PROPIEDAD DEL MUNICIPIO DE SANTIAGO DE CALI, DESTINADOS AL USO PÚBLICO O FISCAL</title></a>
+  <use id='nn' x='1157' y='207' xlink:href='#nn'/><a xlink:href='#terreno.identifica_p'><use id='pk' x='1157' y='206' xlink:href='#pk'/><title>Pk identifica_pk ( identifica_p ) </title></a>
+<a xlink:href='#terreno.identifica_p'><text id='public.terreno.identifica_p' x='1173' y='216' onmouseover="hghl(['avaluo_predial_terreno_aval_fk','public.avaluo.predial_terreno_aval','avaluo_catastral_predial-terreno_avac_fk','public.avaluo_catastral.predial_terreno_avalc','construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk','contrato_predial_contrato_fk','public.contrato.predial_cont_fk','documento_predio_predial_doc_fk','public.documento_predio.predial_p','libro_predial_terreno_lib_fk','public.libro.predial_terreno_lib','observacion_predial_obs_fk','public.observacion.predial_obs_fk','construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk'])" onmouseout="uhghl(['avaluo_predial_terreno_aval_fk','public.avaluo.predial_terreno_aval','avaluo_catastral_predial-terreno_avac_fk','public.avaluo_catastral.predial_terreno_avalc','construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk','contrato_predial_contrato_fk','public.contrato.predial_cont_fk','documento_predio_predial_doc_fk','public.documento_predio.predial_p','libro_predial_terreno_lib_fk','public.libro.predial_terreno_lib','observacion_predial_obs_fk','public.observacion.predial_obs_fk','construccion_predial_terreno_fk','public.construccion.predialterreno_const_fk'])">identifica_p</text><title>identifica_p
+* varchar(30)
+Identificación o codigo propio del predio (registro catastral)</title></a>
+<a xlink:href='#terreno.identifica_p'><use id='ref' x='1309' y='206' xlink:href='#ref'/><title>Referred by avaluo ( predial_terreno_aval -&gt; identifica_p ) 
+Referred by avaluo_catastral ( predial_terreno_avalc -&gt; identifica_p ) 
+Referred by construccion ( predialterreno_const_fk -&gt; identifica_p ) 
+Referred by contrato ( predial_cont_fk -&gt; identifica_p ) 
+Referred by documento_predio ( predial_p -&gt; identifica_p ) 
+Referred by libro ( predial_terreno_lib -&gt; identifica_p ) 
+Referred by observacion ( predial_obs_fk -&gt; identifica_p ) 
+Referred by construccion ( predialterreno_const_fk -&gt; identifica_p ) </title></a>
+  <use id='nn' x='1157' y='222' xlink:href='#nn'/><a xlink:href='#terreno.id_p'><text id='public.terreno.id_p' x='1173' y='231'>id_p</text><title>id_p
+* serial
+Llave primaria que identifica de forma unica y consecutiva cada predio que se almacena en la Base de Datos</title></a>
+<text x='1317' y='228' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.cedula_ppal_p'><text id='public.terreno.cedula_ppal_p' x='1173' y='246'>cedula_ppal_p</text><title>cedula_ppal_p
+varchar(2)
+Indica si  la cédula catastral es la principal o no.
+(CISA-SIGA)</title></a>
+<text x='1317' y='243' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_catastro_p'><use id='unq' x='1157' y='251' xlink:href='#unq'/><title>Unq id_catastro_t ( id_catastro_p ) </title></a>
+<a xlink:href='#terreno.id_catastro_p'><text id='public.terreno.id_catastro_p' x='1173' y='261'>id_catastro_p</text><title>id_catastro_p
+varchar(30)
+Código asignado al Bien Inmueble por la Oficina de Catastro Municipal</title></a>
+<text x='1317' y='258' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.nupre_p'><text id='public.terreno.nupre_p' x='1173' y='276'>nupre_p</text><title>nupre_p
+varchar(6)
+Este campo almacena el número predial registral a implementarse para el catastro multipropósito, código de seis digitos en base 36</title></a>
+<text x='1317' y='273' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.dv_p'><text id='public.terreno.dv_p' x='1173' y='291'>dv_p</text><title>dv_p
+varchar(1)
+campo que almacena el digito de verificación del nupre.</title></a>
+<text x='1317' y='288' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.codigonal_p'><use id='unq' x='1157' y='296' xlink:href='#unq'/><title>Unq npn_p ( codigonal_p ) </title></a>
+<a xlink:href='#terreno.codigonal_p'><text id='public.terreno.codigonal_p' x='1173' y='306'>codigonal_p</text><title>codigonal_p
+varchar(30)
+Número que identifica de forma única a cada predio a nivel nacional.</title></a>
+<text x='1317' y='303' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.codigounico_p'><text id='public.terreno.codigounico_p' x='1173' y='321'>codigounico_p</text><title>codigounico_p
+varchar(30)
+Número que identifica de forma única a cada predio.</title></a>
+<text x='1317' y='318' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_proyecto_p'><text id='public.terreno.id_proyecto_p' x='1173' y='336' onmouseover="hghl(['terreno_id_proyecto_p_fk','public.proyecto.id_pro'])" onmouseout="uhghl(['terreno_id_proyecto_p_fk','public.proyecto.id_pro'])">id_proyecto_p</text><title>id_proyecto_p
+integer
+Llave foranea para el control y asociación unica del predio con el proyecto urbanístico al que pertenece</title></a>
+<a xlink:href='#terreno.id_proyecto_p'><use id='fk' x='1309' y='326' xlink:href='#fk'/><title>References proyecto ( id_proyecto_p -&gt; id_pro ) </title></a>
+  <a xlink:href='#terreno.clase_inmueble_p'><text id='public.terreno.clase_inmueble_p' x='1173' y='351' onmouseover="hghl(['terreno_clase_inmueble_fk','public.clase_inmueble.id_clase'])" onmouseout="uhghl(['terreno_clase_inmueble_fk','public.clase_inmueble.id_clase'])">clase_inmueble_p</text><title>clase_inmueble_p
+integer
+Indica la Clase de Bien Inmueble respecto a si es Tereno, Terreno y Construcción, o Sometido al regimen de prop. horizontal.</title></a>
+<a xlink:href='#terreno.clase_inmueble_p'><use id='fk' x='1309' y='341' xlink:href='#fk'/><title>References clase_inmueble ( clase_inmueble_p -&gt; id_clase ) </title></a>
+  <a xlink:href='#terreno.id_cb_fk'><text id='public.terreno.id_cb_fk' x='1173' y='366' onmouseover="hghl(['terreno_id_cb_fk','public.calidad_bien.id_cb'])" onmouseout="uhghl(['terreno_id_cb_fk','public.calidad_bien.id_cb'])">id_cb_fk</text><title>id_cb_fk
+integer
+Llave foránea que relaciona esta tabla con la llave principal de la tabla Calidad de Bien.</title></a>
+<a xlink:href='#terreno.id_cb_fk'><use id='fk' x='1309' y='356' xlink:href='#fk'/><title>References calidad_bien ( id_cb_fk -&gt; id_cb ) </title></a>
+  <a xlink:href='#terreno.id_tb_fk'><text id='public.terreno.id_tb_fk' x='1173' y='381' onmouseover="hghl(['terreno_id_tb_fk','public.tipo_bien.id_tb'])" onmouseout="uhghl(['terreno_id_tb_fk','public.tipo_bien.id_tb'])">id_tb_fk</text><title>id_tb_fk
+integer
+Llave foránea que relaciona esta tabla con la llave principal de la tabla Tipo de Bien.</title></a>
+<a xlink:href='#terreno.id_tb_fk'><use id='fk' x='1309' y='371' xlink:href='#fk'/><title>References tipo_bien ( id_tb_fk -&gt; id_tb ) </title></a>
+  <a xlink:href='#terreno.id_tu_fk'><text id='public.terreno.id_tu_fk' x='1173' y='396' onmouseover="hghl(['terreno_id_tu_fk','public.uso_predio.id_tu'])" onmouseout="uhghl(['terreno_id_tu_fk','public.uso_predio.id_tu'])">id_tu_fk</text><title>id_tu_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla uso predio.</title></a>
+<a xlink:href='#terreno.id_tu_fk'><use id='fk' x='1309' y='386' xlink:href='#fk'/><title>References uso_predio ( id_tu_fk -&gt; id_tu ) </title></a>
+  <a xlink:href='#terreno.direccion_p'><text id='public.terreno.direccion_p' x='1173' y='411'>direccion_p</text><title>direccion_p
+varchar(90)
+Dirección del predio</title></a>
+<text x='1317' y='408' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.direccioncatastro_p'><text id='public.terreno.direccioncatastro_p' x='1173' y='426'>direccioncatastro_p</text><title>direccioncatastro_p
+varchar(80)
+Dirección del predio tal como aparece en catastro.</title></a>
+<text x='1317' y='423' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.zona_p'><text id='public.terreno.zona_p' x='1173' y='441'>zona_p</text><title>zona_p
+varchar(7)
+Zona en la que está ubicado el predio: Urbana o Rural.</title></a>
+<text x='1317' y='438' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_barrio'><text id='public.terreno.id_barrio' x='1173' y='456' onmouseover="hghl(['terreno_id_barrio_fk','public.barrios.id_barrio'])" onmouseout="uhghl(['terreno_id_barrio_fk','public.barrios.id_barrio'])">id_barrio</text><title>id_barrio
+varchar(254)
+Llave foránea que relaciona esta tabla con la tabla Barrios. A través de la tabla barrios se puede saber la comuna y el estrato de un predio.</title></a>
+<a xlink:href='#terreno.id_barrio'><use id='fk' x='1309' y='446' xlink:href='#fk'/><title>References barrios ( id_barrio ) </title></a>
+  <a xlink:href='#terreno.pais_p'><text id='public.terreno.pais_p' x='1173' y='471'>pais_p</text><title>pais_p
+varchar(3)
+Código segun el DANE del pais del Bien Inmueble.</title></a>
+<text x='1317' y='468' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.ciudad_p'><text id='public.terreno.ciudad_p' x='1173' y='486' onmouseover="hghl(['terreno_ciudad_fk','public.ciudad.cod_ciu'])" onmouseout="uhghl(['terreno_ciudad_fk','public.ciudad.cod_ciu'])">ciudad_p</text><title>ciudad_p
+varchar(4)
+Código según el DANE de la Ciudad del Bien Inmueble.</title></a>
+<a xlink:href='#terreno.ciudad_p'><use id='fk' x='1309' y='476' xlink:href='#fk'/><title>References ciudad ( ciudad_p -&gt; cod_ciu ) </title></a>
+  <a xlink:href='#terreno.lind_norte_p'><text id='public.terreno.lind_norte_p' x='1173' y='501'>lind_norte_p</text><title>lind_norte_p
+varchar(400)
+Limite norte del predio</title></a>
+<text x='1317' y='498' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.lind_sur_p'><text id='public.terreno.lind_sur_p' x='1173' y='516'>lind_sur_p</text><title>lind_sur_p
+varchar(400)
+Limite sur del predio</title></a>
+<text x='1317' y='513' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.lind_este_p'><text id='public.terreno.lind_este_p' x='1173' y='531'>lind_este_p</text><title>lind_este_p
+varchar(400)
+Limite este del predio</title></a>
+<text x='1317' y='528' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.lind_oeste_p'><text id='public.terreno.lind_oeste_p' x='1173' y='546'>lind_oeste_p</text><title>lind_oeste_p
+varchar(400)
+Limite oeste del predio</title></a>
+<text x='1317' y='543' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.lind_adic_p'><text id='public.terreno.lind_adic_p' x='1173' y='561'>lind_adic_p</text><title>lind_adic_p
+varchar(600)
+Describe los linderos adicionales que para algunos predios, figuren registrados en la escritura de cesión</title></a>
+<text x='1317' y='558' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.matricula_ppal_p'><text id='public.terreno.matricula_ppal_p' x='1173' y='576'>matricula_ppal_p</text><title>matricula_ppal_p
+varchar(2)
+Indica si la Matricula Inmobiliaria es la Principal o No.</title></a>
+<text x='1317' y='573' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.mat_inmob_p'><text id='public.terreno.mat_inmob_p' x='1173' y='591' onmouseover="hghl(['terreno_mat_inmob_fk','public.matricula.numero_mat'])" onmouseout="uhghl(['terreno_mat_inmob_fk','public.matricula.numero_mat'])">mat_inmob_p</text><title>mat_inmob_p
+varchar(25)
+Numero de matricula inmobiliaria del predio. Número de registro, asignado al certificado de tradición, que  determina la propiedad de un bien inmueble y su situación jurídica</title></a>
+<a xlink:href='#terreno.mat_inmob_p'><use id='fk' x='1309' y='581' xlink:href='#fk'/><title>References matricula ( mat_inmob_p -&gt; numero_mat ) </title></a>
+  <a xlink:href='#terreno.id_madq_fk'><text id='public.terreno.id_madq_fk' x='1173' y='606' onmouseover="hghl(['terreno_id_madq_fk','public.modo_adq.id_madq'])" onmouseout="uhghl(['terreno_id_madq_fk','public.modo_adq.id_madq'])">id_madq_fk</text><title>id_madq_fk
+integer
+Llave foránea que relaciona esta tabla con la llave principal de la tabla Modo_adq (Modo de Adquisición del predio)</title></a>
+<a xlink:href='#terreno.id_madq_fk'><use id='fk' x='1309' y='596' xlink:href='#fk'/><title>References modo_adq ( id_madq_fk -&gt; id_madq ) </title></a>
+  <a xlink:href='#terreno.nombre_areacedida_p'><text id='public.terreno.nombre_areacedida_p' x='1173' y='621'>nombre_areacedida_p</text><title>nombre_areacedida_p
+varchar(90)
+Palabras designada por el urbanizador para referirse a cada una de las cesiones, con el fin de ser diferenciadas entre ellas.</title></a>
+<text x='1317' y='618' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.nit_cede_fk'><text id='public.terreno.nit_cede_fk' x='1173' y='636' onmouseover="hghl(['terreno_nit_cedente_fk','public.tercero.nit_tcro'])" onmouseout="uhghl(['terreno_nit_cedente_fk','public.tercero.nit_tcro'])">nit_cede_fk</text><title>nit_cede_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla cedente, para identificar a la persona/entidad que cedió el predio.</title></a>
+<a xlink:href='#terreno.nit_cede_fk'><use id='fk' x='1309' y='626' xlink:href='#fk'/><title>References tercero ( nit_cede_fk -&gt; nit_tcro ) </title></a>
+  <a xlink:href='#terreno.derecho_p'><text id='public.terreno.derecho_p' x='1173' y='651'>derecho_p</text><title>derecho_p
+float8
+Porcentaje de propiedad que tiene el municipio sobre el predio.</title></a>
+<text x='1317' y='648' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.afecta_pot_p'><text id='public.terreno.afecta_pot_p' x='1173' y='666'>afecta_pot_p</text><title>afecta_pot_p
+varchar(2)
+Indica si el Bien Inmueble tiene Afectaciones POT</title></a>
+<text x='1317' y='663' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.asegurado_p'><text id='public.terreno.asegurado_p' x='1173' y='681'>asegurado_p</text><title>asegurado_p
+varchar(2)
+Indica si el Bien Inmueble esta Asegurado o No.</title></a>
+<text x='1317' y='678' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.suscep_vta_p'><text id='public.terreno.suscep_vta_p' x='1173' y='696'>suscep_vta_p</text><title>suscep_vta_p
+varchar(2)
+Indica si el predio es susceptible para la venta.</title></a>
+<text x='1317' y='693' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_depen_fk'><text id='public.terreno.id_depen_fk' x='1173' y='711' onmouseover="hghl(['terreno_id_depe_fk','public.dependencia.id_depen'])" onmouseout="uhghl(['terreno_id_depe_fk','public.dependencia.id_depen'])">id_depen_fk</text><title>id_depen_fk
+integer
+Llave foránea que relaciona esta tabla con la Tabla Dependencia.</title></a>
+<a xlink:href='#terreno.id_depen_fk'><use id='fk' x='1309' y='701' xlink:href='#fk'/><title>References dependencia ( id_depen_fk -&gt; id_depen ) </title></a>
+  <a xlink:href='#terreno.nombrecomun_p'><text id='public.terreno.nombrecomun_p' x='1173' y='726'>nombrecomun_p</text><title>nombrecomun_p
+varchar(100)
+Nombre común del predio, tal como se le conoce entre los habitantes del sector o comunidad caleña.</title></a>
+<text x='1317' y='723' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.area_cesion_p'><text id='public.terreno.area_cesion_p' x='1173' y='741'>area_cesion_p</text><title>area_cesion_p
+float8
+Medida de superficie, que El urbanizador cedió como obligación urbanística y está consignada en la escritura y plano de  cesión del predio</title></a>
+<text x='1317' y='738' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.area_actual_p'><text id='public.terreno.area_actual_p' x='1173' y='756'>area_actual_p</text><title>area_actual_p
+float8
+Medida de superficie, obtenida a partir del levantamiento topográfico y los cálculos realizados, según composición actual del terreno</title></a>
+<text x='1317' y='753' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.area_sicat_p'><text id='public.terreno.area_sicat_p' x='1173' y='771'>area_sicat_p</text><title>area_sicat_p
+float8
+Área según catastro.</title></a>
+<text x='1317' y='768' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.area_terreno_p'><text id='public.terreno.area_terreno_p' x='1173' y='786'>area_terreno_p</text><title>area_terreno_p
+float8
+Área total del terreno. Para cálculo del avalúo catastral componente terreno (excepto zonas verdes que No se avalúan).</title></a>
+<text x='1317' y='783' text-anchor='end' class='colType'>#</text>  <a xlink:href='#terreno.fecha_estudio_titulo_p'><text id='public.terreno.fecha_estudio_titulo_p' x='1173' y='801'>fecha_estudio_titulo_p</text><title>fecha_estudio_titulo_p
+date
+Indica la fecha en la que se realizó el estudio jurídico al bien inmueble</title></a>
+<text x='1317' y='798' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.num_activofijo_p'><text id='public.terreno.num_activofijo_p' x='1173' y='816'>num_activofijo_p</text><title>num_activofijo_p
+varchar(20)
+Registro contable, que determina el alta de los bienes inmuebles en los Estados Financieros del Municipio.</title></a>
+<text x='1317' y='813' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.codigo_zhg_p'><text id='public.terreno.codigo_zhg_p' x='1173' y='831'>codigo_zhg_p</text><title>codigo_zhg_p
+varchar(12)
+Código zona geográfica.</title></a>
+<text x='1317' y='828' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.cuenta_terreno_p'><text id='public.terreno.cuenta_terreno_p' x='1173' y='846' onmouseover="hghl(['terreno_cuenta_t','public.cuenta.num_cuenta'])" onmouseout="uhghl(['terreno_cuenta_t','public.cuenta.num_cuenta'])">cuenta_terreno_p</text><title>cuenta_terreno_p
+varchar(15)
+llave foránea que relaciona esta tabla con la tabla cuenta, indica el número de la cuenta del terreno (SAP)</title></a>
+<a xlink:href='#terreno.cuenta_terreno_p'><use id='fk' x='1309' y='836' xlink:href='#fk'/><title>References cuenta ( cuenta_terreno_p -&gt; num_cuenta ) </title></a>
+  <a xlink:href='#terreno.propietario_antes_p'><text id='public.terreno.propietario_antes_p' x='1173' y='861' onmouseover="hghl(['terreno_prop_antes_fk','public.tercero.nit_tcro'])" onmouseout="uhghl(['terreno_prop_antes_fk','public.tercero.nit_tcro'])">propietario_antes_p</text><title>propietario_antes_p
+integer
+Indica el Nombre del Propietario anterior del Bien Inmueble.</title></a>
+<a xlink:href='#terreno.propietario_antes_p'><use id='fk' x='1309' y='851' xlink:href='#fk'/><title>References tercero ( propietario_antes_p -&gt; nit_tcro ) </title></a>
+  <a xlink:href='#terreno.actualiza_sap'><text id='public.terreno.actualiza_sap' x='1173' y='876'>actualiza_sap</text><title>actualiza_sap
+date
+Este Campo almacena la fecha en la que el registro fue actualizado o creado en el sistema SAP.</title></a>
+<text x='1317' y='873' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.impto_predial_p'><text id='public.terreno.impto_predial_p' x='1173' y='891'>impto_predial_p</text><title>impto_predial_p
+varchar(20)
+Indica el estado del Impuesto Predial del Bien Inmueble.</title></a>
+<text x='1317' y='888' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_shp_p'><use id='unq' x='1157' y='896' xlink:href='#unq'/><title>Unq id_shp_fk_uni ( id_shp_p ) </title></a>
+<a xlink:href='#terreno.id_shp_p'><text id='public.terreno.id_shp_p' x='1173' y='906' onmouseover="hghl(['terreno_id_shp_fk','public.geo_predio_mc.id_shp'])" onmouseout="uhghl(['terreno_id_shp_fk','public.geo_predio_mc.id_shp'])">id_shp_p</text><title>id_shp_p
+varchar(30)
+Este campo relaciona esta tabla con la tabla geo_predio</title></a>
+<a xlink:href='#terreno.id_shp_p'><use id='fk' x='1309' y='896' xlink:href='#fk'/><title>References geo_predio_mc ( id_shp_p -&gt; id_shp ) </title></a>
+  <a xlink:href='#terreno.fecha_levantamiento_p'><text id='public.terreno.fecha_levantamiento_p' x='1173' y='921'>fecha_levantamiento_p</text><title>fecha_levantamiento_p
+varchar(15)
+Fecha aproximada en la que se realiza el levantamiento Topográfico.</title></a>
+<text x='1317' y='918' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.id_estado_fk'><text id='public.terreno.id_estado_fk' x='1173' y='936' onmouseover="hghl(['terreno_id_estado_fk','public.estado.id_estado'])" onmouseout="uhghl(['terreno_id_estado_fk','public.estado.id_estado'])">id_estado_fk</text><title>id_estado_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla estado.</title></a>
+<a xlink:href='#terreno.id_estado_fk'><use id='fk' x='1309' y='926' xlink:href='#fk'/><title>References estado ( id_estado_fk -&gt; id_estado ) </title></a>
+  <a xlink:href='#terreno.fecha_creacion_p'><text id='public.terreno.fecha_creacion_p' x='1173' y='951'>fecha_creacion_p</text><title>fecha_creacion_p
+date default now()
+Este Campo almacena la fecha en que crea el registro</title></a>
+<text x='1317' y='948' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.fecha_modifica_p'><text id='public.terreno.fecha_modifica_p' x='1173' y='966'>fecha_modifica_p</text><title>fecha_modifica_p
+date
+Este campo almacena la ultima fecha en que se modifica el registro.</title></a>
+<text x='1317' y='963' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.migracion_siga'><text id='public.terreno.migracion_siga' x='1173' y='981'>migracion_siga</text><title>migracion_siga
+date
+Este campo almacena la fecha en que el registro fue reportado o cargado en el aplicativo SIGA (Sistema de Información y Gestión de Activos, CISA -Central de Inversiones S.A.)</title></a>
+<text x='1317' y='978' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.id_capa'><text id='public.terreno.id_capa' x='1173' y='996' onmouseover="hghl(['terreno_id_capa_fk','public.capa.id_capa'])" onmouseout="uhghl(['terreno_id_capa_fk','public.capa.id_capa'])">id_capa</text><title>id_capa
+integer
+Llave foránea que relaciona esta tabla con la tabla Capa</title></a>
+<a xlink:href='#terreno.id_capa'><use id='fk' x='1309' y='986' xlink:href='#fk'/><title>References capa ( id_capa ) </title></a>
+  <a xlink:href='#terreno.doc_calidad_bien'><text id='public.terreno.doc_calidad_bien' x='1173' y='1011'>doc_calidad_bien</text><title>doc_calidad_bien
+varchar(150)
+Este campo almacena la ruta donde está almacenado en el Servidor, el documento en pdf del último Concepto de Calidad del Bien.(Nuevo Formato aprobado MAJA01.03.03.18.P14.F02 y MAJA01.03.03.18.P14.F03 del 13 de Junio/2018)</title></a>
+<text x='1317' y='1008' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.fecha_expedicion_cb_p'><text id='public.terreno.fecha_expedicion_cb_p' x='1173' y='1026'>fecha_expedicion_cb_p</text><title>fecha_expedicion_cb_p
+date
+Almacena la fecha de expedición del documento "Respuesta Calidad del Bien"</title></a>
+<text x='1317' y='1023' text-anchor='end' class='colType'>d</text>  <a xlink:href='#terreno.orfeo_cb_p'><text id='public.terreno.orfeo_cb_p' x='1173' y='1041'>orfeo_cb_p</text><title>orfeo_cb_p
+varchar(30)
+Este campo muestra el Número de Orfeo con el que se haya dado un Concepto de Calidad del Bien.</title></a>
+<text x='1317' y='1038' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.documento_p'><text id='public.terreno.documento_p' x='1173' y='1056'>documento_p</text><title>documento_p
+varchar(150)
+Este campo almacena la ruta en el servidor, donde está guardado el expediente físico escaneado en formato PDF</title></a>
+<text x='1317' y='1053' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.foto_p'><text id='public.terreno.foto_p' x='1173' y='1071'>foto_p</text><title>foto_p
+varchar(150)
+Este campo almacena la ruta en el servidor, donde esta guardada la fotografía del bien inmueble.</title></a>
+<text x='1317' y='1068' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.ubica_archivo_p'><text id='public.terreno.ubica_archivo_p' x='1173' y='1086'>ubica_archivo_p</text><title>ubica_archivo_p
+varchar(60)
+Ubicación donde se encuentra guardado el expediente o carpetas dentro del archivo físico. (en el archivador)</title></a>
+<text x='1317' y='1083' text-anchor='end' class='colType'>t</text>  <a xlink:href='#terreno.mensaje_p'><text id='public.terreno.mensaje_p' x='1173' y='1101'>mensaje_p</text><title>mensaje_p
+varchar(120)
+En este campo se almacenan algunos mensajes que se mostraran en el Geovisor de la IDESC</title></a>
+<text x='1317' y='1098' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'matricula' == -->
+<rect class='entity' x='825' y='338' width='165' height='180' rx='7' ry='7' style='stroke:none'/>
+<path d='M 825 364 L 825 345 Q 825 338 832 338 L 983 338 Q 990 338 990 345 L 990 364 L825 364 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='825' y='338' width='165' height='180' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#matricula'><text x='880' y='356'>matricula</text><title>Table public.matricula
+Esta tabla almacena información de la matricula inmobiliaria de un Bien Inmueble.</title></a>
+  <use id='nn' x='827' y='372' xlink:href='#nn'/><a xlink:href='#matricula.numero_mat'><use id='pk' x='827' y='371' xlink:href='#pk'/><title>Pk numero_mat ( numero_mat ) </title></a>
+<a xlink:href='#matricula.numero_mat'><text id='public.matricula.numero_mat' x='843' y='381' onmouseover="hghl(['construccion_mat_inmob_const_fk','public.construccion.mat_inmob_const','prediomunicipio_mat_inmob_fk','public.prediomunicipio.mat_inmob_p','proceso_matricula_matricula','public.proceso_matricula.matricula','terreno_mat_inmob_fk','public.terreno.mat_inmob_p'])" onmouseout="uhghl(['construccion_mat_inmob_const_fk','public.construccion.mat_inmob_const','prediomunicipio_mat_inmob_fk','public.prediomunicipio.mat_inmob_p','proceso_matricula_matricula','public.proceso_matricula.matricula','terreno_mat_inmob_fk','public.terreno.mat_inmob_p'])">numero_mat</text><title>numero_mat
+* varchar(25)
+Número de la matricula Inmobiliaria</title></a>
+<a xlink:href='#matricula.numero_mat'><use id='ref' x='979' y='371' xlink:href='#ref'/><title>Referred by construccion ( mat_inmob_const -&gt; numero_mat ) 
+Referred by prediomunicipio ( mat_inmob_p -&gt; numero_mat ) 
+Referred by proceso_matricula ( matricula -&gt; numero_mat ) 
+Referred by terreno ( mat_inmob_p -&gt; numero_mat ) </title></a>
+  <a xlink:href='#matricula.id_mat'><text id='public.matricula.id_mat' x='843' y='396'>id_mat</text><title>id_mat
+integer
+Número consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<text x='987' y='393' text-anchor='end' class='colType'>#</text>  <a xlink:href='#matricula.fecha_mat'><text id='public.matricula.fecha_mat' x='843' y='411'>fecha_mat</text><title>fecha_mat
+date</title></a>
+<text x='987' y='408' text-anchor='end' class='colType'>d</text>  <a xlink:href='#matricula.ciudad_mat'><text id='public.matricula.ciudad_mat' x='843' y='426' onmouseover="hghl(['matricula_ciudad_mat','public.ciudad.cod_ciu'])" onmouseout="uhghl(['matricula_ciudad_mat','public.ciudad.cod_ciu'])">ciudad_mat</text><title>ciudad_mat
+varchar(4)</title></a>
+<a xlink:href='#matricula.ciudad_mat'><use id='fk' x='979' y='416' xlink:href='#fk'/><title>References ciudad ( ciudad_mat -&gt; cod_ciu ) </title></a>
+  <a xlink:href='#matricula.estado_juridico_mat'><text id='public.matricula.estado_juridico_mat' x='843' y='441'>estado_juridico_mat</text><title>estado_juridico_mat
+varchar(15)</title></a>
+<text x='987' y='438' text-anchor='end' class='colType'>t</text>  <a xlink:href='#matricula.cantidad_gravamen_mat'><text id='public.matricula.cantidad_gravamen_mat' x='843' y='456'>cantidad_gravamen_mat</text><title>cantidad_gravamen_mat
+integer</title></a>
+<text x='987' y='453' text-anchor='end' class='colType'>#</text>  <a xlink:href='#matricula.procontra_mat'><text id='public.matricula.procontra_mat' x='843' y='471'>procontra_mat</text><title>procontra_mat
+varchar(2)</title></a>
+<text x='987' y='468' text-anchor='end' class='colType'>t</text>  <a xlink:href='#matricula.otroprop_mat'><text id='public.matricula.otroprop_mat' x='843' y='486'>otroprop_mat</text><title>otroprop_mat
+varchar(2)</title></a>
+<text x='987' y='483' text-anchor='end' class='colType'>t</text>  <a xlink:href='#matricula.tipoprop_mat'><text id='public.matricula.tipoprop_mat' x='843' y='501'>tipoprop_mat</text><title>tipoprop_mat
+varchar(15)</title></a>
+<text x='987' y='498' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'tipo_bien' == -->
+<rect class='entity' x='885' y='563' width='105' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 885 589 L 885 570 Q 885 563 892 563 L 983 563 Q 990 563 990 570 L 990 589 L885 589 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='885' y='563' width='105' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#tipo_bien'><text x='910' y='581'>tipo_bien</text><title>Table public.tipo_bien
+Almacen información de los tipos de bien segun la clasificación que se le da a un predio de acuerdo a su composición. (via publica, lote, construcción, etc).</title></a>
+  <use id='nn' x='887' y='597' xlink:href='#nn'/><a xlink:href='#tipo_bien.id_tb'><use id='pk' x='887' y='596' xlink:href='#pk'/><title>Pk id_tb ( id_tb ) </title></a>
+<a xlink:href='#tipo_bien.id_tb'><text id='public.tipo_bien.id_tb' x='903' y='606' onmouseover="hghl(['construccion_tipo_bien_fk','public.construccion.id_tb_fk','prediomunicipio_id_tb_fk','public.prediomunicipio.id_tb_fk','terreno_id_tb_fk','public.terreno.id_tb_fk'])" onmouseout="uhghl(['construccion_tipo_bien_fk','public.construccion.id_tb_fk','prediomunicipio_id_tb_fk','public.prediomunicipio.id_tb_fk','terreno_id_tb_fk','public.terreno.id_tb_fk'])">id_tb</text><title>id_tb
+* integer
+Numero consecutivo que identifica de forma única cada registro de esta tabla</title></a>
+<a xlink:href='#tipo_bien.id_tb'><use id='ref' x='979' y='596' xlink:href='#ref'/><title>Referred by construccion ( id_tb_fk -&gt; id_tb ) 
+Referred by prediomunicipio ( id_tb_fk -&gt; id_tb ) 
+Referred by terreno ( id_tb_fk -&gt; id_tb ) </title></a>
+  <a xlink:href='#tipo_bien.nombre_tb'><text id='public.tipo_bien.nombre_tb' x='903' y='621'>nombre_tb</text><title>nombre_tb
+varchar(40)
+Nombre del  tipo de bien.</title></a>
+<text x='987' y='618' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'uso_predio' == -->
+<rect class='entity' x='885' y='758' width='105' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 885 784 L 885 765 Q 885 758 892 758 L 983 758 Q 990 758 990 765 L 990 784 L885 784 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='885' y='758' width='105' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#uso_predio'><text x='905' y='776'>uso_predio</text><title>Table public.uso_predio
+Almacena información de los diferentes usos que se le da a un predio del municipio</title></a>
+  <use id='nn' x='887' y='792' xlink:href='#nn'/><a xlink:href='#uso_predio.id_tu'><use id='pk' x='887' y='791' xlink:href='#pk'/><title>Pk Id_uso ( id_tu ) </title></a>
+<a xlink:href='#uso_predio.id_tu'><text id='public.uso_predio.id_tu' x='903' y='801' onmouseover="hghl(['construccion_tipouso_fk','public.construccion.id_tu_fk','prediomunicipio_id_tu_fk','public.prediomunicipio.id_tu_fk','terreno_id_tu_fk','public.terreno.id_tu_fk'])" onmouseout="uhghl(['construccion_tipouso_fk','public.construccion.id_tu_fk','prediomunicipio_id_tu_fk','public.prediomunicipio.id_tu_fk','terreno_id_tu_fk','public.terreno.id_tu_fk'])">id_tu</text><title>id_tu
+* integer
+Llave primaria que identifica de forma unica y consecutiva cada uno de los Usos que se crean en la base de datos</title></a>
+<a xlink:href='#uso_predio.id_tu'><use id='ref' x='979' y='791' xlink:href='#ref'/><title>Referred by construccion ( id_tu_fk -&gt; id_tu ) 
+Referred by prediomunicipio ( id_tu_fk -&gt; id_tu ) 
+Referred by terreno ( id_tu_fk -&gt; id_tu ) </title></a>
+  <use id='nn' x='887' y='807' xlink:href='#nn'/><a xlink:href='#uso_predio.nombre_tu'><text id='public.uso_predio.nombre_tu' x='903' y='816'>nombre_tu</text><title>nombre_tu
+* varchar(20)
+Nombre del uso</title></a>
+<text x='987' y='813' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'dependencia' == -->
+<rect class='entity' x='795' y='653' width='120' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 795 679 L 795 660 Q 795 653 802 653 L 908 653 Q 915 653 915 660 L 915 679 L795 679 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='795' y='653' width='120' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#dependencia'><text x='818' y='671'>dependencia</text><title>Table public.dependencia
+Almacena información de las diferentes dependencias de la alcaldia, a la cual pertenece un usuario y un predio.</title></a>
+  <use id='nn' x='797' y='687' xlink:href='#nn'/><a xlink:href='#dependencia.id_depen'><use id='pk' x='797' y='686' xlink:href='#pk'/><title>Pk id_depen ( id_depen ) </title></a>
+<a xlink:href='#dependencia.id_depen'><text id='public.dependencia.id_depen' x='813' y='696' onmouseover="hghl(['construccion_organismo_fk','public.construccion.id_depen_fk','prediomunicipio_id_depe_fk','public.prediomunicipio.id_depen_fk','terreno_id_depe_fk','public.terreno.id_depen_fk','usuario_id_depen_fk','public.usuario.id_depen_fk'])" onmouseout="uhghl(['construccion_organismo_fk','public.construccion.id_depen_fk','prediomunicipio_id_depe_fk','public.prediomunicipio.id_depen_fk','terreno_id_depe_fk','public.terreno.id_depen_fk','usuario_id_depen_fk','public.usuario.id_depen_fk'])">id_depen</text><title>id_depen
+* numeric(-9999999,0)
+Código de la Dependencia de la Alcaldía que tiene a cargo un predio.</title></a>
+<a xlink:href='#dependencia.id_depen'><use id='ref' x='904' y='686' xlink:href='#ref'/><title>Referred by construccion ( id_depen_fk -&gt; id_depen ) 
+Referred by prediomunicipio ( id_depen_fk -&gt; id_depen ) 
+Referred by terreno ( id_depen_fk -&gt; id_depen ) 
+Referred by usuario ( id_depen_fk -&gt; id_depen ) </title></a>
+  <use id='nn' x='797' y='702' xlink:href='#nn'/><a xlink:href='#dependencia.nombre_depen'><text id='public.dependencia.nombre_depen' x='813' y='711'>nombre_depen</text><title>nombre_depen
+* varchar(150)
+Nombre de la dependencia.</title></a>
+<text x='912' y='708' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'avaluo' == -->
+<rect class='entity' x='1455' y='173' width='180' height='150' rx='7' ry='7' style='stroke:none'/>
+<path d='M 1455 199 L 1455 180 Q 1455 173 1462 173 L 1628 173 Q 1635 173 1635 180 L 1635 199 L1455 199 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='1455' y='173' width='180' height='150' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#avaluo'><text x='1525' y='191'>avaluo</text><title>Table public.avaluo
+Almacena información del avaluo de cada predio por cada año en el que se realiza un avaluo del inmueble.</title></a>
+  <use id='nn' x='1457' y='207' xlink:href='#nn'/><a xlink:href='#avaluo.predial_terreno_aval'><use id='pk' x='1457' y='206' xlink:href='#pk'/><title>Pk primarykey ( predial_terreno_aval, predial_construccion_aval, año ) </title></a>
+<a xlink:href='#avaluo.predial_terreno_aval'><text id='public.avaluo.predial_terreno_aval' x='1473' y='216' onmouseover="hghl(['avaluo_predial_terreno_aval_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['avaluo_predial_terreno_aval_fk','public.terreno.identifica_p'])">predial_terreno_aval</text><title>predial_terreno_aval
+* varchar(30)
+Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio.</title></a>
+<a xlink:href='#avaluo.predial_terreno_aval'><use id='fk' x='1624' y='206' xlink:href='#fk'/><title>References terreno ( predial_terreno_aval -&gt; identifica_p ) </title></a>
+  <use id='nn' x='1457' y='222' xlink:href='#nn'/><a xlink:href='#avaluo.predial_construccion_aval'><use id='pk' x='1457' y='221' xlink:href='#pk'/><title>Pk primarykey ( predial_terreno_aval, predial_construccion_aval, año ) </title></a>
+<a xlink:href='#avaluo.predial_construccion_aval'><text id='public.avaluo.predial_construccion_aval' x='1473' y='231'>predial_construccion_aval</text><title>predial_construccion_aval
+* varchar(30)
+Llave foránea que relaciona esta tabla con la tabla construccion</title></a>
+<text x='1632' y='228' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1457' y='237' xlink:href='#nn'/><a xlink:href='#avaluo.año'><use id='pk' x='1457' y='236' xlink:href='#pk'/><title>Pk primarykey ( predial_terreno_aval, predial_construccion_aval, año ) </title></a>
+<a xlink:href='#avaluo.año'><text id='public.avaluo.año' x='1473' y='246'>año</text><title>año
+* varchar(4)
+Año en que se realiza el avaluo.</title></a>
+<text x='1632' y='243' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1457' y='252' xlink:href='#nn'/><a xlink:href='#avaluo.id_aval'><use id='unq' x='1457' y='251' xlink:href='#unq'/><title>Unq id_aval ( id_aval ) </title></a>
+<a xlink:href='#avaluo.id_aval'><text id='public.avaluo.id_aval' x='1473' y='261'>id_aval</text><title>id_aval
+* serial
+Numero consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<text x='1632' y='258' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo.valor_cial_terreno_aval'><text id='public.avaluo.valor_cial_terreno_aval' x='1473' y='276'>valor_cial_terreno_aval</text><title>valor_cial_terreno_aval
+float8
+Valor comercial total del componente terreno</title></a>
+<text x='1632' y='273' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo.valor_cial_contruccion_aval'><text id='public.avaluo.valor_cial_contruccion_aval' x='1473' y='291'>valor_cial_contruccion_aval</text><title>valor_cial_contruccion_aval
+float8
+Valor comercial total del componente construcción</title></a>
+<text x='1632' y='288' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo.valor_cial_anexos_aval'><text id='public.avaluo.valor_cial_anexos_aval' x='1473' y='306'>valor_cial_anexos_aval</text><title>valor_cial_anexos_aval
+float8
+Valor Comercial total de los anexos de un predio.</title></a>
+<text x='1632' y='303' text-anchor='end' class='colType'>#</text>
+<!-- == Table 'avaluo_catastral' == -->
+<rect class='entity' x='1530' y='338' width='180' height='165' rx='7' ry='7' style='stroke:none'/>
+<path d='M 1530 364 L 1530 345 Q 1530 338 1537 338 L 1703 338 Q 1710 338 1710 345 L 1710 364 L1530 364 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='1530' y='338' width='180' height='165' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#avaluo_catastral'><text x='1575' y='356'>avaluo_catastral</text><title>Table public.avaluo_catastral
+Se crea esta tabla para almacenar información de Avaluos catastrales.</title></a>
+  <use id='nn' x='1532' y='372' xlink:href='#nn'/><a xlink:href='#avaluo_catastral.predial_terreno_avalc'><use id='pk' x='1532' y='371' xlink:href='#pk'/><title>Pk predial_fecha_pk ( predial_terreno_avalc, predial_construccion_avalc, fecha_avalc ) </title></a>
+<a xlink:href='#avaluo_catastral.predial_terreno_avalc'><text id='public.avaluo_catastral.predial_terreno_avalc' x='1548' y='381' onmouseover="hghl(['avaluo_catastral_predial-terreno_avac_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['avaluo_catastral_predial-terreno_avac_fk','public.terreno.identifica_p'])">predial_terreno_avalc</text><title>predial_terreno_avalc
+* varchar(30)
+Número predial del Terreno.</title></a>
+<a xlink:href='#avaluo_catastral.predial_terreno_avalc'><use id='fk' x='1699' y='371' xlink:href='#fk'/><title>References terreno ( predial_terreno_avalc -&gt; identifica_p ) </title></a>
+  <use id='nn' x='1532' y='387' xlink:href='#nn'/><a xlink:href='#avaluo_catastral.predial_construccion_avalc'><use id='pk' x='1532' y='386' xlink:href='#pk'/><title>Pk predial_fecha_pk ( predial_terreno_avalc, predial_construccion_avalc, fecha_avalc ) </title></a>
+<a xlink:href='#avaluo_catastral.predial_construccion_avalc'><text id='public.avaluo_catastral.predial_construccion_avalc' x='1548' y='396'>predial_construccion_avalc</text><title>predial_construccion_avalc
+* varchar(30)
+Número Predial de la Construcción</title></a>
+<text x='1707' y='393' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1532' y='402' xlink:href='#nn'/><a xlink:href='#avaluo_catastral.fecha_avalc'><use id='pk' x='1532' y='401' xlink:href='#pk'/><title>Pk predial_fecha_pk ( predial_terreno_avalc, predial_construccion_avalc, fecha_avalc ) </title></a>
+<a xlink:href='#avaluo_catastral.fecha_avalc'><text id='public.avaluo_catastral.fecha_avalc' x='1548' y='411'>fecha_avalc</text><title>fecha_avalc
+* date</title></a>
+<text x='1707' y='408' text-anchor='end' class='colType'>d</text>  <use id='nn' x='1532' y='417' xlink:href='#nn'/><a xlink:href='#avaluo_catastral.id_avalc'><text id='public.avaluo_catastral.id_avalc' x='1548' y='426'>id_avalc</text><title>id_avalc
+* integer
+Llave primaria que identifica de forma única y consecutiva cada registro de esta tabla.</title></a>
+<text x='1707' y='423' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo_catastral.valor_terreno_avalc'><text id='public.avaluo_catastral.valor_terreno_avalc' x='1548' y='441'>valor_terreno_avalc</text><title>valor_terreno_avalc
+float8
+Valor del Avaluo Catastral del componente Terreno</title></a>
+<text x='1707' y='438' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo_catastral.valor_construccion_avalc'><text id='public.avaluo_catastral.valor_construccion_avalc' x='1548' y='456'>valor_construccion_avalc</text><title>valor_construccion_avalc
+float8
+Valor Catastral del componente Construcción.</title></a>
+<text x='1707' y='453' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo_catastral.valor_anexos_avalc'><text id='public.avaluo_catastral.valor_anexos_avalc' x='1548' y='471'>valor_anexos_avalc</text><title>valor_anexos_avalc
+float8
+Valor Avaluo Catastral de los Anexos.</title></a>
+<text x='1707' y='468' text-anchor='end' class='colType'>#</text>  <a xlink:href='#avaluo_catastral.total_avalc'><text id='public.avaluo_catastral.total_avalc' x='1548' y='486'>total_avalc</text><title>total_avalc
+float8</title></a>
+<text x='1707' y='483' text-anchor='end' class='colType'>#</text>
+<!-- == Table 'libro' == -->
+<rect class='entity' x='1530' y='593' width='165' height='150' rx='7' ry='7' style='stroke:none'/>
+<path d='M 1530 619 L 1530 600 Q 1530 593 1537 593 L 1688 593 Q 1695 593 1695 600 L 1695 619 L1530 619 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='1530' y='593' width='165' height='150' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#libro'><text x='1597' y='611'>libro</text><title>Table public.libro
+Se crea esta tabla para almacenar la información de valor en libros y valor de adquisición de cada Bien Inmueble.</title></a>
+  <use id='nn' x='1532' y='627' xlink:href='#nn'/><a xlink:href='#libro.id_lib'><use id='pk' x='1532' y='626' xlink:href='#pk'/><title>Pk id_lib ( id_lib ) </title></a>
+<a xlink:href='#libro.id_lib'><text id='public.libro.id_lib' x='1548' y='636'>id_lib</text><title>id_lib
+* serial</title></a>
+<text x='1692' y='633' text-anchor='end' class='colType'>#</text>  <a xlink:href='#libro.predial_terreno_lib'><text id='public.libro.predial_terreno_lib' x='1548' y='651' onmouseover="hghl(['libro_predial_terreno_lib_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['libro_predial_terreno_lib_fk','public.terreno.identifica_p'])">predial_terreno_lib</text><title>predial_terreno_lib
+varchar(30)
+Número Predial del Terreno</title></a>
+<a xlink:href='#libro.predial_terreno_lib'><use id='fk' x='1684' y='641' xlink:href='#fk'/><title>References terreno ( predial_terreno_lib -&gt; identifica_p ) </title></a>
+  <a xlink:href='#libro.predial_construccion_lib'><text id='public.libro.predial_construccion_lib' x='1548' y='666'>predial_construccion_lib</text><title>predial_construccion_lib
+varchar(30)
+Número Predial de la Construcción.</title></a>
+<text x='1692' y='663' text-anchor='end' class='colType'>t</text>  <a xlink:href='#libro.valor_adqu_terreno'><text id='public.libro.valor_adqu_terreno' x='1548' y='681'>valor_adqu_terreno</text><title>valor_adqu_terreno
+float8
+Valor de Adquisición del componente terreno.</title></a>
+<text x='1692' y='678' text-anchor='end' class='colType'>#</text>  <a xlink:href='#libro.valor_terreno_lib'><text id='public.libro.valor_terreno_lib' x='1548' y='696'>valor_terreno_lib</text><title>valor_terreno_lib
+float8
+Valor en Libros del Terreno.</title></a>
+<text x='1692' y='693' text-anchor='end' class='colType'>#</text>  <a xlink:href='#libro.valor_adqu_construccion'><text id='public.libro.valor_adqu_construccion' x='1548' y='711'>valor_adqu_construccion</text><title>valor_adqu_construccion
+float8
+Valor Adquisición del componente Construcción</title></a>
+<text x='1692' y='708' text-anchor='end' class='colType'>#</text>  <a xlink:href='#libro.valor_construccion_lib'><text id='public.libro.valor_construccion_lib' x='1548' y='726'>valor_construccion_lib</text><title>valor_construccion_lib
+float8
+Valor en libros de la Construcción.</title></a>
+<text x='1692' y='723' text-anchor='end' class='colType'>#</text>
+<!-- == Table 'estado' == -->
+<rect class='entity' x='570' y='113' width='120' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 570 139 L 570 120 Q 570 113 577 113 L 683 113 Q 690 113 690 120 L 690 139 L570 139 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='570' y='113' width='120' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#estado'><text x='609' y='131'>estado</text><title>Table public.estado
+Alamcena los diferentes estados para diversos objetos o entidades, por ejemplo el estado de un predio (activo, inactivo), de un usuario (bloqueado, retirado...), etc.</title></a>
+  <use id='nn' x='572' y='147' xlink:href='#nn'/><a xlink:href='#estado.id_estado'><use id='pk' x='572' y='146' xlink:href='#pk'/><title>Pk id_estado ( id_estado ) </title></a>
+<a xlink:href='#estado.id_estado'><text id='public.estado.id_estado' x='588' y='156' onmouseover="hghl(['contrato_id_estado_fk','public.contrato.id_estado_fk','prediomunicipio_id_estado_fk','public.prediomunicipio.id_estado_fk','terreno_id_estado_fk','public.terreno.id_estado_fk','usuario_id_estado_fk','public.usuario.id_estado_fk'])" onmouseout="uhghl(['contrato_id_estado_fk','public.contrato.id_estado_fk','prediomunicipio_id_estado_fk','public.prediomunicipio.id_estado_fk','terreno_id_estado_fk','public.terreno.id_estado_fk','usuario_id_estado_fk','public.usuario.id_estado_fk'])">id_estado</text><title>id_estado
+* integer
+Numero consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<a xlink:href='#estado.id_estado'><use id='ref' x='679' y='146' xlink:href='#ref'/><title>Referred by contrato ( id_estado_fk -&gt; id_estado ) 
+Referred by prediomunicipio ( id_estado_fk -&gt; id_estado ) 
+Referred by terreno ( id_estado_fk -&gt; id_estado ) 
+Referred by usuario ( id_estado_fk -&gt; id_estado ) </title></a>
+  <a xlink:href='#estado.nombre_estado'><text id='public.estado.nombre_estado' x='588' y='171'>nombre_estado</text><title>nombre_estado
+varchar(30)
+Nombre del estado, usado para definir el estado de un predio, de un documento, de un usuario, etc.</title></a>
+<text x='687' y='168' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'tipo_contrato' == -->
+<rect class='entity' x='225' y='548' width='90' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 225 574 L 225 555 Q 225 548 232 548 L 308 548 Q 315 548 315 555 L 315 574 L225 574 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='225' y='548' width='90' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#tipo_contrato'><text x='232' y='566'>tipo_contrato</text><title>Table public.tipo_contrato
+Almacena información a cerca del tipo de contrato que se establece entre el municipio y un tercero (Comodato, arrendamiento, etc).</title></a>
+  <use id='nn' x='227' y='582' xlink:href='#nn'/><a xlink:href='#tipo_contrato.id_tc'><use id='pk' x='227' y='581' xlink:href='#pk'/><title>Pk id_tc ( id_tc ) </title></a>
+<a xlink:href='#tipo_contrato.id_tc'><text id='public.tipo_contrato.id_tc' x='243' y='591' onmouseover="hghl(['contrato_id_tc_fk','public.contrato.id_tc_fk'])" onmouseout="uhghl(['contrato_id_tc_fk','public.contrato.id_tc_fk'])">id_tc</text><title>id_tc
+* integer
+Llave primaria que enumera de forma unica y consecutiva cada tipo de contrato</title></a>
+<a xlink:href='#tipo_contrato.id_tc'><use id='ref' x='304' y='581' xlink:href='#ref'/><title>Referred by contrato ( id_tc_fk -&gt; id_tc ) </title></a>
+  <use id='nn' x='227' y='597' xlink:href='#nn'/><a xlink:href='#tipo_contrato.nombre_tc'><text id='public.tipo_contrato.nombre_tc' x='243' y='606'>nombre_tc</text><title>nombre_tc
+* varchar(20)
+Nombre del tipo de contrato</title></a>
+<text x='312' y='603' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'servicio_publico' == -->
+<rect class='entity' x='375' y='533' width='165' height='120' rx='7' ry='7' style='stroke:none'/>
+<path d='M 375 559 L 375 540 Q 375 533 382 533 L 533 533 Q 540 533 540 540 L 540 559 L375 559 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='375' y='533' width='165' height='120' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#servicio_publico'><text x='413' y='551'>servicio_publico</text><title>Table public.servicio_publico
+Esta tabla almacena información de los servicios publicos conectados a cada predio del municipio, incluye suscriptor y medidor</title></a>
+  <use id='nn' x='377' y='567' xlink:href='#nn'/><a xlink:href='#servicio_publico.predial_sp'><use id='pk' x='377' y='566' xlink:href='#pk'/><title>Pk predial_suscriptor_medidor ( predial_sp, suscriptor_sp, medidor_acueducto_sp ) </title></a>
+<a xlink:href='#servicio_publico.predial_sp'><text id='public.servicio_publico.predial_sp' x='393' y='576' onmouseover="hghl(['servicio_publico_predial_sp_fk','public.construccion.predial_edificacion_const'])" onmouseout="uhghl(['servicio_publico_predial_sp_fk','public.construccion.predial_edificacion_const'])">predial_sp</text><title>predial_sp
+* varchar(30)
+Número predial de la construcciónasociada</title></a>
+<a xlink:href='#servicio_publico.predial_sp'><use id='fk' x='529' y='566' xlink:href='#fk'/><title>References construccion ( predial_sp -&gt; predial_edificacion_const ) </title></a>
+  <use id='nn' x='377' y='582' xlink:href='#nn'/><a xlink:href='#servicio_publico.suscriptor_sp'><use id='pk' x='377' y='581' xlink:href='#pk'/><title>Pk predial_suscriptor_medidor ( predial_sp, suscriptor_sp, medidor_acueducto_sp ) </title></a>
+<a xlink:href='#servicio_publico.suscriptor_sp'><text id='public.servicio_publico.suscriptor_sp' x='393' y='591'>suscriptor_sp</text><title>suscriptor_sp
+* varchar(20)
+Número de Suscriptor</title></a>
+<text x='537' y='588' text-anchor='end' class='colType'>t</text>  <use id='nn' x='377' y='597' xlink:href='#nn'/><a xlink:href='#servicio_publico.medidor_acueducto_sp'><use id='pk' x='377' y='596' xlink:href='#pk'/><title>Pk predial_suscriptor_medidor ( predial_sp, suscriptor_sp, medidor_acueducto_sp ) </title></a>
+<a xlink:href='#servicio_publico.medidor_acueducto_sp'><text id='public.servicio_publico.medidor_acueducto_sp' x='393' y='606'>medidor_acueducto_sp</text><title>medidor_acueducto_sp
+* varchar(30)
+Número que identifica a cada medidor de acueducto</title></a>
+<text x='537' y='603' text-anchor='end' class='colType'>t</text>  <use id='nn' x='377' y='612' xlink:href='#nn'/><a xlink:href='#servicio_publico.id_sp'><text id='public.servicio_publico.id_sp' x='393' y='621'>id_sp</text><title>id_sp
+* serial
+Número consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<text x='537' y='618' text-anchor='end' class='colType'>#</text>  <a xlink:href='#servicio_publico.medidor_energia_sp'><text id='public.servicio_publico.medidor_energia_sp' x='393' y='636'>medidor_energia_sp</text><title>medidor_energia_sp
+varchar(30)
+Número que identifica cada medidor de energía electrica.</title></a>
+<text x='537' y='633' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'capa' == -->
+<rect class='entity' x='390' y='803' width='105' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 390 829 L 390 810 Q 390 803 397 803 L 488 803 Q 495 803 495 810 L 495 829 L390 829 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='390' y='803' width='105' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#capa'><text x='427' y='821'>capa</text><title>Table public.capa
+Esta tabla Almacena información de las diferentes Capas con la que esta configurado el archivo .map en el geovisor de la IDESC, permitiendo clasificar y visualizar predios en diferentes colores segun la clasificación realizada.</title></a>
+  <use id='nn' x='392' y='837' xlink:href='#nn'/><a xlink:href='#capa.id_capa'><use id='pk' x='392' y='836' xlink:href='#pk'/><title>Pk id_capa ( id_capa ) </title></a>
+<a xlink:href='#capa.id_capa'><text id='public.capa.id_capa' x='408' y='846' onmouseover="hghl(['construccion_id_capa_const_fk','public.construccion.id_capa_const','geo_constr_mc_id_tipo_const','public.geo_constr_mc.id_tipo_const','prediomunicipio_id_capa_fk','public.prediomunicipio.id_capa','terreno_id_capa_fk','public.terreno.id_capa'])" onmouseout="uhghl(['construccion_id_capa_const_fk','public.construccion.id_capa_const','geo_constr_mc_id_tipo_const','public.geo_constr_mc.id_tipo_const','prediomunicipio_id_capa_fk','public.prediomunicipio.id_capa','terreno_id_capa_fk','public.terreno.id_capa'])">id_capa</text><title>id_capa
+* integer
+Llave primaria que identifica de forma única y consecutiva cada registro de esta tabla</title></a>
+<a xlink:href='#capa.id_capa'><use id='ref' x='484' y='836' xlink:href='#ref'/><title>Referred by construccion ( id_capa_const -&gt; id_capa ) 
+Referred by geo_constr_mc ( id_tipo_const -&gt; id_capa ) 
+Referred by prediomunicipio ( id_capa ) 
+Referred by terreno ( id_capa ) </title></a>
+  <a xlink:href='#capa.nombre_capa'><text id='public.capa.nombre_capa' x='408' y='861'>nombre_capa</text><title>nombre_capa
+varchar(80)</title></a>
+<text x='492' y='858' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'cuenta' == -->
+<rect class='entity' x='660' y='833' width='120' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 660 859 L 660 840 Q 660 833 667 833 L 773 833 Q 780 833 780 840 L 780 859 L660 859 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='660' y='833' width='120' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#cuenta'><text x='699' y='851'>cuenta</text><title>Table public.cuenta
+Esta tabla almacena información de las cuentas con las que se contabiliza o registra un predio en SAP.</title></a>
+  <use id='nn' x='662' y='867' xlink:href='#nn'/><a xlink:href='#cuenta.num_cuenta'><use id='pk' x='662' y='866' xlink:href='#pk'/><title>Pk num_cuenta_pk ( num_cuenta ) </title></a>
+<a xlink:href='#cuenta.num_cuenta'><text id='public.cuenta.num_cuenta' x='678' y='876' onmouseover="hghl(['terreno_cuenta_t','public.terreno.cuenta_terreno_p','construccion_cuenta_const_fk','public.construccion.cuenta_const'])" onmouseout="uhghl(['terreno_cuenta_t','public.terreno.cuenta_terreno_p','construccion_cuenta_const_fk','public.construccion.cuenta_const'])">num_cuenta</text><title>num_cuenta
+* varchar(15)
+Número de cuenta contable con la que se encuentra registrado un predio en SAP</title></a>
+<a xlink:href='#cuenta.num_cuenta'><use id='ref' x='769' y='866' xlink:href='#ref'/><title>Referred by terreno ( cuenta_terreno_p -&gt; num_cuenta ) 
+Referred by construccion ( cuenta_const -&gt; num_cuenta ) </title></a>
+  <a xlink:href='#cuenta.nombre_cuenta'><text id='public.cuenta.nombre_cuenta' x='678' y='891'>nombre_cuenta</text><title>nombre_cuenta
+varchar(90)
+Nombre de la cuenta  con la que se contabiliza un predio en SAP.</title></a>
+<text x='777' y='888' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'geo_constr_mc' == -->
+<rect class='entity' x='540' y='743' width='105' height='105' rx='7' ry='7' style='stroke:none'/>
+<path d='M 540 769 L 540 750 Q 540 743 547 743 L 638 743 Q 645 743 645 750 L 645 769 L540 769 ' style='fill:url(#tbg_b31a1a);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='540' y='743' width='105' height='105' rx='7' ry='7' style='fill:none;stroke:#bfaeae'/>
+<a xlink:href='#geo_constr_mc'><text x='550' y='761'>geo_constr_mc</text><title>Table public.geo_constr_mc</title></a>
+  <use id='nn' x='542' y='777' xlink:href='#nn'/><a xlink:href='#geo_constr_mc.gid'><use id='pk' x='542' y='776' xlink:href='#pk'/><title>Pk gid_mc ( gid ) </title></a>
+<a xlink:href='#geo_constr_mc.gid'><text id='public.geo_constr_mc.gid' x='558' y='786' onmouseover="hghl(['construccion_gid_fk','public.construccion.gid'])" onmouseout="uhghl(['construccion_gid_fk','public.construccion.gid'])">gid</text><title>gid
+* integer</title></a>
+<a xlink:href='#geo_constr_mc.gid'><use id='ref' x='634' y='776' xlink:href='#ref'/><title>Referred by construccion ( gid ) </title></a>
+  <a xlink:href='#geo_constr_mc.predial_const'><text id='public.geo_constr_mc.predial_const' x='558' y='801'>predial_const</text><title>predial_const
+varchar(30)</title></a>
+<text x='642' y='798' text-anchor='end' class='colType'>t</text>  <a xlink:href='#geo_constr_mc.the_geom'><use id='idx' x='542' y='806' xlink:href='#idx'/><title>ind_geo_constr_mc ( the_geom ) </title></a>
+<a xlink:href='#geo_constr_mc.the_geom'><text id='public.geo_constr_mc.the_geom' x='558' y='816'>the_geom</text><title>the_geom
+geometry</title></a>
+  <a xlink:href='#geo_constr_mc.id_tipo_const'><text id='public.geo_constr_mc.id_tipo_const' x='558' y='831' onmouseover="hghl(['geo_constr_mc_id_tipo_const','public.capa.id_capa'])" onmouseout="uhghl(['geo_constr_mc_id_tipo_const','public.capa.id_capa'])">id_tipo_const</text><title>id_tipo_const
+integer</title></a>
+<a xlink:href='#geo_constr_mc.id_tipo_const'><use id='fk' x='634' y='821' xlink:href='#fk'/><title>References capa ( id_tipo_const -&gt; id_capa ) </title></a>
+
+<!-- == Table 'tercero' == -->
+<rect class='entity' x='45' y='308' width='105' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 45 334 L 45 315 Q 45 308 52 308 L 143 308 Q 150 308 150 315 L 150 334 L45 334 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='45' y='308' width='105' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#tercero'><text x='76' y='326'>tercero</text><title>Table public.tercero
+Almacena información del Nombre de la entidad o persona que cede el predio, tambien de la persona o entidad que, bajo la figura de Comodato o Arrendamiento,  administra el predio o construcción.</title></a>
+  <use id='nn' x='47' y='342' xlink:href='#nn'/><a xlink:href='#tercero.nit_tcro'><use id='pk' x='47' y='341' xlink:href='#pk'/><title>Pk nit_cede ( nit_tcro ) </title></a>
+<a xlink:href='#tercero.nit_tcro'><text id='public.tercero.nit_tcro' x='63' y='351' onmouseover="hghl(['contrato_nit_entidad_cont_fk','public.contrato.nit_entidad_cont','prediomunicipio_nit_cedente_fk','public.prediomunicipio.nit_cede_fk','prediomunicipio_prop_antes_fk','public.prediomunicipio.propietario_antes_p','terreno_nit_cedente_fk','public.terreno.nit_cede_fk','terreno_prop_antes_fk','public.terreno.propietario_antes_p'])" onmouseout="uhghl(['contrato_nit_entidad_cont_fk','public.contrato.nit_entidad_cont','prediomunicipio_nit_cedente_fk','public.prediomunicipio.nit_cede_fk','prediomunicipio_prop_antes_fk','public.prediomunicipio.propietario_antes_p','terreno_nit_cedente_fk','public.terreno.nit_cede_fk','terreno_prop_antes_fk','public.terreno.propietario_antes_p'])">nit_tcro</text><title>nit_tcro
+* integer
+Número de identificación tributaria de la entidad o persona que cede el predio o que lo administra bajo la figura de Comodato o Arrendamiento.</title></a>
+<a xlink:href='#tercero.nit_tcro'><use id='ref' x='139' y='341' xlink:href='#ref'/><title>Referred by contrato ( nit_entidad_cont -&gt; nit_tcro ) 
+Referred by prediomunicipio ( nit_cede_fk -&gt; nit_tcro ) 
+Referred by prediomunicipio ( propietario_antes_p -&gt; nit_tcro ) 
+Referred by terreno ( nit_cede_fk -&gt; nit_tcro ) 
+Referred by terreno ( propietario_antes_p -&gt; nit_tcro ) </title></a>
+  <use id='nn' x='47' y='357' xlink:href='#nn'/><a xlink:href='#tercero.nombre_tcro'><text id='public.tercero.nombre_tcro' x='63' y='366'>nombre_tcro</text><title>nombre_tcro
+* varchar(60)
+Nombre de la entidad o persona que cede el predio.
+Nombre de la persona o entidad que Administra o tiene en uso el predio  o construcción bajo la figura de Comodato o Arrendamiento.</title></a>
+<text x='147' y='363' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'construccion' == -->
+<rect class='entity' x='555' y='233' width='165' height='465' rx='7' ry='7' style='stroke:none'/>
+<path d='M 555 259 L 555 240 Q 555 233 562 233 L 713 233 Q 720 233 720 240 L 720 259 L555 259 ' style='fill:url(#tbg_b3661a);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='555' y='233' width='165' height='465' rx='7' ry='7' style='fill:none;stroke:#bfb6ae'/>
+<a xlink:href='#construccion'><text x='601' y='251'>construccion</text><title>Table public.construccion
+Almacena información de EDIFICACIÓN U OBRA DE INGENIERÍA,  DE DIVERSAS DIMENSIONES Y MATERIALES,  DESTINADA AL DESARROLLO DE ACTIVIDADES HUMANAS, LOCALIZADA DENTRO DE BIENES INMUEBLES DE PROPIEDAD DEL MUNICIPIO DE SANTIAGO DE CALI</title></a>
+  <use id='nn' x='557' y='267' xlink:href='#nn'/><a xlink:href='#construccion.predialterreno_const_fk'><use id='pk' x='557' y='266' xlink:href='#pk'/><title>Pk primaryk_const ( predialterreno_const_fk, predial_edificacion_const ) </title></a>
+<a xlink:href='#construccion.predialterreno_const_fk'><text id='public.construccion.predialterreno_const_fk' x='573' y='276' onmouseover="hghl(['construccion_predial_terreno_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['construccion_predial_terreno_fk','public.terreno.identifica_p'])">predialterreno_const_fk</text><title>predialterreno_const_fk
+* varchar(30)
+Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio.Esto para el caso donde la construcción esta dentro de una zona verde o terreno con diferente numero predial al de la construcción</title></a>
+<a xlink:href='#construccion.predialterreno_const_fk'><use id='fk' x='709' y='266' xlink:href='#fk'/><title>References terreno ( predialterreno_const_fk -&gt; identifica_p ) </title></a>
+  <use id='nn' x='557' y='282' xlink:href='#nn'/><a xlink:href='#construccion.predial_edificacion_const'><use id='pk' x='557' y='281' xlink:href='#pk'/><title>Pk primaryk_const ( predialterreno_const_fk, predial_edificacion_const ) Unq predial_const ( predial_edificacion_const ) </title></a>
+<a xlink:href='#construccion.predial_edificacion_const'><text id='public.construccion.predial_edificacion_const' x='573' y='291' onmouseover="hghl(['servicio_publico_predial_sp_fk','public.servicio_publico.predial_sp'])" onmouseout="uhghl(['servicio_publico_predial_sp_fk','public.servicio_publico.predial_sp'])">predial_edificacion_const</text><title>predial_edificacion_const
+* varchar(30)
+Numero predial de la construcción, distinto del numero predial del terreno donde esta ubicada la construcción, en los casos donde la construcción ocupa solo una parte del terreno.</title></a>
+<a xlink:href='#construccion.predial_edificacion_const'><use id='ref' x='709' y='281' xlink:href='#ref'/><title>Referred by servicio_publico ( predial_sp -&gt; predial_edificacion_const ) </title></a>
+  <use id='nn' x='557' y='297' xlink:href='#nn'/><a xlink:href='#construccion.id_const'><use id='unq' x='557' y='296' xlink:href='#unq'/><title>Unq id_constr ( id_const ) </title></a>
+<a xlink:href='#construccion.id_const'><text id='public.construccion.id_const' x='573' y='306' onmouseover="hghl(['contrato_id_constr_fk','public.contrato.id_const_fk'])" onmouseout="uhghl(['contrato_id_constr_fk','public.contrato.id_const_fk'])">id_const</text><title>id_const
+* serial
+Llave primaria que identifica de forma unica y consecutiva cada construccion_temp que se crea en la Base de datos y que pertenece a un predio del municipio...</title></a>
+<a xlink:href='#construccion.id_const'><use id='ref' x='709' y='296' xlink:href='#ref'/><title>Referred by contrato ( id_const_fk -&gt; id_const ) </title></a>
+  <a xlink:href='#construccion.id_catastro_const'><text id='public.construccion.id_catastro_const' x='573' y='321'>id_catastro_const</text><title>id_catastro_const
+integer
+Código asignado por la Oficina de Catastro Municipal para identificar el Bien Inmueble.</title></a>
+<text x='717' y='318' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.activofijo_const'><text id='public.construccion.activofijo_const' x='573' y='336'>activofijo_const</text><title>activofijo_const
+varchar(20)
+Numero de activo fijo de la construcción.</title></a>
+<text x='717' y='333' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.codigonal_const'><text id='public.construccion.codigonal_const' x='573' y='351'>codigonal_const</text><title>codigonal_const
+varchar(30)
+Códiigo Nacional de la Construcción</title></a>
+<text x='717' y='348' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.codigounico_const'><text id='public.construccion.codigounico_const' x='573' y='366'>codigounico_const</text><title>codigounico_const
+varchar(30)
+Código Único de la Construcción</title></a>
+<text x='717' y='363' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.direccion_const'><text id='public.construccion.direccion_const' x='573' y='381'>direccion_const</text><title>direccion_const
+varchar(80)
+Este campo almacena información especifica de la direccion de la construccion_temp</title></a>
+<text x='717' y='378' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.nombre_const'><text id='public.construccion.nombre_const' x='573' y='396'>nombre_const</text><title>nombre_const
+varchar(100)
+Nombre dado a la construccion_temp</title></a>
+<text x='717' y='393' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.numpisos_const'><text id='public.construccion.numpisos_const' x='573' y='411'>numpisos_const</text><title>numpisos_const
+integer
+Numero de pisos construidos dentro de la edificación</title></a>
+<text x='717' y='408' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.numconstruccion_const'><text id='public.construccion.numconstruccion_const' x='573' y='426'>numconstruccion_const</text><title>numconstruccion_const
+integer
+Este campo almacena el número de construccion_tempes que representa cada registro de esta tabla. Ejemplo: Sena, tiene siete construccion_tempes o bloques pero solo se registra uno solo por tener todos el mismo número predial.</title></a>
+<text x='717' y='423' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.ano_const'><text id='public.construccion.ano_const' x='573' y='441'>ano_const</text><title>ano_const
+char(4)
+Año de Construcción del Bien Inmueble.</title></a>
+<text x='717' y='438' text-anchor='end' class='colType'>c</text>  <a xlink:href='#construccion.sismoresiste_const'><text id='public.construccion.sismoresiste_const' x='573' y='456'>sismoresiste_const</text><title>sismoresiste_const
+char(2)
+Indica si la Edificación es Sismo resistente o no.</title></a>
+<text x='717' y='453' text-anchor='end' class='colType'>c</text>  <a xlink:href='#construccion.afecta_pot_const'><text id='public.construccion.afecta_pot_const' x='573' y='471'>afecta_pot_const</text><title>afecta_pot_const
+char(2)
+Indica si el Bien Inmueble tiene afectaciones POT.</title></a>
+<text x='717' y='468' text-anchor='end' class='colType'>c</text>  <a xlink:href='#construccion.area_edifica_const'><text id='public.construccion.area_edifica_const' x='573' y='486'>area_edifica_const</text><title>area_edifica_const
+float8
+Area (en metros cuadrados) de la construcción</title></a>
+<text x='717' y='483' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.area_anexos_const'><text id='public.construccion.area_anexos_const' x='573' y='501'>area_anexos_const</text><title>area_anexos_const
+float8
+Área en metros cuadrados de los anexos</title></a>
+<text x='717' y='498' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.impto_predial_const'><text id='public.construccion.impto_predial_const' x='573' y='516'>impto_predial_const</text><title>impto_predial_const
+varchar(20)
+Indica el estado del Impuesto predial de la Construcción.</title></a>
+<text x='717' y='513' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.mat_inmob_const'><text id='public.construccion.mat_inmob_const' x='573' y='531' onmouseover="hghl(['construccion_mat_inmob_const_fk','public.matricula.numero_mat'])" onmouseout="uhghl(['construccion_mat_inmob_const_fk','public.matricula.numero_mat'])">mat_inmob_const</text><title>mat_inmob_const
+varchar(25)</title></a>
+<a xlink:href='#construccion.mat_inmob_const'><use id='fk' x='709' y='521' xlink:href='#fk'/><title>References matricula ( mat_inmob_const -&gt; numero_mat ) </title></a>
+  <a xlink:href='#construccion.cuenta_const'><text id='public.construccion.cuenta_const' x='573' y='546' onmouseover="hghl(['construccion_cuenta_const_fk','public.cuenta.num_cuenta'])" onmouseout="uhghl(['construccion_cuenta_const_fk','public.cuenta.num_cuenta'])">cuenta_const</text><title>cuenta_const
+varchar(15)
+Número de cuenta de la Construcción.</title></a>
+<a xlink:href='#construccion.cuenta_const'><use id='fk' x='709' y='536' xlink:href='#fk'/><title>References cuenta ( cuenta_const -&gt; num_cuenta ) </title></a>
+  <a xlink:href='#construccion.gid'><text id='public.construccion.gid' x='573' y='561' onmouseover="hghl(['construccion_gid_fk','public.geo_constr_mc.gid'])" onmouseout="uhghl(['construccion_gid_fk','public.geo_constr_mc.gid'])">gid</text><title>gid
+integer
+Llave foránea que relaciona esta tabla con la tabla geo_constr</title></a>
+<a xlink:href='#construccion.gid'><use id='fk' x='709' y='551' xlink:href='#fk'/><title>References geo_constr_mc ( gid ) </title></a>
+  <a xlink:href='#construccion.id_capa_const'><text id='public.construccion.id_capa_const' x='573' y='576' onmouseover="hghl(['construccion_id_capa_const_fk','public.capa.id_capa'])" onmouseout="uhghl(['construccion_id_capa_const_fk','public.capa.id_capa'])">id_capa_const</text><title>id_capa_const
+integer</title></a>
+<a xlink:href='#construccion.id_capa_const'><use id='fk' x='709' y='566' xlink:href='#fk'/><title>References capa ( id_capa_const -&gt; id_capa ) </title></a>
+  <a xlink:href='#construccion.orfeo_cb_const'><text id='public.construccion.orfeo_cb_const' x='573' y='591'>orfeo_cb_const</text><title>orfeo_cb_const
+varchar(30)
+Este campo almacena información del número de Orfeo con el cual se expidió Calidad dell Bien Inmueble</title></a>
+<text x='717' y='588' text-anchor='end' class='colType'>t</text>  <a xlink:href='#construccion.fecha_registro_const'><text id='public.construccion.fecha_registro_const' x='573' y='606'>fecha_registro_const</text><title>fecha_registro_const
+date
+Fecha en la que se crea el registro</title></a>
+<text x='717' y='603' text-anchor='end' class='colType'>d</text>  <a xlink:href='#construccion.id_tb_fk'><text id='public.construccion.id_tb_fk' x='573' y='621' onmouseover="hghl(['construccion_tipo_bien_fk','public.tipo_bien.id_tb'])" onmouseout="uhghl(['construccion_tipo_bien_fk','public.tipo_bien.id_tb'])">id_tb_fk</text><title>id_tb_fk
+integer</title></a>
+<a xlink:href='#construccion.id_tb_fk'><use id='fk' x='709' y='611' xlink:href='#fk'/><title>References tipo_bien ( id_tb_fk -&gt; id_tb ) </title></a>
+  <a xlink:href='#construccion.id_tu_fk'><text id='public.construccion.id_tu_fk' x='573' y='636' onmouseover="hghl(['construccion_tipouso_fk','public.uso_predio.id_tu'])" onmouseout="uhghl(['construccion_tipouso_fk','public.uso_predio.id_tu'])">id_tu_fk</text><title>id_tu_fk
+integer</title></a>
+<a xlink:href='#construccion.id_tu_fk'><use id='fk' x='709' y='626' xlink:href='#fk'/><title>References uso_predio ( id_tu_fk -&gt; id_tu ) </title></a>
+  <a xlink:href='#construccion.id_depen_fk'><text id='public.construccion.id_depen_fk' x='573' y='651' onmouseover="hghl(['construccion_organismo_fk','public.dependencia.id_depen'])" onmouseout="uhghl(['construccion_organismo_fk','public.dependencia.id_depen'])">id_depen_fk</text><title>id_depen_fk
+numeric(-9999999,0)</title></a>
+<a xlink:href='#construccion.id_depen_fk'><use id='fk' x='709' y='641' xlink:href='#fk'/><title>References dependencia ( id_depen_fk -&gt; id_depen ) </title></a>
+  <a xlink:href='#construccion.derecho_c'><text id='public.construccion.derecho_c' x='573' y='666'>derecho_c</text><title>derecho_c
+float8
+Porcentaje de derecho que tiene la Alcaldía sobre la construcción (puede ser distinto al del terreno...)</title></a>
+<text x='717' y='663' text-anchor='end' class='colType'>#</text>  <a xlink:href='#construccion.fecha_modifica_const'><text id='public.construccion.fecha_modifica_const' x='573' y='681'>fecha_modifica_const</text><title>fecha_modifica_const
+date
+Fecha en la que se modificó el registro.</title></a>
+<text x='717' y='678' text-anchor='end' class='colType'>d</text>
+<!-- == Table 'observacion' == -->
+<rect class='entity' x='990' y='38' width='135' height='135' rx='7' ry='7' style='stroke:none'/>
+<path d='M 990 64 L 990 45 Q 990 38 997 38 L 1118 38 Q 1125 38 1125 45 L 1125 64 L990 64 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='990' y='38' width='135' height='135' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#observacion'><text x='1023' y='56'>observacion</text><title>Table public.observacion
+Almacena las observaciones que se pueden llegar a realizar sobre un predio por cada usuario que las realice.</title></a>
+  <use id='nn' x='992' y='72' xlink:href='#nn'/><a xlink:href='#observacion.id_obs'><use id='pk' x='992' y='71' xlink:href='#pk'/><title>Pk id_obs ( id_obs ) </title></a>
+<a xlink:href='#observacion.id_obs'><text id='public.observacion.id_obs' x='1008' y='81'>id_obs</text><title>id_obs
+* integer
+Numero consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<text x='1122' y='78' text-anchor='end' class='colType'>#</text>  <use id='nn' x='992' y='87' xlink:href='#nn'/><a xlink:href='#observacion.predial_obs_fk'><text id='public.observacion.predial_obs_fk' x='1008' y='96' onmouseover="hghl(['observacion_predial_obs_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['observacion_predial_obs_fk','public.terreno.identifica_p'])">predial_obs_fk</text><title>predial_obs_fk
+* varchar(30)
+Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio.</title></a>
+<a xlink:href='#observacion.predial_obs_fk'><use id='fk' x='1114' y='86' xlink:href='#fk'/><title>References terreno ( predial_obs_fk -&gt; identifica_p ) </title></a>
+  <a xlink:href='#observacion.fecha_obs'><text id='public.observacion.fecha_obs' x='1008' y='111'>fecha_obs</text><title>fecha_obs
+date
+Fecha en la que se realiza la observación.</title></a>
+<text x='1122' y='108' text-anchor='end' class='colType'>d</text>  <a xlink:href='#observacion.observacion_obs'><text id='public.observacion.observacion_obs' x='1008' y='126'>observacion_obs</text><title>observacion_obs
+varchar(500)
+Observación realizada por los usuarios a un determinado predio.</title></a>
+<text x='1122' y='123' text-anchor='end' class='colType'>t</text>  <a xlink:href='#observacion.id_usu_fk'><text id='public.observacion.id_usu_fk' x='1008' y='141' onmouseover="hghl(['observacion_id_usu_fk','public.usuario.id_usu'])" onmouseout="uhghl(['observacion_id_usu_fk','public.usuario.id_usu'])">id_usu_fk</text><title>id_usu_fk
+varchar(12)
+Llave foránea que relaciona esta tabla con el número de identificación de un usuario- tabla Usuario.</title></a>
+<a xlink:href='#observacion.id_usu_fk'><use id='fk' x='1114' y='131' xlink:href='#fk'/><title>References usuario ( id_usu_fk -&gt; id_usu ) </title></a>
+  <a xlink:href='#observacion.tipo_ob'><text id='public.observacion.tipo_ob' x='1008' y='156' onmouseover="hghl(['observacion_tipo_ob','public.tipo_observacion.id_to'])" onmouseout="uhghl(['observacion_tipo_ob','public.tipo_observacion.id_to'])">tipo_ob</text><title>tipo_ob
+integer
+Llave foránea que relaciona esta tabla con la tabla Tipo de Observacion (Tipo_observacion).</title></a>
+<a xlink:href='#observacion.tipo_ob'><use id='fk' x='1114' y='146' xlink:href='#fk'/><title>References tipo_observacion ( tipo_ob -&gt; id_to ) </title></a>
+
+<!-- == Table 'tipo_observacion' == -->
+<rect class='entity' x='825' y='38' width='105' height='75' rx='7' ry='7' style='stroke:none'/>
+<path d='M 825 64 L 825 45 Q 825 38 832 38 L 923 38 Q 930 38 930 45 L 930 64 L825 64 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='825' y='38' width='105' height='75' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#tipo_observacion'><text x='830' y='56'>tipo_observacion</text><title>Table public.tipo_observacion
+Esta tabla almacena informacion del tipo de observacion que se da sobre un predio. Se relaciona con la tabla Observación.</title></a>
+  <use id='nn' x='827' y='72' xlink:href='#nn'/><a xlink:href='#tipo_observacion.id_to'><use id='pk' x='827' y='71' xlink:href='#pk'/><title>Pk id_to ( id_to ) </title></a>
+<a xlink:href='#tipo_observacion.id_to'><text id='public.tipo_observacion.id_to' x='843' y='81' onmouseover="hghl(['observacion_tipo_ob','public.observacion.tipo_ob'])" onmouseout="uhghl(['observacion_tipo_ob','public.observacion.tipo_ob'])">id_to</text><title>id_to
+* integer
+Llave primaria que identifica de forma unica y consecutiva los registros de esta tabla.</title></a>
+<a xlink:href='#tipo_observacion.id_to'><use id='ref' x='919' y='71' xlink:href='#ref'/><title>Referred by observacion ( tipo_ob -&gt; id_to ) </title></a>
+  <a xlink:href='#tipo_observacion.nombre_to'><text id='public.tipo_observacion.nombre_to' x='843' y='96'>nombre_to</text><title>nombre_to
+varchar(50)
+Nombre del tipo de Observacion.</title></a>
+<text x='927' y='93' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'contrato' == -->
+<rect class='entity' x='270' y='158' width='165' height='345' rx='7' ry='7' style='stroke:none'/>
+<path d='M 270 184 L 270 165 Q 270 158 277 158 L 428 158 Q 435 158 435 165 L 435 184 L270 184 ' style='fill:url(#tbg_c1d8ee);stroke:1;stroke-opacity:0.1;' />
+<rect class='entity' x='270' y='158' width='165' height='345' rx='7' ry='7' style='fill:none;stroke:#aeb7bf'/>
+<a xlink:href='#contrato'><text x='327' y='176'>contrato</text><title>Table public.contrato
+Almacena información de los diferentes contratos que se pueden llegar a presentar para cada predio.</title></a>
+  <use id='nn' x='272' y='192' xlink:href='#nn'/><a xlink:href='#contrato.id_cont'><use id='pk' x='272' y='191' xlink:href='#pk'/><title>Pk id_cont ( id_cont ) </title></a>
+<a xlink:href='#contrato.id_cont'><text id='public.contrato.id_cont' x='288' y='201'>id_cont</text><title>id_cont
+* integer
+Numero consecutivo que identifica de forma única cada registro de esta tabla.</title></a>
+<text x='432' y='198' text-anchor='end' class='colType'>#</text>  <a xlink:href='#contrato.predial_cont_fk'><text id='public.contrato.predial_cont_fk' x='288' y='216' onmouseover="hghl(['contrato_predial_contrato_fk','public.terreno.identifica_p'])" onmouseout="uhghl(['contrato_predial_contrato_fk','public.terreno.identifica_p'])">predial_cont_fk</text><title>predial_cont_fk
+varchar(30)
+Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio.</title></a>
+<a xlink:href='#contrato.predial_cont_fk'><use id='fk' x='424' y='206' xlink:href='#fk'/><title>References terreno ( predial_cont_fk -&gt; identifica_p ) </title></a>
+  <a xlink:href='#contrato.numero_cont'><text id='public.contrato.numero_cont' x='288' y='231'>numero_cont</text><title>numero_cont
+varchar(25)
+Número del contrato o expediente.</title></a>
+<text x='432' y='228' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.id_tc_fk'><text id='public.contrato.id_tc_fk' x='288' y='246' onmouseover="hghl(['contrato_id_tc_fk','public.tipo_contrato.id_tc'])" onmouseout="uhghl(['contrato_id_tc_fk','public.tipo_contrato.id_tc'])">id_tc_fk</text><title>id_tc_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla Tipo de contrato.</title></a>
+<a xlink:href='#contrato.id_tc_fk'><use id='fk' x='424' y='236' xlink:href='#fk'/><title>References tipo_contrato ( id_tc_fk -&gt; id_tc ) </title></a>
+  <a xlink:href='#contrato.area_entregada_cont'><text id='public.contrato.area_entregada_cont' x='288' y='261'>area_entregada_cont</text><title>area_entregada_cont
+float8
+Área en metros cuadrados entregada en el contrato.</title></a>
+<text x='432' y='258' text-anchor='end' class='colType'>#</text>  <a xlink:href='#contrato.fecha_ini_cont'><text id='public.contrato.fecha_ini_cont' x='288' y='276'>fecha_ini_cont</text><title>fecha_ini_cont
+date
+Fecha inicial del contrato.</title></a>
+<text x='432' y='273' text-anchor='end' class='colType'>d</text>  <a xlink:href='#contrato.fecha_fin_cont'><text id='public.contrato.fecha_fin_cont' x='288' y='291'>fecha_fin_cont</text><title>fecha_fin_cont
+date
+Fecha final del contrato.</title></a>
+<text x='432' y='288' text-anchor='end' class='colType'>d</text>  <a xlink:href='#contrato.id_estado_fk'><text id='public.contrato.id_estado_fk' x='288' y='306' onmouseover="hghl(['contrato_id_estado_fk','public.estado.id_estado'])" onmouseout="uhghl(['contrato_id_estado_fk','public.estado.id_estado'])">id_estado_fk</text><title>id_estado_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla estado.</title></a>
+<a xlink:href='#contrato.id_estado_fk'><use id='fk' x='424' y='296' xlink:href='#fk'/><title>References estado ( id_estado_fk -&gt; id_estado ) </title></a>
+  <a xlink:href='#contrato.nit_entidad_cont'><text id='public.contrato.nit_entidad_cont' x='288' y='321' onmouseover="hghl(['contrato_nit_entidad_cont_fk','public.tercero.nit_tcro'])" onmouseout="uhghl(['contrato_nit_entidad_cont_fk','public.tercero.nit_tcro'])">nit_entidad_cont</text><title>nit_entidad_cont
+integer
+Número de identificación tributaria de la entidad o persona que administra el predio.</title></a>
+<a xlink:href='#contrato.nit_entidad_cont'><use id='fk' x='424' y='311' xlink:href='#fk'/><title>References tercero ( nit_entidad_cont -&gt; nit_tcro ) </title></a>
+  <a xlink:href='#contrato.idusu_cont_fk'><text id='public.contrato.idusu_cont_fk' x='288' y='336' onmouseover="hghl(['contrato_idusu_cont_fk','public.usuario.id_usu'])" onmouseout="uhghl(['contrato_idusu_cont_fk','public.usuario.id_usu'])">idusu_cont_fk</text><title>idusu_cont_fk
+varchar(12)
+Llave foránea que relaciona esta tabla con la tabla Usuario. Nombre de la persona a la que se le asigna el manejo del contrato.</title></a>
+<a xlink:href='#contrato.idusu_cont_fk'><use id='fk' x='424' y='326' xlink:href='#fk'/><title>References usuario ( idusu_cont_fk -&gt; id_usu ) </title></a>
+  <a xlink:href='#contrato.lind_norte_cont'><text id='public.contrato.lind_norte_cont' x='288' y='351'>lind_norte_cont</text><title>lind_norte_cont
+varchar(300)
+Límite norte del predio.</title></a>
+<text x='432' y='348' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.lind_sur_cont'><text id='public.contrato.lind_sur_cont' x='288' y='366'>lind_sur_cont</text><title>lind_sur_cont
+varchar(300)
+Límite sur del predio.</title></a>
+<text x='432' y='363' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.lind_este_cont'><text id='public.contrato.lind_este_cont' x='288' y='381'>lind_este_cont</text><title>lind_este_cont
+varchar(300)
+Límite este del predio.</title></a>
+<text x='432' y='378' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.lind_oeste_cont'><text id='public.contrato.lind_oeste_cont' x='288' y='396'>lind_oeste_cont</text><title>lind_oeste_cont
+varchar(300)
+Límite oeste del predio.</title></a>
+<text x='432' y='393' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.lind_adic_cont'><text id='public.contrato.lind_adic_cont' x='288' y='411'>lind_adic_cont</text><title>lind_adic_cont
+varchar(400)
+Límite o lindero adicional del predio.</title></a>
+<text x='432' y='408' text-anchor='end' class='colType'>t</text>  <a xlink:href='#contrato.id_const_fk'><text id='public.contrato.id_const_fk' x='288' y='426' onmouseover="hghl(['contrato_id_constr_fk','public.construccion.id_const'])" onmouseout="uhghl(['contrato_id_constr_fk','public.construccion.id_const'])">id_const_fk</text><title>id_const_fk
+integer
+Llave foránea que relaciona esta tabla con la tabla construcción</title></a>
+<a xlink:href='#contrato.id_const_fk'><use id='fk' x='424' y='416' xlink:href='#fk'/><title>References construccion ( id_const_fk -&gt; id_const ) </title></a>
+  <a xlink:href='#contrato.cantidad_ocupa_cont'><text id='public.contrato.cantidad_ocupa_cont' x='288' y='441'>cantidad_ocupa_cont</text><title>cantidad_ocupa_cont
+integer
+Indica la Cantidad de ocupaciones que tiene el Bien Inmueble.</title></a>
+<text x='432' y='438' text-anchor='end' class='colType'>#</text>  <a xlink:href='#contrato.porcentaje_ocupa_cont'><text id='public.contrato.porcentaje_ocupa_cont' x='288' y='456'>porcentaje_ocupa_cont</text><title>porcentaje_ocupa_cont
+float8
+Indica el porcentaje de ocupación del Bien Inmueble.</title></a>
+<text x='432' y='453' text-anchor='end' class='colType'>#</text>  <a xlink:href='#contrato.valor_canon_cont'><text id='public.contrato.valor_canon_cont' x='288' y='471'>valor_canon_cont</text><title>valor_canon_cont
+integer
+Indica el valor del canon de arrendamiento del Bien Inmueble en caso de estar alquilado.</title></a>
+<text x='432' y='468' text-anchor='end' class='colType'>#</text>  <a xlink:href='#contrato.tipo_ocupante_cont'><text id='public.contrato.tipo_ocupante_cont' x='288' y='486'>tipo_ocupante_cont</text><title>tipo_ocupante_cont
+varchar(10)
+Indica el tipo de ocupante (Privado, Público o Mixto)</title></a>
+<text x='432' y='483' text-anchor='end' class='colType'>t</text>
+</g></svg></div>
+
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='avaluo' onclick='window.scrollTo(1255, 180);return false;' style='cursor:pointer;'><h4 class='card-title'>Table avaluo</h4></a>
+<p class="text-muted">Almacena información del avaluo de cada predio por cada año en el que se realiza un avaluo del inmueble.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='avaluo.predial_terreno_aval'>predial&#95;terreno&#95;aval</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio&#46; </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='avaluo.predial_construccion_aval'>predial&#95;construccion&#95;aval</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla construccion </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='avaluo.año'>año</a></td>
+		<td> varchar&#40; 4 &#41;   </td>
+		<td> Año en que se realiza el avaluo&#46; </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
+		<td><a name='avaluo.id_aval'>id&#95;aval</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td> Numero consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo.valor_cial_terreno_aval'>valor&#95;cial&#95;terreno&#95;aval</a></td>
+		<td> float8   </td>
+		<td> Valor comercial total del componente terreno </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo.valor_cial_contruccion_aval'>valor&#95;cial&#95;contruccion&#95;aval</a></td>
+		<td> float8   </td>
+		<td> Valor comercial total del componente construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo.valor_cial_anexos_aval'>valor&#95;cial&#95;anexos&#95;aval</a></td>
+		<td> float8   </td>
+		<td> Valor Comercial total de los anexos de un predio&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>primarykey</td>
+		<td> ON predial&#95;terreno&#95;aval&#44; predial&#95;construccion&#95;aval&#44; año</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>id&#95;aval</td>
+		<td> ON id&#95;aval</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_terreno_aval_fk</td>
+		<td > ( predial&#95;terreno&#95;aval ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='avaluo_catastral' onclick='window.scrollTo(1330, 345);return false;' style='cursor:pointer;'><h4 class='card-title'>Table avaluo_catastral</h4></a>
+<p class="text-muted">Se crea esta tabla para almacenar información de Avaluos catastrales.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='avaluo_catastral.predial_terreno_avalc'>predial&#95;terreno&#95;avalc</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número predial del Terreno&#46; </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='avaluo_catastral.predial_construccion_avalc'>predial&#95;construccion&#95;avalc</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número Predial de la Construcción </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='avaluo_catastral.fecha_avalc'>fecha&#95;avalc</a></td>
+		<td> date   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='avaluo_catastral.id_avalc'>id&#95;avalc</a></td>
+		<td> integer   </td>
+		<td> Llave primaria que identifica de forma única y consecutiva cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo_catastral.valor_terreno_avalc'>valor&#95;terreno&#95;avalc</a></td>
+		<td> float8   </td>
+		<td> Valor del Avaluo Catastral del componente Terreno </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo_catastral.valor_construccion_avalc'>valor&#95;construccion&#95;avalc</a></td>
+		<td> float8   </td>
+		<td> Valor Catastral del componente Construcción&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo_catastral.valor_anexos_avalc'>valor&#95;anexos&#95;avalc</a></td>
+		<td> float8   </td>
+		<td> Valor Avaluo Catastral de los Anexos&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='avaluo_catastral.total_avalc'>total&#95;avalc</a></td>
+		<td> float8   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>predial&#95;fecha&#95;pk</td>
+		<td> ON predial&#95;terreno&#95;avalc&#44; predial&#95;construccion&#95;avalc&#44; fecha&#95;avalc</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial-terreno_avac_fk</td>
+		<td > ( predial&#95;terreno&#95;avalc ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='capa' onclick='window.scrollTo(190, 810);return false;' style='cursor:pointer;'><h4 class='card-title'>Table capa</h4></a>
+<p class="text-muted">Esta tabla Almacena información de las diferentes Capas con la que esta configurado el archivo .map en el geovisor de la IDESC, permitiendo clasificar y visualizar predios en diferentes colores segun la clasificación realizada.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='capa.id_capa'>id&#95;capa</a></td>
+		<td> integer   </td>
+		<td> Llave primaria que identifica de forma única y consecutiva cada registro de esta tabla </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='capa.nombre_capa'>nombre&#95;capa</a></td>
+		<td> varchar&#40; 80 &#41;   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;capa</td>
+		<td> ON id&#95;capa</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='construccion' onclick='window.scrollTo(355, 240);return false;' style='cursor:pointer;'><h4 class='card-title'>Table construccion</h4></a>
+<p class="text-muted">Almacena información de EDIFICACIÓN U OBRA DE INGENIERÍA,  DE DIVERSAS DIMENSIONES Y MATERIALES,  DESTINADA AL DESARROLLO DE ACTIVIDADES HUMANAS, LOCALIZADA DENTRO DE BIENES INMUEBLES DE PROPIEDAD DEL MUNICIPIO DE SANTIAGO DE CALI</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.predialterreno_const_fk'>predialterreno&#95;const&#95;fk</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con el número predial de la tabla terreno&#46;Esto para el caso donde la construcción esta dentro de una zona verde o terreno con igual o diferente numero predial al de la construcción </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='construccion.predial_edificacion_const'>predial&#95;edificacion&#95;const</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Numero predial de la construcción&#44; distinto del numero predial del terreno donde esta ubicada la construcción&#44; en los casos donde la construcción ocupa solo una parte del terreno&#46; </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='construccion.id_const'>id&#95;const</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td> Llave primaria que identifica de forma unica y consecutiva cada construccion&#95;temp que se crea en la Base de datos y que pertenece a un predio del municipio&#46;&#46;&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.id_catastro_const'>id&#95;catastro&#95;const</a></td>
+		<td> integer   </td>
+		<td> Código asignado por la Oficina de Catastro Municipal para identificar el Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.activofijo_const'>activofijo&#95;const</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Numero de activo fijo de la construcción&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.codigonal_const'>codigonal&#95;const</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Códiigo Nacional de la Construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.codigounico_const'>codigounico&#95;const</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Código Único de la Construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.direccion_const'>direccion&#95;const</a></td>
+		<td> varchar&#40; 80 &#41;   </td>
+		<td> Este campo almacena información especifica de la direccion de la construccion&#95;temp </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.nombre_const'>nombre&#95;const</a></td>
+		<td> varchar&#40; 100 &#41;   </td>
+		<td> Nombre dado a la construccion&#95;temp </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.numpisos_const'>numpisos&#95;const</a></td>
+		<td> integer   </td>
+		<td> Numero de pisos construidos dentro de la edificación </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.numconstruccion_const'>numconstruccion&#95;const</a></td>
+		<td> integer   </td>
+		<td> Este campo almacena el número de construccion&#95;tempes que representa cada registro de esta tabla&#46; Ejemplo&#58; Sena&#44; tiene siete construccion&#95;tempes o bloques pero solo se registra uno solo por tener todos el mismo número predial&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.ano_const'>ano&#95;const</a></td>
+		<td> char&#40; 4 &#41;   </td>
+		<td> Año de Construcción del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.sismoresiste_const'>sismoresiste&#95;const</a></td>
+		<td> char&#40; 2 &#41;   </td>
+		<td> Indica si la Edificación es Sismo resistente o no&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.afecta_pot_const'>afecta&#95;pot&#95;const</a></td>
+		<td> char&#40; 2 &#41;   </td>
+		<td> Indica si el Bien Inmueble tiene afectaciones POT&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.area_edifica_const'>area&#95;edifica&#95;const</a></td>
+		<td> float8   </td>
+		<td> Area &#40;en metros cuadrados&#41; de la construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.area_anexos_const'>area&#95;anexos&#95;const</a></td>
+		<td> float8   </td>
+		<td> Área en metros cuadrados de los anexos </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.impto_predial_const'>impto&#95;predial&#95;const</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Indica el estado del Impuesto predial de la Construcción&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.mat_inmob_const'>mat&#95;inmob&#95;const</a></td>
+		<td> varchar&#40; 25 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.cuenta_const'>cuenta&#95;const</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td> Número de cuenta de la Construcción&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.gid'>gid</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla geo&#95;constr </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.id_capa_const'>id&#95;capa&#95;const</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.orfeo_cb_const'>orfeo&#95;cb&#95;const</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Este campo almacena información del número de Orfeo con el cual se expidió Calidad dell Bien Inmueble </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.fecha_registro_const'>fecha&#95;registro&#95;const</a></td>
+		<td> date   </td>
+		<td> Fecha en la que se crea el registro </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.id_tb_fk'>id&#95;tb&#95;fk</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.id_tu_fk'>id&#95;tu&#95;fk</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='construccion.id_depen_fk'>id&#95;depen&#95;fk</a></td>
+		<td> numeric   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.derecho_c'>derecho&#95;c</a></td>
+		<td> float8   </td>
+		<td> Porcentaje de derecho que tiene la Alcaldía sobre la construcción &#40;puede ser distinto al del terreno&#46;&#46;&#46;&#41; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='construccion.fecha_modifica_const'>fecha&#95;modifica&#95;const</a></td>
+		<td> date   </td>
+		<td> Fecha en la que se modificó el registro&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>primaryk&#95;const</td>
+		<td> ON predialterreno&#95;const&#95;fk&#44; predial&#95;edificacion&#95;const</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>id&#95;constr</td>
+		<td> ON id&#95;const</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>predial&#95;const</td>
+		<td> ON predial&#95;edificacion&#95;const</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_capa_const_fk</td>
+		<td > ( id&#95;capa&#95;const ) ref <a href='#capa'>capa</a> (id&#95;capa) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>organismo_fk</td>
+		<td > ( id&#95;depen&#95;fk ) ref <a href='#dependencia'>dependencia</a> (id&#95;depen) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>gid_fk</td>
+		<td > ( gid ) ref <a href='#geo&#95;constr&#95;mc'>geo&#95;constr&#95;mc</a> (gid) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>mat_inmob_const_fk</td>
+		<td > ( mat&#95;inmob&#95;const ) ref <a href='#matricula'>matricula</a> (numero&#95;mat) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_terreno_fk</td>
+		<td > ( predialterreno&#95;const&#95;fk ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>tipo_bien_fk</td>
+		<td > ( id&#95;tb&#95;fk ) ref <a href='#tipo&#95;bien'>tipo&#95;bien</a> (id&#95;tb) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>tipouso_fk</td>
+		<td > ( id&#95;tu&#95;fk ) ref <a href='#uso&#95;predio'>uso&#95;predio</a> (id&#95;tu) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>cuenta_const_fk</td>
+		<td > ( cuenta&#95;const ) ref <a href='#cuenta'>cuenta</a> (num&#95;cuenta) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='contrato' onclick='window.scrollTo(70, 165);return false;' style='cursor:pointer;'><h4 class='card-title'>Table contrato</h4></a>
+<p class="text-muted">Almacena información de los diferentes contratos que se pueden llegar a presentar para cada predio.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='contrato.id_cont'>id&#95;cont</a></td>
+		<td> integer   </td>
+		<td> Numero consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.predial_cont_fk'>predial&#95;cont&#95;fk</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.numero_cont'>numero&#95;cont</a></td>
+		<td> varchar&#40; 25 &#41;   </td>
+		<td> Número del contrato o expediente&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.id_tc_fk'>id&#95;tc&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla Tipo de contrato&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.area_entregada_cont'>area&#95;entregada&#95;cont</a></td>
+		<td> float8   </td>
+		<td> Área en metros cuadrados entregada en el contrato&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.fecha_ini_cont'>fecha&#95;ini&#95;cont</a></td>
+		<td> date   </td>
+		<td> Fecha inicial del contrato&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.fecha_fin_cont'>fecha&#95;fin&#95;cont</a></td>
+		<td> date   </td>
+		<td> Fecha final del contrato&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.id_estado_fk'>id&#95;estado&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla estado&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.nit_entidad_cont'>nit&#95;entidad&#95;cont</a></td>
+		<td> integer   </td>
+		<td> Número de identificación tributaria de la entidad o persona que administra el predio&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.idusu_cont_fk'>idusu&#95;cont&#95;fk</a></td>
+		<td> varchar&#40; 12 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla Usuario&#46; Nombre de la persona a la que se le asigna el manejo del contrato&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.lind_norte_cont'>lind&#95;norte&#95;cont</a></td>
+		<td> varchar&#40; 300 &#41;   </td>
+		<td> Límite norte del predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.lind_sur_cont'>lind&#95;sur&#95;cont</a></td>
+		<td> varchar&#40; 300 &#41;   </td>
+		<td> Límite sur del predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.lind_este_cont'>lind&#95;este&#95;cont</a></td>
+		<td> varchar&#40; 300 &#41;   </td>
+		<td> Límite este del predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.lind_oeste_cont'>lind&#95;oeste&#95;cont</a></td>
+		<td> varchar&#40; 300 &#41;   </td>
+		<td> Límite oeste del predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.lind_adic_cont'>lind&#95;adic&#95;cont</a></td>
+		<td> varchar&#40; 400 &#41;   </td>
+		<td> Límite o lindero adicional del predio&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='contrato.id_const_fk'>id&#95;const&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.cantidad_ocupa_cont'>cantidad&#95;ocupa&#95;cont</a></td>
+		<td> integer   </td>
+		<td> Indica la Cantidad de ocupaciones que tiene el Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.porcentaje_ocupa_cont'>porcentaje&#95;ocupa&#95;cont</a></td>
+		<td> float8   </td>
+		<td> Indica el porcentaje de ocupación del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.valor_canon_cont'>valor&#95;canon&#95;cont</a></td>
+		<td> integer   </td>
+		<td> Indica el valor del canon de arrendamiento del Bien Inmueble en caso de estar alquilado&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='contrato.tipo_ocupante_cont'>tipo&#95;ocupante&#95;cont</a></td>
+		<td> varchar&#40; 10 &#41;   </td>
+		<td> Indica el tipo de ocupante &#40;Privado&#44; Público o Mixto&#41; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;cont</td>
+		<td> ON id&#95;cont</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_constr_fk</td>
+		<td > ( id&#95;const&#95;fk ) ref <a href='#construccion'>construccion</a> (id&#95;const) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_estado_fk</td>
+		<td > ( id&#95;estado&#95;fk ) ref <a href='#estado'>estado</a> (id&#95;estado) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>nit_entidad_cont_fk</td>
+		<td > ( nit&#95;entidad&#95;cont ) ref <a href='#tercero'>tercero</a> (nit&#95;tcro) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_contrato_fk</td>
+		<td > ( predial&#95;cont&#95;fk ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_tc_fk</td>
+		<td > ( id&#95;tc&#95;fk ) ref <a href='#tipo&#95;contrato'>tipo&#95;contrato</a> (id&#95;tc) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>idusu_cont_fk</td>
+		<td > ( idusu&#95;cont&#95;fk ) ref <a href='#usuario'>usuario</a> (id&#95;usu) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='cuenta' onclick='window.scrollTo(460, 840);return false;' style='cursor:pointer;'><h4 class='card-title'>Table cuenta</h4></a>
+<p class="text-muted">Esta tabla almacena información de las cuentas con las que se contabiliza o registra un predio en SAP.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='cuenta.num_cuenta'>num&#95;cuenta</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td> Número de cuenta contable con la que se encuentra registrado un predio en SAP </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='cuenta.nombre_cuenta'>nombre&#95;cuenta</a></td>
+		<td> varchar&#40; 90 &#41;   </td>
+		<td> Nombre de la cuenta  con la que se contabiliza un predio en SAP&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>num&#95;cuenta&#95;pk</td>
+		<td> ON num&#95;cuenta</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='dependencia' onclick='window.scrollTo(595, 660);return false;' style='cursor:pointer;'><h4 class='card-title'>Table dependencia</h4></a>
+<p class="text-muted">Almacena información de las diferentes dependencias de la alcaldia, a la cual pertenece un usuario y un predio.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='dependencia.id_depen'>id&#95;depen</a></td>
+		<td> numeric   </td>
+		<td> Código de la Dependencia de la Alcaldía que tiene a cargo un predio&#46; </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='dependencia.nombre_depen'>nombre&#95;depen</a></td>
+		<td> varchar&#40; 150 &#41;   </td>
+		<td> Nombre de la dependencia&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;depen</td>
+		<td> ON id&#95;depen</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='estado' onclick='window.scrollTo(370, 120);return false;' style='cursor:pointer;'><h4 class='card-title'>Table estado</h4></a>
+<p class="text-muted">Alamcena los diferentes estados para diversos objetos o entidades, por ejemplo el estado de un predio (activo, inactivo), de un usuario (bloqueado, retirado...), etc.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='estado.id_estado'>id&#95;estado</a></td>
+		<td> integer   </td>
+		<td> Numero consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='estado.nombre_estado'>nombre&#95;estado</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Nombre del estado&#44; usado para definir el estado de un predio&#44; de un documento&#44; de un usuario&#44; etc&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;estado</td>
+		<td> ON id&#95;estado</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='geo_constr_mc' onclick='window.scrollTo(340, 750);return false;' style='cursor:pointer;'><h4 class='card-title'>Table geo_constr_mc</h4></a>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='geo_constr_mc.gid'>gid</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='geo_constr_mc.predial_const'>predial&#95;const</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
+		<td><a name='geo_constr_mc.the_geom'>the&#95;geom</a></td>
+		<td> geometry   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='geo_constr_mc.id_tipo_const'>id&#95;tipo&#95;const</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>gid&#95;mc</td>
+		<td> ON gid</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>ind&#95;geo&#95;constr&#95;mc</td>
+		<td> ON the&#95;geom</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_tipo_const</td>
+		<td > ( id&#95;tipo&#95;const ) ref <a href='#capa'>capa</a> (id&#95;capa) </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Constraints</th></tr>
+	<tr>
+		<td>&nbsp;</td><td> enforce_dims_the_geom </td><td> st&#95;ndims&#40;the&#95;geom&#41; &#61; 2 </td><td> </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td><td> enforce_geotype_the_geom </td><td> &#40;geometrytype&#40;the&#95;geom&#41; &#61; &#39;POLYGON&#39;&#58;&#58;text&#41; OR &#40;the&#95;geom IS NULL&#41; </td><td> </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td><td> enforce_srid_the_geom </td><td> st&#95;srid&#40;the&#95;geom&#41; &#61; 6249 </td><td> </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='libro' onclick='window.scrollTo(1330, 600);return false;' style='cursor:pointer;'><h4 class='card-title'>Table libro</h4></a>
+<p class="text-muted">Se crea esta tabla para almacenar la información de valor en libros y valor de adquisición de cada Bien Inmueble.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='libro.id_lib'>id&#95;lib</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='libro.predial_terreno_lib'>predial&#95;terreno&#95;lib</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número Predial del Terreno </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='libro.predial_construccion_lib'>predial&#95;construccion&#95;lib</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número Predial de la Construcción&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='libro.valor_adqu_terreno'>valor&#95;adqu&#95;terreno</a></td>
+		<td> float8   </td>
+		<td> Valor de Adquisición del componente terreno&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='libro.valor_terreno_lib'>valor&#95;terreno&#95;lib</a></td>
+		<td> float8   </td>
+		<td> Valor en Libros del Terreno&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='libro.valor_adqu_construccion'>valor&#95;adqu&#95;construccion</a></td>
+		<td> float8   </td>
+		<td> Valor Adquisición del componente Construcción </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='libro.valor_construccion_lib'>valor&#95;construccion&#95;lib</a></td>
+		<td> float8   </td>
+		<td> Valor en libros de la Construcción&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;lib</td>
+		<td> ON id&#95;lib</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_terreno_lib_fk</td>
+		<td > ( predial&#95;terreno&#95;lib ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='matricula' onclick='window.scrollTo(625, 345);return false;' style='cursor:pointer;'><h4 class='card-title'>Table matricula</h4></a>
+<p class="text-muted">Esta tabla almacena información de la matricula inmobiliaria de un Bien Inmueble.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='matricula.numero_mat'>numero&#95;mat</a></td>
+		<td> varchar&#40; 25 &#41;   </td>
+		<td> Número de la matricula Inmobiliaria </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.id_mat'>id&#95;mat</a></td>
+		<td> integer   </td>
+		<td> Número consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.fecha_mat'>fecha&#95;mat</a></td>
+		<td> date   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='matricula.ciudad_mat'>ciudad&#95;mat</a></td>
+		<td> varchar&#40; 4 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.estado_juridico_mat'>estado&#95;juridico&#95;mat</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.cantidad_gravamen_mat'>cantidad&#95;gravamen&#95;mat</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.procontra_mat'>procontra&#95;mat</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.otroprop_mat'>otroprop&#95;mat</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='matricula.tipoprop_mat'>tipoprop&#95;mat</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>numero&#95;mat</td>
+		<td> ON numero&#95;mat</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>ciudad_mat</td>
+		<td > ( ciudad&#95;mat ) ref <a href='#ciudad'>ciudad</a> (cod&#95;ciu) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='observacion' onclick='window.scrollTo(790, 45);return false;' style='cursor:pointer;'><h4 class='card-title'>Table observacion</h4></a>
+<p class="text-muted">Almacena las observaciones que se pueden llegar a realizar sobre un predio por cada usuario que las realice.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='observacion.id_obs'>id&#95;obs</a></td>
+		<td> integer   </td>
+		<td> Numero consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='observacion.predial_obs_fk'>predial&#95;obs&#95;fk</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con el número predial de la tabla prediomunicipio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='observacion.fecha_obs'>fecha&#95;obs</a></td>
+		<td> date   </td>
+		<td> Fecha en la que se realiza la observación&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='observacion.observacion_obs'>observacion&#95;obs</a></td>
+		<td> varchar&#40; 500 &#41;   </td>
+		<td> Observación realizada por los usuarios a un determinado predio&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='observacion.id_usu_fk'>id&#95;usu&#95;fk</a></td>
+		<td> varchar&#40; 12 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con el número de identificación de un usuario&#45; tabla Usuario&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='observacion.tipo_ob'>tipo&#95;ob</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla Tipo de Observacion &#40;Tipo&#95;observacion&#41;&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;obs</td>
+		<td> ON id&#95;obs</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_obs_fk</td>
+		<td > ( predial&#95;obs&#95;fk ) ref <a href='#terreno'>terreno</a> (identifica&#95;p) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>tipo_ob</td>
+		<td > ( tipo&#95;ob ) ref <a href='#tipo&#95;observacion'>tipo&#95;observacion</a> (id&#95;to) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_usu_fk</td>
+		<td > ( id&#95;usu&#95;fk ) ref <a href='#usuario'>usuario</a> (id&#95;usu) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='servicio_publico' onclick='window.scrollTo(175, 540);return false;' style='cursor:pointer;'><h4 class='card-title'>Table servicio_publico</h4></a>
+<p class="text-muted">Esta tabla almacena información de los servicios publicos conectados a cada predio del municipio, incluye suscriptor y medidor</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='servicio_publico.predial_sp'>predial&#95;sp</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número predial de la construcciónasociada </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='servicio_publico.suscriptor_sp'>suscriptor&#95;sp</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Número de Suscriptor </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='servicio_publico.medidor_acueducto_sp'>medidor&#95;acueducto&#95;sp</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número que identifica a cada medidor de acueducto </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='servicio_publico.id_sp'>id&#95;sp</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td> Número consecutivo que identifica de forma única cada registro de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='servicio_publico.medidor_energia_sp'>medidor&#95;energia&#95;sp</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número que identifica cada medidor de energía electrica&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>predial&#95;suscriptor&#95;medidor</td>
+		<td> ON predial&#95;sp&#44; suscriptor&#95;sp&#44; medidor&#95;acueducto&#95;sp</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>predial_sp_fk</td>
+		<td > ( predial&#95;sp ) ref <a href='#construccion'>construccion</a> (predial&#95;edificacion&#95;const) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='tercero' onclick='window.scrollTo(60, 315);return false;' style='cursor:pointer;'><h4 class='card-title'>Table tercero</h4></a>
+<p class="text-muted">Almacena información del Nombre de la entidad o persona que cede el predio, tambien de la persona o entidad que, bajo la figura de Comodato o Arrendamiento,  administra el predio o construcción.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='tercero.nit_tcro'>nit&#95;tcro</a></td>
+		<td> integer   </td>
+		<td> Número de identificación tributaria de la entidad o persona que cede el predio o que lo administra bajo la figura de Comodato o Arrendamiento&#46; </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='tercero.nombre_tcro'>nombre&#95;tcro</a></td>
+		<td> varchar&#40; 60 &#41;   </td>
+		<td> Nombre de la entidad o persona que cede el predio&#46;
+Nombre de la persona o entidad que Administra o tiene en uso el predio  o construcción bajo la figura de Comodato o Arrendamiento&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>nit&#95;cede</td>
+		<td> ON nit&#95;tcro</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='terreno' onclick='window.scrollTo(955, 180);return false;' style='cursor:pointer;'><h4 class='card-title'>Table terreno</h4></a>
+<p class="text-muted">Almacena información del Bien Raíz (Bien Inmueble -Terreno) de PROPIEDAD DEL MUNICIPIO DE SANTIAGO DE CALI, DESTINADOS AL USO PÚBLICO O FISCAL</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='terreno.identifica_p'>identifica&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Identificación o codigo propio del predio &#40;registro catastral&#41; </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='terreno.id_p'>id&#95;p</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td> Llave primaria que identifica de forma unica y consecutiva cada predio que se almacena en la Base de Datos </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.cedula_ppal_p'>cedula&#95;ppal&#95;p</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td> Indica si  la cédula catastral es la principal o no&#46;
+&#40;CISA&#45;SIGA&#41; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
+		<td><a name='terreno.id_catastro_p'>id&#95;catastro&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Código asignado al Bien Inmueble por la Oficina de Catastro Municipal </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.nupre_p'>nupre&#95;p</a></td>
+		<td> varchar&#40; 6 &#41;   </td>
+		<td> Este campo almacena el número predial registral a implementarse para el catastro multipropósito&#44; código de seis digitos en base 36 </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.dv_p'>dv&#95;p</a></td>
+		<td> varchar&#40; 1 &#41;   </td>
+		<td> campo que almacena el digito de verificación del nupre&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
+		<td><a name='terreno.codigonal_p'>codigonal&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número que identifica de forma única a cada predio a nivel nacional&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.codigounico_p'>codigounico&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Número que identifica de forma única a cada predio&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_proyecto_p'>id&#95;proyecto&#95;p</a></td>
+		<td> integer   </td>
+		<td> Llave foranea para el control y asociación unica del predio con el proyecto urbanístico al que pertenece </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.clase_inmueble_p'>clase&#95;inmueble&#95;p</a></td>
+		<td> integer   </td>
+		<td> Indica la Clase de Bien Inmueble respecto a si es Tereno&#44; Terreno y Construcción&#44; o Sometido al regimen de prop&#46; horizontal&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_cb_fk'>id&#95;cb&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la llave principal de la tabla Calidad de Bien&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_tb_fk'>id&#95;tb&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la llave principal de la tabla Tipo de Bien&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_tu_fk'>id&#95;tu&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla uso predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.direccion_p'>direccion&#95;p</a></td>
+		<td> varchar&#40; 90 &#41;   </td>
+		<td> Dirección del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.direccioncatastro_p'>direccioncatastro&#95;p</a></td>
+		<td> varchar&#40; 80 &#41;   </td>
+		<td> Dirección del predio tal como aparece en catastro&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.zona_p'>zona&#95;p</a></td>
+		<td> varchar&#40; 7 &#41;   </td>
+		<td> Zona en la que está ubicado el predio&#58; Urbana o Rural&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_barrio'>id&#95;barrio</a></td>
+		<td> varchar&#40; 254 &#41;   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla Barrios&#46; A través de la tabla barrios se puede saber la comuna y el estrato de un predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.pais_p'>pais&#95;p</a></td>
+		<td> varchar&#40; 3 &#41;   </td>
+		<td> Código segun el DANE del pais del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.ciudad_p'>ciudad&#95;p</a></td>
+		<td> varchar&#40; 4 &#41;   </td>
+		<td> Código según el DANE de la Ciudad del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.lind_norte_p'>lind&#95;norte&#95;p</a></td>
+		<td> varchar&#40; 400 &#41;   </td>
+		<td> Limite norte del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.lind_sur_p'>lind&#95;sur&#95;p</a></td>
+		<td> varchar&#40; 400 &#41;   </td>
+		<td> Limite sur del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.lind_este_p'>lind&#95;este&#95;p</a></td>
+		<td> varchar&#40; 400 &#41;   </td>
+		<td> Limite este del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.lind_oeste_p'>lind&#95;oeste&#95;p</a></td>
+		<td> varchar&#40; 400 &#41;   </td>
+		<td> Limite oeste del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.lind_adic_p'>lind&#95;adic&#95;p</a></td>
+		<td> varchar&#40; 600 &#41;   </td>
+		<td> Describe los linderos adicionales que para algunos predios&#44; figuren registrados en la escritura de cesión </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.matricula_ppal_p'>matricula&#95;ppal&#95;p</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td> Indica si la Matricula Inmobiliaria es la Principal o No&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.mat_inmob_p'>mat&#95;inmob&#95;p</a></td>
+		<td> varchar&#40; 25 &#41;   </td>
+		<td> Numero de matricula inmobiliaria del predio&#46; Número de registro&#44; asignado al certificado de tradición&#44; que  determina la propiedad de un bien inmueble y su situación jurídica </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_madq_fk'>id&#95;madq&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la llave principal de la tabla Modo&#95;adq &#40;Modo de Adquisición del predio&#41; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.nombre_areacedida_p'>nombre&#95;areacedida&#95;p</a></td>
+		<td> varchar&#40; 90 &#41;   </td>
+		<td> Palabras designada por el urbanizador para referirse a cada una de las cesiones&#44; con el fin de ser diferenciadas entre ellas&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.nit_cede_fk'>nit&#95;cede&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla cedente&#44; para identificar a la persona&#47;entidad que cedió el predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.derecho_p'>derecho&#95;p</a></td>
+		<td> float8   </td>
+		<td> Porcentaje de propiedad que tiene el municipio sobre el predio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.afecta_pot_p'>afecta&#95;pot&#95;p</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td> Indica si el Bien Inmueble tiene Afectaciones POT </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.asegurado_p'>asegurado&#95;p</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td> Indica si el Bien Inmueble esta Asegurado o No&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.suscep_vta_p'>suscep&#95;vta&#95;p</a></td>
+		<td> varchar&#40; 2 &#41;   </td>
+		<td> Indica si el predio es susceptible para la venta&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_depen_fk'>id&#95;depen&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la Tabla Dependencia&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.nombrecomun_p'>nombrecomun&#95;p</a></td>
+		<td> varchar&#40; 100 &#41;   </td>
+		<td> Nombre común del predio&#44; tal como se le conoce entre los habitantes del sector o comunidad caleña&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.area_cesion_p'>area&#95;cesion&#95;p</a></td>
+		<td> float8   </td>
+		<td> Medida de superficie&#44; que El urbanizador cedió como obligación urbanística y está consignada en la escritura y plano de  cesión del predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.area_actual_p'>area&#95;actual&#95;p</a></td>
+		<td> float8   </td>
+		<td> Medida de superficie&#44; obtenida a partir del levantamiento topográfico y los cálculos realizados&#44; según composición actual del terreno </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.area_sicat_p'>area&#95;sicat&#95;p</a></td>
+		<td> float8   </td>
+		<td> Área según catastro&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.area_terreno_p'>area&#95;terreno&#95;p</a></td>
+		<td> float8   </td>
+		<td> Área total del terreno&#46; Para cálculo del avalúo catastral componente terreno &#40;excepto zonas verdes que No se avalúan&#41;&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.fecha_estudio_titulo_p'>fecha&#95;estudio&#95;titulo&#95;p</a></td>
+		<td> date   </td>
+		<td> Indica la fecha en la que se realizó el estudio jurídico al bien inmueble </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.num_activofijo_p'>num&#95;activofijo&#95;p</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Registro contable&#44; que determina el alta de los bienes inmuebles en los Estados Financieros del Municipio&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.codigo_zhg_p'>codigo&#95;zhg&#95;p</a></td>
+		<td> varchar&#40; 12 &#41;   </td>
+		<td> Código zona geográfica&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.cuenta_terreno_p'>cuenta&#95;terreno&#95;p</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td> llave foránea que relaciona esta tabla con la tabla cuenta&#44; indica el número de la cuenta del terreno &#40;SAP&#41; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.propietario_antes_p'>propietario&#95;antes&#95;p</a></td>
+		<td> integer   </td>
+		<td> Indica el Nombre del Propietario anterior del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.actualiza_sap'>actualiza&#95;sap</a></td>
+		<td> date   </td>
+		<td> Este Campo almacena la fecha en la que el registro fue actualizado o creado en el sistema SAP&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.impto_predial_p'>impto&#95;predial&#95;p</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Indica el estado del Impuesto Predial del Bien Inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_shp_p'>id&#95;shp&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Este campo relaciona esta tabla con la tabla geo&#95;predio </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.fecha_levantamiento_p'>fecha&#95;levantamiento&#95;p</a></td>
+		<td> varchar&#40; 15 &#41;   </td>
+		<td> Fecha aproximada en la que se realiza el levantamiento Topográfico&#46; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_estado_fk'>id&#95;estado&#95;fk</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla estado&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.fecha_creacion_p'>fecha&#95;creacion&#95;p</a></td>
+		<td> date   DEFAULT now() </td>
+		<td> Este Campo almacena la fecha en que crea el registro </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.fecha_modifica_p'>fecha&#95;modifica&#95;p</a></td>
+		<td> date   </td>
+		<td> Este campo almacena la ultima fecha en que se modifica el registro&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.migracion_siga'>migracion&#95;siga</a></td>
+		<td> date   </td>
+		<td> Este campo almacena la fecha en que el registro fue reportado o cargado en el aplicativo SIGA &#40;Sistema de Información y Gestión de Activos&#44; CISA &#45;Central de Inversiones S&#46;A&#46;&#41; </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='terreno.id_capa'>id&#95;capa</a></td>
+		<td> integer   </td>
+		<td> Llave foránea que relaciona esta tabla con la tabla Capa </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.doc_calidad_bien'>doc&#95;calidad&#95;bien</a></td>
+		<td> varchar&#40; 150 &#41;   </td>
+		<td> Este campo almacena la ruta donde está almacenado en el Servidor&#44; el documento en pdf del último Concepto de Calidad del Bien&#46;&#40;Nuevo Formato aprobado MAJA01&#46;03&#46;03&#46;18&#46;P14&#46;F02 y MAJA01&#46;03&#46;03&#46;18&#46;P14&#46;F03 del 13 de Junio&#47;2018&#41; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.fecha_expedicion_cb_p'>fecha&#95;expedicion&#95;cb&#95;p</a></td>
+		<td> date   </td>
+		<td> Almacena la fecha de expedición del documento &quot;Respuesta Calidad del Bien&quot; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.orfeo_cb_p'>orfeo&#95;cb&#95;p</a></td>
+		<td> varchar&#40; 30 &#41;   </td>
+		<td> Este campo muestra el Número de Orfeo con el que se haya dado un Concepto de Calidad del Bien&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.documento_p'>documento&#95;p</a></td>
+		<td> varchar&#40; 150 &#41;   </td>
+		<td> Este campo almacena la ruta en el servidor&#44; donde está guardado el expediente físico escaneado en formato PDF </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.foto_p'>foto&#95;p</a></td>
+		<td> varchar&#40; 150 &#41;   </td>
+		<td> Este campo almacena la ruta en el servidor&#44; donde esta guardada la fotografía del bien inmueble&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.ubica_archivo_p'>ubica&#95;archivo&#95;p</a></td>
+		<td> varchar&#40; 60 &#41;   </td>
+		<td> Ubicación donde se encuentra guardado el expediente o carpetas dentro del archivo físico&#46; &#40;en el archivador&#41; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='terreno.mensaje_p'>mensaje&#95;p</a></td>
+		<td> varchar&#40; 120 &#41;   </td>
+		<td> En este campo se almacenan algunos mensajes que se mostraran en el Geovisor de la IDESC </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>identifica&#95;pk</td>
+		<td> ON identifica&#95;p</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>id&#95;catastro&#95;t</td>
+		<td> ON id&#95;catastro&#95;p</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>id&#95;shp&#95;fk&#95;uni</td>
+		<td> ON id&#95;shp&#95;p</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>npn&#95;p</td>
+		<td> ON codigonal&#95;p</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_barrio_fk</td>
+		<td > ( id&#95;barrio ) ref <a href='#barrios'>barrios</a> (id&#95;barrio) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_cb_fk</td>
+		<td > ( id&#95;cb&#95;fk ) ref <a href='#calidad&#95;bien'>calidad&#95;bien</a> (id&#95;cb) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_capa_fk</td>
+		<td > ( id&#95;capa ) ref <a href='#capa'>capa</a> (id&#95;capa) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>ciudad_fk</td>
+		<td > ( ciudad&#95;p ) ref <a href='#ciudad'>ciudad</a> (cod&#95;ciu) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>clase_inmueble_fk</td>
+		<td > ( clase&#95;inmueble&#95;p ) ref <a href='#clase&#95;inmueble'>clase&#95;inmueble</a> (id&#95;clase) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>cuenta_t</td>
+		<td > ( cuenta&#95;terreno&#95;p ) ref <a href='#cuenta'>cuenta</a> (num&#95;cuenta) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_depe_fk</td>
+		<td > ( id&#95;depen&#95;fk ) ref <a href='#dependencia'>dependencia</a> (id&#95;depen) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_estado_fk</td>
+		<td > ( id&#95;estado&#95;fk ) ref <a href='#estado'>estado</a> (id&#95;estado) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_shp_fk</td>
+		<td > ( id&#95;shp&#95;p ) ref <a href='#geo&#95;predio&#95;mc'>geo&#95;predio&#95;mc</a> (id&#95;shp) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>mat_inmob_fk</td>
+		<td > ( mat&#95;inmob&#95;p ) ref <a href='#matricula'>matricula</a> (numero&#95;mat) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_madq_fk</td>
+		<td > ( id&#95;madq&#95;fk ) ref <a href='#modo&#95;adq'>modo&#95;adq</a> (id&#95;madq) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>nit_cedente_fk</td>
+		<td > ( nit&#95;cede&#95;fk ) ref <a href='#tercero'>tercero</a> (nit&#95;tcro) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>prop_antes_fk</td>
+		<td > ( propietario&#95;antes&#95;p ) ref <a href='#tercero'>tercero</a> (nit&#95;tcro) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_tb_fk</td>
+		<td > ( id&#95;tb&#95;fk ) ref <a href='#tipo&#95;bien'>tipo&#95;bien</a> (id&#95;tb) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_tu_fk</td>
+		<td > ( id&#95;tu&#95;fk ) ref <a href='#uso&#95;predio'>uso&#95;predio</a> (id&#95;tu) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>id_proyecto_p_fk</td>
+		<td > ( id&#95;proyecto&#95;p ) ref <a href='#proyecto'>proyecto</a> (id&#95;pro) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='tipo_bien' onclick='window.scrollTo(685, 570);return false;' style='cursor:pointer;'><h4 class='card-title'>Table tipo_bien</h4></a>
+<p class="text-muted">Almacen información de los tipos de bien segun la clasificación que se le da a un predio de acuerdo a su composición. (via publica, lote, construcción, etc).</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='tipo_bien.id_tb'>id&#95;tb</a></td>
+		<td> integer   </td>
+		<td> Numero consecutivo que identifica de forma única cada registro de esta tabla </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='tipo_bien.nombre_tb'>nombre&#95;tb</a></td>
+		<td> varchar&#40; 40 &#41;   </td>
+		<td> Nombre del  tipo de bien&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;tb</td>
+		<td> ON id&#95;tb</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='tipo_contrato' onclick='window.scrollTo(60, 555);return false;' style='cursor:pointer;'><h4 class='card-title'>Table tipo_contrato</h4></a>
+<p class="text-muted">Almacena información a cerca del tipo de contrato que se establece entre el municipio y un tercero (Comodato, arrendamiento, etc).</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='tipo_contrato.id_tc'>id&#95;tc</a></td>
+		<td> integer   </td>
+		<td> Llave primaria que enumera de forma unica y consecutiva cada tipo de contrato </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='tipo_contrato.nombre_tc'>nombre&#95;tc</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Nombre del tipo de contrato </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;tc</td>
+		<td> ON id&#95;tc</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='tipo_observacion' onclick='window.scrollTo(625, 45);return false;' style='cursor:pointer;'><h4 class='card-title'>Table tipo_observacion</h4></a>
+<p class="text-muted">Esta tabla almacena informacion del tipo de observacion que se da sobre un predio. Se relaciona con la tabla Observación.</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='tipo_observacion.id_to'>id&#95;to</a></td>
+		<td> integer   </td>
+		<td> Llave primaria que identifica de forma unica y consecutiva los registros de esta tabla&#46; </td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a name='tipo_observacion.nombre_to'>nombre&#95;to</a></td>
+		<td> varchar&#40; 50 &#41;   </td>
+		<td> Nombre del tipo de Observacion&#46; </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>id&#95;to</td>
+		<td> ON id&#95;to</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br/><br/>
+<div class='card'><div class='card-block'><a name='uso_predio' onclick='window.scrollTo(685, 765);return false;' style='cursor:pointer;'><h4 class='card-title'>Table uso_predio</h4></a>
+<p class="text-muted">Almacena información de los diferentes usos que se le da a un predio del municipio</p>
+<table class='table-sm table-bordered'>
+<thead>
+<tr><th>Indexes</th><th>Field Name</th><th>Data Type</th><th>Description</th></tr></thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg><svg width='14' height='14'><use xlink:href='#ref'/></svg></td>
+		<td><a name='uso_predio.id_tu'>id&#95;tu</a></td>
+		<td> integer   </td>
+		<td> Llave primaria que identifica de forma unica y consecutiva cada uno de los Usos que se crean en la base de datos </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='uso_predio.nombre_tu'>nombre&#95;tu</a></td>
+		<td> varchar&#40; 20 &#41;   </td>
+		<td> Nombre del uso </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>Id&#95;uso</td>
+		<td> ON id&#95;tu</td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<p align='right'><a href='http://www.cali.gov.co' style='color:#aaa'>Alcaldía de Santiago de Cali - UAEGBS</a></p></body></html>

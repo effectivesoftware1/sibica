@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_91fd1c25e667990cc7e76a2ec8f05107c4790a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_aad200726a49772e5dd174c8d8ea287d700e93ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.github.lguipeng/AnimCheckBox/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="084070f83cad86a9b0bf6b3db1404d2058568d30">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.github.lguipeng-AnimCheckBox-1.0.0_6abea147617d7df8c6bb379a1be3822c4b40f32d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.0.1_0b99da5a5a6258428f2f03cc5720f9b87c5cdced.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_a2206ea63b5ffe3fc2bce6ec380cc6274edb17a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/okio-1.8.0_792b38e260c54ef0de3adc9745ac6e9a10177d98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_2ebe68eb0bbc747e8e34364ef4984e276c4fe3da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.1_91d4c2252f18d4069a213cf5fe873d41c3ba2d83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_dd1583d91c1eb7ef7a2fd2033e202ae3e341d2ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_cc2e50fe24a3015dfcae95023c66a753485e3f07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_b56898d4f29b53be42bc29b0fb720445c81f8a66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/glide-3.7.0_6d2952cbc6e8286c990a6d57aa6227fadc12bb86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_48d479c6482fb2d726b4252766a8556ffcd3635b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_37f4e7d691d5141d6b8b7bfa73ab2133bd30974e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/gson-2.7_5f30806a758957073beaa2e8e8eda8d832520352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f1e4da0247791f9058ed3269ef94b896c6ba677b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_fbf6ac9ef464e1e847585db4f6a5901d694e0b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_ea1eee88a266ab828184f3d28b30053c098b25fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_8d5198c26cc20a94c705e58f96440c3c8ca285f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_c7f57cf11721a18f258572d9ccfe2d4bc012f4dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_6f6c21f1608565803a687e66050d1c701dbcce70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.github.nguyenhoanglam/ImagePicker/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f64eb65137748aa084d8e746b08911102b82a25d">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.github.nguyenhoanglam-ImagePicker-1.1.3_30b9046bc09cde2351e858fe7be202f1235cc8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_335459173f9a3e769be643d1a202bcb0d4e2bbf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_3a4df258d41097718c5602e9abc83844b552368c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_887244130efba5d02c9a90c4c3dccff4d807bbd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c57b69f918f799ba0fbcac40a05be8d537995694.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.maps.android-android-maps-utils-0.4.4_2c16b668f83de8d56d73fb4f30c686dbd0ec44fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_59aa035b9f3a2eb31e9c1548acc7d40606ade134.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_6a6576b92cd2406afcccb4825d54ed6b0a5153cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_34b92a920f52aec0a5183895d7c3cda171fdcc42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_38848a954e9abca481892a0f123f5fe853490939.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_722c9a22bb7e188a6f7ac8ecb49e6a10fab38133.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_09bd1179f73f840704c2cd895fd1c90900aa4e71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/javpoblano/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
+        <dex dex="/home/javpoblano/Projects/alcaldia-cali/app/build/intermediates/pre-dexed/debug/converter-scalars-2.1.0_0912be365b2e70381e89d95e211bb0624b2c81ac.jar" />
+    </item>
+
+</items>

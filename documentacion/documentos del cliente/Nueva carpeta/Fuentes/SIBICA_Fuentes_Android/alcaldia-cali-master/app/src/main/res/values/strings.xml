@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SIBICA</string>
+    <string name="title_activity_main">SIBICA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
+    <string name="title_activity_report">Reporte Nuevo</string>
+
+
+    <string name="base_url">http://www.cali.gov.co/</string>
+
+    <string name="predioParcialPropiedad">#FFFF00</string>
+    <string name="predioParcialVenta">#FF8000</string>
+    <string name="predioPropiedadVenta">#FF0000</string>
+    <string name="predioPropiedad">#800080</string>
+
+    <string name="construccion">#6A6A6A</string>
+    <string name="zonaVerde">#00FF00</string>
+    <string name="viaPublica">#FA045D</string>
+
+    <string name="leyenda">La información aquí consignada NO corresponde a la totalidad de predios de propiedad del municipio de Santiago de Cali. Se irá actualizando periódicamente en el Geovisor SIBICA, de acuerdo a la verificación del inventario de Bienes Inmuebles de propiedad del municipio de Santiago de Cali.</string>
+</resources>

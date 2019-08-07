@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1485111618948,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-225,text,false,,155,191,359,359,167,0,38
+1485111618947,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-224,text,false,,155,191,359,359,168,0,39
+1485111618946,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-223,text,false,,155,191,358,358,161,0,39
+1485111618945,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-222,text,false,,155,191,358,358,162,0,35
+1485111618949,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-226,text,false,,155,191,358,358,158,0,37
+1485111618940,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-217,text,false,,155,191,358,358,168,0,40
+1485111618942,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-220,text,false,,155,191,358,358,166,0,37
+1485111618940,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-218,text,false,,155,191,358,358,168,0,39
+1485111618941,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-219,text,false,,155,191,358,358,166,0,38
+1485111618951,156,Petición HTTP,502,Bad Gateway,Alcaldia 1-228,text,false,,155,191,358,358,156,0,35
+1485111618943,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-221,text,false,,155,191,358,358,164,0,37
+1485111618950,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-227,text,false,,155,191,358,358,157,0,36
+1485111618959,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-235,text,false,,155,191,365,365,167,0,37
+1485111618952,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-229,text,false,,155,191,364,364,175,0,34
+1485111618957,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-233,text,false,,155,191,364,364,170,0,39
+1485111618958,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-234,text,false,,155,191,362,362,169,0,38
+1485111618963,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-239,text,false,,155,191,362,362,164,0,36
+1485111618960,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-236,text,false,,155,191,362,362,167,0,36
+1485111618961,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-237,text,false,,155,191,360,360,167,0,36
+1485111618962,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-238,text,false,,155,191,359,359,166,0,35
+1485111618983,149,Petición HTTP,502,Bad Gateway,Alcaldia 1-255,text,false,,155,191,362,362,149,0,53
+1485111618998,138,Petición HTTP,502,Bad Gateway,Alcaldia 1-260,text,false,,155,191,364,364,138,0,38
+1485111618979,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-254,text,false,,155,191,364,364,157,0,58
+1485111618974,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-249,text,false,,155,191,362,362,162,0,63
+1485111618995,142,Petición HTTP,502,Bad Gateway,Alcaldia 1-259,text,false,,155,191,362,362,142,0,42
+1485111618975,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-250,text,false,,155,191,362,362,162,0,62
+1485111618978,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-253,text,false,,155,191,364,364,160,0,59
+1485111618972,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-247,text,false,,155,191,364,364,166,0,65
+1485111619001,137,Petición HTTP,502,Bad Gateway,Alcaldia 1-263,text,false,,155,191,364,364,137,0,36
+1485111618973,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-248,text,false,,155,191,364,364,166,0,65
+1485111618976,163,Petición HTTP,502,Bad Gateway,Alcaldia 1-251,text,false,,155,191,358,358,163,0,62
+1485111618999,140,Petición HTTP,502,Bad Gateway,Alcaldia 1-261,text,false,,155,191,358,358,140,0,38
+1485111618992,147,Petición HTTP,502,Bad Gateway,Alcaldia 1-257,text,false,,155,191,359,359,147,0,46
+1485111618989,150,Petición HTTP,502,Bad Gateway,Alcaldia 1-256,text,false,,155,191,358,358,150,0,47
+1485111619000,139,Petición HTTP,502,Bad Gateway,Alcaldia 1-262,text,false,,155,191,356,356,139,0,38
+1485111618994,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-258,text,false,,155,191,361,361,154,0,41
+1485111618970,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-245,text,false,,155,191,361,361,179,0,69
+1485111618977,172,Petición HTTP,502,Bad Gateway,Alcaldia 1-252,text,false,,155,191,361,361,172,0,61
+1485111618971,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-246,text,false,,155,191,361,361,178,0,68
+1485111618967,190,Petición HTTP,502,Bad Gateway,Alcaldia 1-243,text,false,,155,191,365,365,190,0,72
+1485111618968,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-244,text,false,,155,191,364,364,189,0,71
+1485111618966,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-242,text,false,,155,191,363,363,192,0,73
+1485111618964,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-240,text,false,,155,191,362,362,194,0,76
+1485111618965,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-241,text,false,,155,191,363,363,194,0,75
+1485111618860,301,Petición HTTP,502,Bad Gateway,Alcaldia 1-144,text,false,,155,191,364,364,301,0,30
+1485111618851,313,Petición HTTP,502,Bad Gateway,Alcaldia 1-142,text,false,,155,191,366,366,313,0,37
+1485111619035,130,Petición HTTP,502,Bad Gateway,Alcaldia 1-286,text,false,,155,191,366,366,130,0,32
+1485111619034,131,Petición HTTP,502,Bad Gateway,Alcaldia 1-289,text,false,,155,191,365,365,131,0,33
+1485111619033,132,Petición HTTP,502,Bad Gateway,Alcaldia 1-291,text,false,,155,191,364,364,132,0,34
+1485111619035,131,Petición HTTP,502,Bad Gateway,Alcaldia 1-288,text,false,,155,191,364,364,131,0,33
+1485111619035,138,Petición HTTP,502,Bad Gateway,Alcaldia 1-285,text,false,,155,191,369,369,138,0,33
+1485111619034,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-293,text,false,,155,191,375,375,146,0,34
+1485111619035,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-287,text,false,,155,191,374,374,146,0,33
+1485111619035,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-284,text,false,,155,191,374,374,146,0,37
+1485111619033,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-290,text,false,,155,191,374,374,148,0,35
+1485111619035,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-294,text,false,,155,191,374,374,146,0,33
+1485111619036,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-295,text,false,,155,191,378,378,152,0,36
+1485111619037,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-279,text,false,,155,191,378,378,152,0,35
+1485111619038,153,Petición HTTP,502,Bad Gateway,Alcaldia 1-274,text,false,,155,191,376,376,153,0,35
+1485111619035,156,Petición HTTP,502,Bad Gateway,Alcaldia 1-283,text,false,,155,191,376,376,156,0,33
+1485111619036,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-292,text,false,,155,191,376,376,155,0,37
+1485111619037,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-296,text,false,,155,191,376,376,154,0,36
+1485111619036,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-281,text,false,,155,191,376,376,155,0,37
+1485111619036,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-280,text,false,,155,191,376,376,155,0,37
+1485111619037,153,Petición HTTP,502,Bad Gateway,Alcaldia 1-276,text,false,,155,191,376,376,153,0,35
+1485111619038,159,Petición HTTP,502,Bad Gateway,Alcaldia 1-297,text,false,,155,191,373,373,159,0,39
+1485111619036,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-282,text,false,,155,191,377,377,162,0,40
+1485111619038,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-273,text,false,,155,191,377,377,160,0,39
+1485111619038,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-271,text,false,,155,191,375,375,160,0,44
+1485111619037,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-275,text,false,,155,191,376,376,162,0,40
+1485111619039,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-268,text,false,,155,191,375,375,160,0,38
+1485111619039,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-270,text,false,,155,191,385,385,173,0,47
+1485111619046,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-266,text,false,,155,191,384,384,166,0,51
+1485111619045,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-299,text,false,,155,191,384,384,167,0,52
+1485111619044,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-302,text,false,,155,191,384,384,168,0,42
+1485111619043,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-298,text,false,,155,191,385,385,169,0,43
+1485111619046,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-305,text,false,,155,191,383,383,167,0,51
+1485111619045,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-301,text,false,,155,191,383,383,168,0,41
+1485111619040,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-264,text,false,,155,191,383,383,173,0,46
+1485111619044,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-278,text,false,,155,191,383,383,169,0,42
+1485111619045,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-300,text,false,,155,191,383,383,168,0,52
+1485111619041,172,Petición HTTP,502,Bad Gateway,Alcaldia 1-277,text,false,,155,191,383,383,172,0,44
+1485111619054,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-312,text,false,,155,191,387,387,173,0,43
+1485111619047,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-272,text,false,,155,191,387,387,181,0,50
+1485111619061,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-318,text,false,,155,191,387,387,167,0,36
+1485111619046,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-265,text,false,,155,191,387,387,184,0,51
+1485111619052,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-310,text,false,,155,191,388,388,178,0,45
+1485111619046,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-304,text,false,,155,191,397,397,196,0,52
+1485111619050,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-308,text,false,,155,191,397,397,194,0,49
+1485111619048,200,Petición HTTP,502,Bad Gateway,Alcaldia 1-306,text,false,,155,191,400,400,200,0,51
+1485111619057,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-315,text,false,,155,191,399,399,192,0,46
+1485111619056,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-314,text,false,,155,191,398,398,193,0,47
+1485111619059,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-317,text,false,,155,191,397,397,191,0,44
+1485111619058,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-316,text,false,,155,191,398,398,193,0,39
+1485111619047,205,Petición HTTP,502,Bad Gateway,Alcaldia 1-303,text,false,,155,191,398,398,205,0,51
+1485111619055,197,Petición HTTP,502,Bad Gateway,Alcaldia 1-313,text,false,,155,191,398,398,197,0,43
+1485111619065,187,Petición HTTP,502,Bad Gateway,Alcaldia 1-322,text,false,,155,191,398,398,187,0,33
+1485111619046,206,Petición HTTP,502,Bad Gateway,Alcaldia 1-269,text,false,,155,191,398,398,206,0,52
+1485111619051,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-309,text,false,,155,191,398,398,201,0,48
+1485111619049,203,Petición HTTP,502,Bad Gateway,Alcaldia 1-307,text,false,,155,191,398,398,203,0,49
+1485111619053,199,Petición HTTP,502,Bad Gateway,Alcaldia 1-311,text,false,,155,191,398,398,199,0,44
+1485111619068,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-324,text,false,,155,191,398,398,184,0,35
+1485111619046,206,Petición HTTP,502,Bad Gateway,Alcaldia 1-267,text,false,,155,191,398,398,206,0,52
+1485111619063,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-320,text,false,,155,191,398,398,188,0,36
+1485111619071,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-327,text,false,,155,191,394,394,189,0,44
+1485111619072,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-328,text,false,,155,191,395,395,189,0,43
+1485111619080,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-330,text,false,,155,191,397,397,181,0,48
+1485111619066,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-323,text,false,,155,191,395,395,196,0,42
+1485111619073,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-329,text,false,,155,191,396,396,189,0,42
+1485111619064,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-321,text,false,,155,191,397,397,198,0,40
+1485111619069,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-326,text,false,,155,191,396,396,194,0,47
+1485111619068,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-325,text,false,,155,191,396,396,195,0,48
+1485111619062,200,Petición HTTP,502,Bad Gateway,Alcaldia 1-319,text,false,,155,191,396,396,200,0,46
+1485111619093,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-346,text,false,,155,191,402,402,184,0,44
+1485111619093,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-344,text,false,,155,191,402,402,185,0,44
+1485111619094,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-348,text,false,,155,191,402,402,184,0,42
+1485111619095,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-349,text,false,,155,191,401,401,184,0,42
+1485111619094,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-347,text,false,,155,191,401,401,186,0,43
+1485111619087,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-342,text,false,,155,191,401,401,193,0,41
+1485111619086,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-341,text,false,,155,191,400,400,195,0,42
+1485111619088,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-343,text,false,,155,191,406,406,201,0,49
+1485111619116,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-364,text,false,,155,191,406,406,173,0,43
+1485111619115,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-361,text,false,,155,191,406,406,175,0,41
+1485111619115,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-366,text,false,,155,191,406,406,175,0,44
+1485111619094,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-345,text,false,,155,191,406,406,196,0,46
+1485111619096,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-350,text,false,,155,191,405,405,194,0,44
+1485111619098,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-351,text,false,,155,191,403,403,193,0,42
+1485111619115,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-360,text,false,,155,191,403,403,178,0,40
+1485111619115,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-367,text,false,,155,191,403,403,178,0,44
+1485111619105,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-358,text,false,,155,191,403,403,189,0,51
+1485111619116,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-368,text,false,,155,191,403,403,178,0,43
+1485111619117,183,Petición HTTP,502,Bad Gateway,Alcaldia 1-369,text,false,,155,191,404,404,183,0,43
+1485111619116,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-359,text,false,,155,191,404,404,184,0,45
+1485111619119,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-371,text,false,,155,191,403,403,182,0,51
+1485111619115,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-362,text,false,,155,191,403,403,186,0,40
+1485111619116,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-365,text,false,,155,191,403,403,185,0,45
+1485111619111,190,Petición HTTP,502,Bad Gateway,Alcaldia 1-363,text,false,,155,191,401,401,190,0,50
+1485111619138,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-386,text,false,,155,191,420,420,186,0,50
+1485111619138,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-387,text,false,,155,191,420,420,186,0,53
+1485111619135,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-385,text,false,,155,191,420,420,189,0,55
+1485111619131,199,Petición HTTP,502,Bad Gateway,Alcaldia 1-382,text,false,,155,191,421,421,199,0,39
+1485111619130,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-381,text,false,,155,191,422,422,201,0,40
+1485111619129,202,Petición HTTP,502,Bad Gateway,Alcaldia 1-378,text,false,,155,191,422,422,202,0,41
+1485111619118,214,Petición HTTP,502,Bad Gateway,Alcaldia 1-370,text,false,,155,191,422,422,213,0,52
+1485111619132,200,Petición HTTP,502,Bad Gateway,Alcaldia 1-383,text,false,,155,191,422,422,200,0,38
+1485111619134,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-384,text,false,,155,191,422,422,198,0,36
+1485111619156,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-404,text,false,,155,191,422,422,176,0,35
+1485111619130,202,Petición HTTP,502,Bad Gateway,Alcaldia 1-379,text,false,,155,191,422,422,202,0,40
+1485111619139,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-389,text,false,,155,191,422,422,193,0,52
+1485111619162,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-410,text,false,,155,191,420,420,171,0,49
+1485111619159,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-406,text,false,,155,191,420,420,174,0,32
+1485111619165,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-412,text,false,,155,191,420,420,168,0,46
+1485111619160,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-408,text,false,,155,191,418,418,174,0,51
+1485111619158,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-405,text,false,,155,191,419,419,178,0,39
+1485111619159,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-407,text,false,,155,191,418,418,177,0,38
+1485111619164,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-411,text,false,,155,191,418,418,177,0,47
+1485111619177,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-424,text,false,,155,191,421,421,170,0,38
+1485111619166,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-413,text,false,,155,191,421,421,182,0,45
+1485111619180,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-426,text,false,,155,191,420,420,168,0,35
+1485111619161,187,Petición HTTP,502,Bad Gateway,Alcaldia 1-409,text,false,,155,191,420,420,187,0,50
+1485111619167,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-414,text,false,,155,191,421,421,182,0,47
+1485111619203,165,Petición HTTP,502,Bad Gateway,Alcaldia 1-448,text,false,,155,191,422,422,165,0,50
+1485111619204,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-449,text,false,,155,191,422,422,164,0,49
+1485111619186,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-432,text,false,,155,191,422,422,182,0,46
+1485111619185,183,Petición HTTP,502,Bad Gateway,Alcaldia 1-431,text,false,,155,191,422,422,183,0,47
+1485111619188,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-434,text,false,,155,191,422,422,180,0,45
+1485111619202,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-447,text,false,,155,191,422,422,166,0,39
+1485111619182,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-428,text,false,,155,191,422,422,186,0,50
+1485111619187,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-433,text,false,,155,191,422,422,181,0,45
+1485111619183,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-429,text,false,,155,191,422,422,185,0,48
+1485111619178,190,Petición HTTP,502,Bad Gateway,Alcaldia 1-425,text,false,,155,191,422,422,190,0,37
+1485111619176,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-423,text,false,,155,191,422,422,192,0,39
+1485111619184,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-430,text,false,,155,191,422,422,184,0,47
+1485111619182,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-427,text,false,,155,191,422,422,186,0,47
+1485111619207,190,Petición HTTP,502,Bad Gateway,Alcaldia 1-452,text,false,,155,191,446,446,190,0,46
+1485111619209,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-454,text,false,,155,191,446,446,188,0,45
+1485111619210,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-455,text,false,,155,191,446,446,188,0,43
+1485111619206,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-451,text,false,,155,191,446,446,193,0,48
+1485111619201,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-446,text,false,,155,191,446,446,198,0,54
+1485111619205,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-450,text,false,,155,191,446,446,195,0,50
+1485111619208,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-453,text,false,,155,191,446,446,192,0,46
+1485111619232,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-475,text,false,,155,191,448,448,174,0,38
+1485111619231,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-474,text,false,,155,191,447,447,176,0,39
+1485111619232,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-471,text,false,,155,191,446,446,175,0,38
+1485111619233,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-476,text,false,,155,191,445,445,175,0,37
+1485111619241,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-483,text,false,,155,191,444,444,167,0,43
+1485111619237,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-480,text,false,,155,191,443,443,171,0,50
+1485111619215,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-459,text,false,,155,191,443,443,194,0,49
+1485111619211,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-456,text,false,,155,191,443,443,198,0,46
+1485111619227,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-470,text,false,,155,191,442,442,182,0,41
+1485111619214,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-457,text,false,,155,191,442,442,196,0,43
+1485111619214,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-458,text,false,,155,191,442,442,196,0,43
+1485111619216,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-460,text,false,,155,191,442,442,194,0,54
+1485111619262,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-501,text,false,,155,191,453,453,161,0,36
+1485111619239,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-481,text,false,,155,191,453,453,184,0,49
+1485111619242,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-484,text,false,,155,191,453,453,182,0,46
+1485111619250,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-490,text,false,,155,191,453,453,174,0,40
+1485111619245,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-487,text,false,,155,191,450,450,179,0,43
+1485111619240,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-482,text,false,,155,191,450,450,184,0,48
+1485111619236,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-479,text,false,,155,191,449,449,188,0,52
+1485111619244,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-486,text,false,,155,191,447,447,180,0,46
+1485111619263,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-503,text,false,,155,191,447,447,161,0,36
+1485111619235,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-478,text,false,,155,191,445,445,189,0,54
+1485111619247,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-489,text,false,,155,191,445,445,178,0,43
+1485111619234,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-477,text,false,,155,191,445,445,191,0,57
+1485111619246,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-488,text,false,,155,191,445,445,179,0,44
+1485111619262,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-500,text,false,,155,191,446,446,169,0,37
+1485111619243,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-485,text,false,,155,191,447,447,191,0,45
+1485111619255,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-496,text,false,,155,191,448,448,180,0,44
+1485111619261,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-499,text,false,,155,191,449,449,175,0,38
+1485111619261,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-498,text,false,,155,191,450,450,176,0,38
+1485111619265,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-505,text,false,,155,191,450,450,173,0,47
+1485111619261,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-497,text,false,,155,191,451,451,177,0,38
+1485111619270,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-510,text,false,,155,191,452,452,178,0,45
+1485111619269,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-509,text,false,,155,191,452,452,179,0,46
+1485111619264,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-504,text,false,,155,191,453,453,185,0,49
+1485111619271,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-511,text,false,,155,191,452,452,178,0,44
+1485111619268,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-508,text,false,,155,191,452,452,181,0,48
+1485111619266,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-506,text,false,,155,191,452,452,182,0,49
+1485111619275,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-514,text,false,,155,191,453,453,180,0,40
+1485111619264,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-502,text,false,,155,191,452,452,192,0,50
+1485111619277,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-516,text,false,,155,191,452,452,180,0,54
+1485111619273,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-512,text,false,,155,191,451,451,185,0,43
+1485111619276,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-515,text,false,,155,191,450,450,182,0,39
+1485111619287,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-525,text,false,,155,191,450,450,171,0,45
+1485111619274,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-513,text,false,,155,191,448,448,184,0,42
+1485111619267,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-507,text,false,,155,191,448,448,191,0,49
+1485111619290,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-527,text,false,,155,191,452,452,176,0,51
+1485111619293,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-530,text,false,,155,191,452,452,173,0,55
+1485111619288,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-526,text,false,,155,191,452,452,178,0,60
+1485111619291,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-528,text,false,,155,191,452,452,174,0,50
+1485111619286,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-524,text,false,,155,191,453,453,180,0,46
+1485111619291,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-529,text,false,,155,191,452,452,174,0,50
+1485111619315,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-550,text,false,,155,191,456,456,161,0,53
+1485111619318,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-552,text,false,,155,191,456,456,158,0,50
+1485111619316,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-551,text,false,,155,191,456,456,160,0,52
+1485111619319,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-553,text,false,,155,191,455,455,158,0,49
+1485111619314,163,Petición HTTP,502,Bad Gateway,Alcaldia 1-549,text,false,,155,191,455,455,163,0,54
+1485111619321,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-555,text,false,,155,191,453,453,157,0,50
+1485111619320,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-554,text,false,,155,191,452,452,158,0,50
+1485111619322,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-556,text,false,,155,191,451,451,157,0,49
+1485111619297,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-532,text,false,,155,191,452,452,184,0,72
+1485111619327,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-561,text,false,,155,191,463,463,166,0,44
+1485111619325,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-559,text,false,,155,191,462,462,168,0,47
+1485111619326,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-557,text,false,,155,191,462,462,167,0,46
+1485111619326,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-558,text,false,,155,191,462,462,167,0,54
+1485111619326,167,Petición HTTP,502,Bad Gateway,Alcaldia 1-560,text,false,,155,191,462,462,167,0,45
+1485111619331,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-562,text,false,,155,191,462,462,162,0,50
+1485111619347,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-578,text,false,,155,191,478,478,170,0,49
+1485111619333,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-566,text,false,,155,191,479,479,186,0,48
+1485111619377,144,Petición HTTP,502,Bad Gateway,Alcaldia 1-590,text,false,,155,191,480,480,144,0,46
+1485111619348,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-579,text,false,,155,191,480,480,173,0,68
+1485111619346,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-573,text,false,,155,191,480,480,176,0,54
+1485111619375,147,Petición HTTP,502,Bad Gateway,Alcaldia 1-587,text,false,,155,191,481,481,147,0,47
+1485111619377,145,Petición HTTP,502,Bad Gateway,Alcaldia 1-591,text,false,,155,191,480,480,145,0,46
+1485111619377,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-592,text,false,,155,191,480,480,146,0,45
+1485111619376,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-588,text,false,,155,191,482,482,148,0,47
+1485111619347,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-577,text,false,,155,191,481,481,176,0,59
+1485111619373,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-601,text,false,,155,191,482,482,152,0,48
+1485111619369,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-581,text,false,,155,191,483,483,157,0,51
+1485111619346,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-575,text,false,,155,191,484,484,181,0,60
+1485111619373,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-600,text,false,,155,191,484,484,154,0,48
+1485111619375,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-603,text,false,,155,191,483,483,148,0,48
+1485111619370,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-584,text,false,,155,191,483,483,158,0,50
+1485111619369,159,Petición HTTP,502,Bad Gateway,Alcaldia 1-597,text,false,,155,191,483,483,159,0,51
+1485111619376,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-589,text,false,,155,191,482,482,154,0,47
+1485111619378,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-605,text,false,,155,191,482,482,152,0,45
+1485111619378,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-595,text,false,,155,191,482,482,152,0,45
+1485111619378,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-593,text,false,,155,191,482,482,152,0,45
+1485111619378,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-596,text,false,,155,191,482,482,152,0,45
+1485111619369,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-582,text,false,,155,191,482,482,161,0,64
+1485111619378,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-594,text,false,,155,191,482,482,152,0,45
+1485111619379,151,Petición HTTP,502,Bad Gateway,Alcaldia 1-604,text,false,,155,191,482,482,151,0,44
+1485111619369,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-583,text,false,,155,191,482,482,161,0,61
+1485111619371,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-599,text,false,,155,191,482,482,162,0,49
+1485111619369,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-585,text,false,,155,191,481,481,164,0,61
+1485111619374,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-602,text,false,,155,191,480,480,160,0,61
+1485111619369,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-580,text,false,,155,191,477,477,166,0,50
+1485111619375,161,Petición HTTP,502,Bad Gateway,Alcaldia 1-586,text,false,,155,191,473,473,161,0,46
+1485111619379,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-598,text,false,,155,191,461,461,171,0,76
+1485111619379,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-606,text,false,,155,191,461,461,173,0,76
+1485111619388,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-614,text,false,,155,191,460,460,166,0,68
+1485111619389,165,Petición HTTP,502,Bad Gateway,Alcaldia 1-615,text,false,,155,191,459,459,165,0,67
+1485111619381,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-608,text,false,,155,191,459,459,173,0,74
+1485111619409,145,Petición HTTP,502,Bad Gateway,Alcaldia 1-630,text,false,,155,191,459,459,145,0,55
+1485111619394,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-618,text,false,,155,191,458,458,162,0,63
+1485111619380,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-607,text,false,,155,191,456,456,177,0,76
+1485111619383,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-609,text,false,,155,191,456,456,174,0,73
+1485111619386,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-612,text,false,,155,191,458,458,169,0,70
+1485111619387,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-613,text,false,,155,191,452,452,170,0,70
+1485111619405,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-628,text,false,,155,191,458,458,152,0,59
+1485111619385,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-611,text,false,,155,191,458,458,170,0,71
+1485111619391,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-616,text,false,,155,191,458,458,164,0,65
+1485111619393,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-617,text,false,,155,191,450,450,168,0,64
+1485111619406,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-629,text,false,,155,191,450,450,155,0,58
+1485111619412,149,Petición HTTP,502,Bad Gateway,Alcaldia 1-634,text,false,,155,191,450,450,149,0,53
+1485111619413,149,Petición HTTP,502,Bad Gateway,Alcaldia 1-635,text,false,,155,191,450,450,149,0,52
+1485111619404,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-627,text,false,,155,191,448,448,158,0,53
+1485111619418,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-640,text,false,,155,191,448,448,146,0,59
+1485111619420,145,Petición HTTP,502,Bad Gateway,Alcaldia 1-641,text,false,,155,191,448,448,145,0,57
+1485111619417,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-639,text,false,,155,191,448,448,148,0,61
+1485111619410,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-633,text,false,,155,191,448,448,155,0,55
+1485111619414,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-631,text,false,,155,191,454,454,164,0,66
+1485111619416,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-636,text,false,,155,191,455,455,162,0,64
+1485111619415,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-637,text,false,,155,191,454,454,164,0,65
+1485111619417,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-638,text,false,,155,191,455,455,162,0,62
+1485111619414,163,Petición HTTP,502,Bad Gateway,Alcaldia 1-632,text,false,,155,191,455,455,163,0,65
+1485111619428,155,Petición HTTP,502,Bad Gateway,Alcaldia 1-647,text,false,,155,191,454,454,155,0,58
+1485111619432,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-651,text,false,,155,191,454,454,152,0,54
+1485111619442,143,Petición HTTP,502,Bad Gateway,Alcaldia 1-660,text,false,,155,191,455,455,143,0,57
+1485111619440,145,Petición HTTP,502,Bad Gateway,Alcaldia 1-658,text,false,,155,191,455,455,145,0,59
+1485111619427,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-645,text,false,,155,191,455,455,158,0,67
+1485111619436,149,Petición HTTP,502,Bad Gateway,Alcaldia 1-654,text,false,,155,191,454,454,149,0,63
+1485111619428,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-646,text,false,,155,191,454,454,157,0,66
+1485111619438,147,Petición HTTP,502,Bad Gateway,Alcaldia 1-656,text,false,,155,191,455,455,147,0,61
+1485111619434,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-652,text,false,,155,191,449,449,152,0,52
+1485111619430,156,Petición HTTP,502,Bad Gateway,Alcaldia 1-650,text,false,,155,191,448,448,156,0,56
+1485111619435,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-653,text,false,,155,191,447,447,152,0,51
+1485111619428,159,Petición HTTP,502,Bad Gateway,Alcaldia 1-649,text,false,,155,191,447,447,159,0,58
+1485111619439,149,Petición HTTP,502,Bad Gateway,Alcaldia 1-657,text,false,,155,191,447,447,149,0,60
+1485111619429,159,Petición HTTP,502,Bad Gateway,Alcaldia 1-648,text,false,,155,191,447,447,159,0,65
+1485111619445,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-662,text,false,,155,191,456,456,157,0,54
+1485111619462,141,Petición HTTP,502,Bad Gateway,Alcaldia 1-678,text,false,,155,191,455,455,141,0,46
+1485111619444,159,Petición HTTP,502,Bad Gateway,Alcaldia 1-661,text,false,,155,191,456,456,159,0,55
+1485111619459,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-675,text,false,,155,191,456,456,146,0,48
+1485111619441,163,Petición HTTP,502,Bad Gateway,Alcaldia 1-659,text,false,,155,191,455,455,163,0,66
+1485111619461,143,Petición HTTP,502,Bad Gateway,Alcaldia 1-677,text,false,,155,191,455,455,143,0,46
+1485111619437,166,Petición HTTP,502,Bad Gateway,Alcaldia 1-655,text,false,,155,191,455,455,166,0,62
+1485111619460,150,Petición HTTP,502,Bad Gateway,Alcaldia 1-676,text,false,,155,191,455,455,150,0,47
+1485111619460,150,Petición HTTP,502,Bad Gateway,Alcaldia 1-674,text,false,,155,191,455,455,150,0,47
+1485111619466,144,Petición HTTP,502,Bad Gateway,Alcaldia 1-680,text,false,,155,191,454,454,144,0,55
+1485111619467,144,Petición HTTP,502,Bad Gateway,Alcaldia 1-681,text,false,,155,191,453,453,144,0,63
+1485111619463,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-679,text,false,,155,191,452,452,148,0,45
+1485111619472,141,Petición HTTP,502,Bad Gateway,Alcaldia 1-685,text,false,,155,191,452,452,141,0,69
+1485111619473,157,Petición HTTP,502,Bad Gateway,Alcaldia 1-686,text,false,,155,191,462,462,157,0,68
+1485111619479,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-692,text,false,,155,191,461,461,152,0,74
+1485111619471,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-684,text,false,,155,191,461,461,160,0,70
+1485111619478,153,Petición HTTP,502,Bad Gateway,Alcaldia 1-691,text,false,,155,191,461,461,153,0,75
+1485111619469,162,Petición HTTP,502,Bad Gateway,Alcaldia 1-683,text,false,,155,191,461,461,162,0,72
+1485111619510,121,Petición HTTP,502,Bad Gateway,Alcaldia 1-720,text,false,,155,191,462,462,121,0,43
+1485111619474,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-687,text,false,,155,191,462,462,158,0,65
+1485111619468,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-682,text,false,,155,191,461,461,164,0,71
+1485111619515,116,Petición HTTP,502,Bad Gateway,Alcaldia 1-725,text,false,,155,191,461,461,116,0,38
+1485111619480,152,Petición HTTP,502,Bad Gateway,Alcaldia 1-693,text,false,,155,191,460,460,152,0,73
+1485111619486,150,Petición HTTP,502,Bad Gateway,Alcaldia 1-698,text,false,,155,191,456,456,150,0,67
+1485111619486,151,Petición HTTP,502,Bad Gateway,Alcaldia 1-697,text,false,,155,191,455,455,151,0,67
+1485111619490,148,Petición HTTP,502,Bad Gateway,Alcaldia 1-696,text,false,,155,191,454,454,148,0,63
+1485111619512,128,Petición HTTP,502,Bad Gateway,Alcaldia 1-722,text,false,,155,191,453,453,128,0,43
+1485111619514,127,Petición HTTP,502,Bad Gateway,Alcaldia 1-724,text,false,,155,191,453,453,127,0,41
+1485111619513,128,Petición HTTP,502,Bad Gateway,Alcaldia 1-723,text,false,,155,191,453,453,128,0,40
+1485111619516,126,Petición HTTP,502,Bad Gateway,Alcaldia 1-726,text,false,,155,191,453,453,126,0,38
+1485111619511,131,Petición HTTP,502,Bad Gateway,Alcaldia 1-721,text,false,,155,191,452,452,131,0,45
+1485111619517,126,Petición HTTP,502,Bad Gateway,Alcaldia 1-727,text,false,,155,191,451,451,126,0,44
+1485111619522,122,Petición HTTP,502,Bad Gateway,Alcaldia 1-731,text,false,,155,191,450,450,122,0,39
+1485111619526,120,Petición HTTP,502,Bad Gateway,Alcaldia 1-735,text,false,,155,191,447,447,120,0,48
+1485111619518,129,Petición HTTP,502,Bad Gateway,Alcaldia 1-728,text,false,,155,191,446,446,129,0,42
+1485111619521,127,Petición HTTP,502,Bad Gateway,Alcaldia 1-730,text,false,,155,191,445,445,127,0,39
+1485111619520,129,Petición HTTP,502,Bad Gateway,Alcaldia 1-729,text,false,,155,191,444,444,129,0,40
+1485111619525,125,Petición HTTP,502,Bad Gateway,Alcaldia 1-734,text,false,,155,191,443,443,125,0,49
+1485111619523,128,Petición HTTP,502,Bad Gateway,Alcaldia 1-732,text,false,,155,191,443,443,128,0,51
+1485111619524,127,Petición HTTP,502,Bad Gateway,Alcaldia 1-733,text,false,,155,191,442,442,127,0,50
+1485111619558,96,Petición HTTP,502,Bad Gateway,Alcaldia 1-742,text,false,,155,191,443,443,96,0,45
+1485111619551,103,Petición HTTP,502,Bad Gateway,Alcaldia 1-741,text,false,,155,191,443,443,103,0,33
+1485111619571,84,Petición HTTP,502,Bad Gateway,Alcaldia 1-752,text,false,,155,191,442,442,84,0,40
+1485111619570,85,Petición HTTP,502,Bad Gateway,Alcaldia 1-751,text,false,,155,191,441,441,85,0,41
+1485111619575,106,Petición HTTP,502,Bad Gateway,Alcaldia 1-754,text,false,,155,191,455,455,106,0,61
+1485111619577,105,Petición HTTP,502,Bad Gateway,Alcaldia 1-756,text,false,,155,191,454,454,105,0,59
+1485111619573,109,Petición HTTP,502,Bad Gateway,Alcaldia 1-753,text,false,,155,191,454,454,109,0,64
+1485111619576,106,Petición HTTP,502,Bad Gateway,Alcaldia 1-755,text,false,,155,191,454,454,106,0,61
+1485111619578,108,Petición HTTP,502,Bad Gateway,Alcaldia 1-757,text,false,,155,191,456,456,108,0,59
+1485111619579,107,Petición HTTP,502,Bad Gateway,Alcaldia 1-758,text,false,,155,191,456,456,107,0,58
+1485111619581,106,Petición HTTP,502,Bad Gateway,Alcaldia 1-760,text,false,,155,191,454,454,106,0,56
+1485111619580,107,Petición HTTP,502,Bad Gateway,Alcaldia 1-759,text,false,,155,191,454,454,107,0,57
+1485111619584,109,Petición HTTP,502,Bad Gateway,Alcaldia 1-762,text,false,,155,191,457,457,109,0,53
+1485111619598,95,Petición HTTP,502,Bad Gateway,Alcaldia 1-774,text,false,,155,191,457,457,95,0,40
+1485111619585,109,Petición HTTP,502,Bad Gateway,Alcaldia 1-763,text,false,,155,191,457,457,109,0,52
+1485111619596,99,Petición HTTP,502,Bad Gateway,Alcaldia 1-767,text,false,,155,191,457,457,99,0,43
+1485111619588,107,Petición HTTP,502,Bad Gateway,Alcaldia 1-764,text,false,,155,191,457,457,107,0,50
+1485111619596,99,Petición HTTP,502,Bad Gateway,Alcaldia 1-772,text,false,,155,191,457,457,99,0,42
+1485111619597,101,Petición HTTP,502,Bad Gateway,Alcaldia 1-768,text,false,,155,191,459,459,101,0,42
+1485111619595,103,Petición HTTP,502,Bad Gateway,Alcaldia 1-766,text,false,,155,191,459,459,103,0,44
+1485111619583,115,Petición HTTP,502,Bad Gateway,Alcaldia 1-761,text,false,,155,191,460,460,115,0,56
+1485111619588,110,Petición HTTP,502,Bad Gateway,Alcaldia 1-765,text,false,,155,191,459,459,110,0,50
+1485111619597,105,Petición HTTP,502,Bad Gateway,Alcaldia 1-769,text,false,,155,191,455,455,105,0,48
+1485111619599,103,Petición HTTP,502,Bad Gateway,Alcaldia 1-775,text,false,,155,191,455,455,103,0,40
+1485111619597,106,Petición HTTP,502,Bad Gateway,Alcaldia 1-771,text,false,,155,191,454,454,106,0,47
+1485111619598,105,Petición HTTP,502,Bad Gateway,Alcaldia 1-773,text,false,,155,191,454,454,105,0,42
+1485111619598,122,Petición HTTP,502,Bad Gateway,Alcaldia 1-770,text,false,,155,191,468,468,122,0,40
+1485111619604,117,Petición HTTP,502,Bad Gateway,Alcaldia 1-779,text,false,,155,191,468,468,117,0,46
+1485111619606,115,Petición HTTP,502,Bad Gateway,Alcaldia 1-781,text,false,,155,191,468,468,115,0,44
+1485111619602,119,Petición HTTP,502,Bad Gateway,Alcaldia 1-777,text,false,,155,191,467,467,119,0,47
+1485111619600,122,Petición HTTP,502,Bad Gateway,Alcaldia 1-776,text,false,,155,191,467,467,122,0,49
+1485111619623,105,Petición HTTP,502,Bad Gateway,Alcaldia 1-791,text,false,,155,191,471,471,105,0,37
+1485111619608,121,Petición HTTP,502,Bad Gateway,Alcaldia 1-782,text,false,,155,191,471,471,121,0,43
+1485111619617,113,Petición HTTP,502,Bad Gateway,Alcaldia 1-789,text,false,,155,191,471,471,113,0,43
+1485111619613,117,Petición HTTP,502,Bad Gateway,Alcaldia 1-786,text,false,,155,191,471,471,117,0,47
+1485111619614,115,Petición HTTP,502,Bad Gateway,Alcaldia 1-787,text,false,,155,191,471,471,115,0,46
+1485111619605,124,Petición HTTP,502,Bad Gateway,Alcaldia 1-780,text,false,,155,191,471,471,124,0,45
+1485111619612,120,Petición HTTP,502,Bad Gateway,Alcaldia 1-785,text,false,,155,191,468,468,120,0,49
+1485111619611,121,Petición HTTP,502,Bad Gateway,Alcaldia 1-784,text,false,,155,191,468,468,121,0,50
+1485111619603,129,Petición HTTP,502,Bad Gateway,Alcaldia 1-778,text,false,,155,191,468,468,129,0,49
+1485111619622,111,Petición HTTP,502,Bad Gateway,Alcaldia 1-790,text,false,,155,191,469,469,111,0,37
+1485111619633,111,Petición HTTP,502,Bad Gateway,Alcaldia 1-798,text,false,,155,191,476,476,111,0,35
+1485111619609,136,Petición HTTP,502,Bad Gateway,Alcaldia 1-783,text,false,,155,191,475,475,136,0,53
+1485111619631,115,Petición HTTP,502,Bad Gateway,Alcaldia 1-797,text,false,,155,191,476,476,115,0,35
+1485111619630,116,Petición HTTP,502,Bad Gateway,Alcaldia 1-796,text,false,,155,191,476,476,116,0,37
+1485111619627,120,Petición HTTP,502,Bad Gateway,Alcaldia 1-793,text,false,,155,191,477,477,120,0,38
+1485111619626,120,Petición HTTP,502,Bad Gateway,Alcaldia 1-792,text,false,,155,191,477,477,120,0,40
+1485111619628,119,Petición HTTP,502,Bad Gateway,Alcaldia 1-794,text,false,,155,191,476,476,119,0,40
+1485111619616,132,Petición HTTP,502,Bad Gateway,Alcaldia 1-788,text,false,,155,191,474,474,132,0,46
+1485111619641,108,Petición HTTP,502,Bad Gateway,Alcaldia 1-801,text,false,,155,191,471,471,108,0,39
+1485111619635,114,Petición HTTP,502,Bad Gateway,Alcaldia 1-800,text,false,,155,191,471,471,114,0,45
+1485111619634,116,Petición HTTP,502,Bad Gateway,Alcaldia 1-799,text,false,,155,191,471,471,116,0,47
+1485111619629,122,Petición HTTP,502,Bad Gateway,Alcaldia 1-795,text,false,,155,191,471,471,122,0,39
+1485111619654,98,Petición HTTP,502,Bad Gateway,Alcaldia 1-804,text,false,,155,191,471,471,98,0,48
+1485111619650,102,Petición HTTP,502,Bad Gateway,Alcaldia 1-802,text,false,,155,191,471,471,102,0,44
+1485111619668,107,Petición HTTP,502,Bad Gateway,Alcaldia 1-812,text,false,,155,191,488,488,107,0,53
+1485111619670,106,Petición HTTP,502,Bad Gateway,Alcaldia 1-813,text,false,,155,191,487,487,106,0,52
+1485111619663,113,Petición HTTP,502,Bad Gateway,Alcaldia 1-807,text,false,,155,191,486,486,113,0,61
+1485111619668,108,Petición HTTP,502,Bad Gateway,Alcaldia 1-811,text,false,,155,191,486,486,108,0,54
+1485111619669,107,Petición HTTP,502,Bad Gateway,Alcaldia 1-810,text,false,,155,191,486,486,107,0,53
+1485111619664,112,Petición HTTP,502,Bad Gateway,Alcaldia 1-808,text,false,,155,191,486,486,112,0,60
+1485111619663,113,Petición HTTP,502,Bad Gateway,Alcaldia 1-806,text,false,,155,191,485,485,113,0,61
+1485111619667,109,Petición HTTP,502,Bad Gateway,Alcaldia 1-809,text,false,,155,191,485,485,109,0,57
+1485111619684,109,Petición HTTP,502,Bad Gateway,Alcaldia 1-823,text,false,,155,191,499,499,109,0,50
+1485111619685,108,Petición HTTP,502,Bad Gateway,Alcaldia 1-824,text,false,,155,191,498,498,108,0,49
+1485111619674,129,Petición HTTP,502,Bad Gateway,Alcaldia 1-816,text,false,,155,191,506,506,129,0,54
+1485111619671,133,Petición HTTP,502,Bad Gateway,Alcaldia 1-814,text,false,,155,191,506,506,133,0,58
+1485111619686,118,Petición HTTP,502,Bad Gateway,Alcaldia 1-825,text,false,,155,191,506,506,118,0,41
+1485111619675,128,Petición HTTP,502,Bad Gateway,Alcaldia 1-817,text,false,,155,191,506,506,128,0,56
+1485111619672,131,Petición HTTP,502,Bad Gateway,Alcaldia 1-815,text,false,,155,191,506,506,131,0,58
+1485111619715,144,Petición HTTP,502,Bad Gateway,Alcaldia 1-850,text,false,,155,191,551,551,144,0,38
+1485111619719,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-854,text,false,,155,191,556,556,146,0,34
+1485111619709,172,Petición HTTP,502,Bad Gateway,Alcaldia 1-845,text,false,,155,191,567,567,172,0,41
+1485111619711,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-846,text,false,,155,191,566,566,170,0,39
+1485111619713,168,Petición HTTP,502,Bad Gateway,Alcaldia 1-849,text,false,,155,191,566,566,168,0,39
+1485111619712,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-848,text,false,,155,191,565,565,169,0,40
+1485111619711,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-847,text,false,,155,191,564,564,171,0,41
+1485111619718,164,Petición HTTP,502,Bad Gateway,Alcaldia 1-853,text,false,,155,191,564,564,164,0,34
+1485111619696,187,Petición HTTP,502,Bad Gateway,Alcaldia 1-832,text,false,,155,191,563,563,187,0,54
+1485111619704,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-840,text,false,,155,191,562,562,179,0,46
+1485111619691,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-829,text,false,,155,191,561,561,193,0,58
+1485111619706,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-842,text,false,,155,191,560,560,179,0,44
+1485111619707,204,Petición HTTP,502,Bad Gateway,Alcaldia 1-843,text,false,,155,191,557,557,204,0,43
+1485111619701,210,Petición HTTP,502,Bad Gateway,Alcaldia 1-838,text,false,,155,191,556,556,210,0,49
+1485111619690,222,Petición HTTP,502,Bad Gateway,Alcaldia 1-827,text,false,,155,191,555,555,222,0,59
+1485111619717,197,Petición HTTP,502,Bad Gateway,Alcaldia 1-852,text,false,,155,191,554,554,197,0,36
+1485111619723,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-857,text,false,,155,191,554,554,192,0,53
+1485111619723,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-858,text,false,,155,191,554,554,194,0,58
+1485111619731,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-865,text,false,,155,191,553,553,186,0,50
+1485111619693,225,Petición HTTP,502,Bad Gateway,Alcaldia 1-830,text,false,,155,191,552,552,225,0,56
+1485111619688,226,Petición HTTP,502,Bad Gateway,Alcaldia 1-826,text,false,,155,191,554,554,226,0,63
+1485111619721,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-856,text,false,,155,191,550,550,198,0,43
+1485111619705,214,Petición HTTP,502,Bad Gateway,Alcaldia 1-841,text,false,,155,191,549,549,214,0,46
+1485111619690,230,Petición HTTP,502,Bad Gateway,Alcaldia 1-828,text,false,,155,191,548,548,230,0,64
+1485111619708,212,Petición HTTP,502,Bad Gateway,Alcaldia 1-844,text,false,,155,191,547,547,212,0,43
+1485111619720,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-855,text,false,,155,191,546,546,201,0,32
+1485111619702,219,Petición HTTP,502,Bad Gateway,Alcaldia 1-839,text,false,,155,191,545,545,219,0,48
+1485111619716,207,Petición HTTP,502,Bad Gateway,Alcaldia 1-851,text,false,,155,191,543,543,207,0,37
+1485111619738,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-872,text,false,,155,191,542,542,186,0,76
+1485111619747,178,Petición HTTP,502,Bad Gateway,Alcaldia 1-881,text,false,,155,191,541,541,178,0,68
+1485111619739,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-873,text,false,,155,191,540,540,186,0,76
+1485111619734,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-868,text,false,,155,191,539,539,192,0,68
+1485111619744,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-878,text,false,,155,191,539,539,185,0,72
+1485111619741,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-875,text,false,,155,191,538,538,189,0,75
+1485111619745,185,Petición HTTP,502,Bad Gateway,Alcaldia 1-879,text,false,,155,191,537,537,185,0,71
+1485111619742,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-876,text,false,,155,191,536,536,189,0,74
+1485111619743,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-877,text,false,,155,191,534,534,188,0,73
+1485111619740,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-874,text,false,,155,191,533,533,191,0,75
+1485111619737,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-871,text,false,,155,191,532,532,195,0,79
+1485111619746,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-880,text,false,,155,191,531,531,186,0,71
+1485111619732,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-864,text,false,,155,191,530,530,201,0,83
+1485111619725,208,Petición HTTP,502,Bad Gateway,Alcaldia 1-859,text,false,,155,191,529,529,208,0,77
+1485111619728,206,Petición HTTP,502,Bad Gateway,Alcaldia 1-863,text,false,,155,191,527,527,206,0,77
+1485111619727,207,Petición HTTP,502,Bad Gateway,Alcaldia 1-862,text,false,,155,191,526,526,207,0,71
+1485111619725,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-860,text,false,,155,191,539,539,201,0,79
+1485111619731,204,Petición HTTP,502,Bad Gateway,Alcaldia 1-866,text,false,,155,191,524,524,204,0,66
+1485111619735,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-869,text,false,,155,191,523,523,201,0,77
+1485111619726,211,Petición HTTP,502,Bad Gateway,Alcaldia 1-861,text,false,,155,191,522,522,211,0,73
+1485111618695,1243,Petición HTTP,502,Bad Gateway,Alcaldia 1-12,text,false,,155,191,521,521,1243,0,1140
+1485111619754,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-887,text,false,,155,191,521,521,184,0,82
+1485111618693,1250,Petición HTTP,502,Bad Gateway,Alcaldia 1-10,text,false,,155,191,519,519,1250,0,1143
+1485111619764,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-896,text,false,,155,191,519,519,179,0,73
+1485111619764,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-885,text,false,,155,191,518,518,179,0,73
+1485111619763,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-895,text,false,,155,191,518,518,181,0,74
+1485111619753,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-886,text,false,,155,191,518,518,191,0,83
+1485111619783,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-912,text,false,,155,191,515,515,175,0,78
+1485111619784,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-914,text,false,,155,191,515,515,173,0,77
+1485111619784,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-915,text,false,,155,191,515,515,174,0,77
+1485111619786,172,Petición HTTP,502,Bad Gateway,Alcaldia 1-917,text,false,,155,191,515,515,172,0,75
+1485111619783,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-910,text,false,,155,191,515,515,175,0,78
+1485111619768,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-890,text,false,,155,191,515,515,189,0,71
+1485111619784,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-913,text,false,,155,191,515,515,173,0,77
+1485111619781,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-906,text,false,,155,191,515,515,176,0,79
+1485111619765,183,Petición HTTP,502,Bad Gateway,Alcaldia 1-897,text,false,,155,191,518,518,183,0,73
+1485111619762,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-888,text,false,,155,191,516,516,194,0,75
+1485111619782,174,Petición HTTP,502,Bad Gateway,Alcaldia 1-908,text,false,,155,191,516,516,174,0,79
+1485111619781,175,Petición HTTP,502,Bad Gateway,Alcaldia 1-907,text,false,,155,191,516,516,175,0,79
+1485111619783,173,Petición HTTP,502,Bad Gateway,Alcaldia 1-911,text,false,,155,191,516,516,173,0,78
+1485111619768,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-891,text,false,,155,191,518,518,180,0,71
+1485111619767,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-899,text,false,,155,191,518,518,181,0,71
+1485111619787,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-918,text,false,,155,191,501,501,179,0,75
+1485111619791,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-922,text,false,,155,191,501,501,176,0,94
+1485111619788,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-919,text,false,,155,191,501,501,182,0,117
+1485111619768,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-892,text,false,,155,191,518,518,177,0,70
+1485111619765,189,Petición HTTP,502,Bad Gateway,Alcaldia 1-884,text,false,,155,191,516,516,189,0,83
+1485111619782,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-909,text,false,,155,191,518,518,170,0,78
+1485111619773,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-904,text,false,,155,191,518,518,179,0,87
+1485111619770,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-902,text,false,,155,191,518,518,182,0,90
+1485111619780,172,Petición HTTP,502,Bad Gateway,Alcaldia 1-905,text,false,,155,191,518,518,172,0,80
+1485111619771,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-903,text,false,,155,191,518,518,181,0,89
+1485111618698,1253,Petición HTTP,502,Bad Gateway,Alcaldia 1-15,text,false,,155,191,518,518,1253,0,1162
+1485111619769,182,Petición HTTP,502,Bad Gateway,Alcaldia 1-901,text,false,,155,191,518,518,182,0,91
+1485111618693,1258,Petición HTTP,502,Bad Gateway,Alcaldia 1-2,text,false,,155,191,518,518,1258,0,1167
+1485111619762,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-894,text,false,,155,191,518,518,188,0,75
+1485111618694,1256,Petición HTTP,502,Bad Gateway,Alcaldia 1-11,text,false,,155,191,518,518,1256,0,1165
+1485111619802,169,Petición HTTP,502,Bad Gateway,Alcaldia 1-931,text,false,,155,191,498,498,169,0,106
+1485111619818,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-946,text,false,,155,191,498,498,154,0,94
+1485111619823,150,Petición HTTP,502,Bad Gateway,Alcaldia 1-950,text,false,,155,191,498,498,150,0,88
+1485111619753,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-882,text,false,,155,191,518,518,196,0,83
+1485111619768,180,Petición HTTP,502,Bad Gateway,Alcaldia 1-893,text,false,,155,191,518,518,180,0,70
+1485111619769,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-900,text,false,,155,191,518,518,179,0,90
+1485111619769,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-889,text,false,,155,191,518,518,179,0,90
+1485111618696,1252,Petición HTTP,502,Bad Gateway,Alcaldia 1-13,text,false,,155,191,518,518,1252,0,1163
+1485111618697,1269,Petición HTTP,502,Bad Gateway,Alcaldia 1-14,text,false,,155,191,501,501,1269,0,1168
+1485111619785,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-916,text,false,,155,191,501,501,181,0,77
+1485111619789,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-920,text,false,,155,191,498,498,188,0,120
+1485111619823,158,Petición HTTP,502,Bad Gateway,Alcaldia 1-945,text,false,,155,191,493,493,158,0,93
+1485111619827,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-954,text,false,,155,191,493,493,154,0,87
+1485111619825,156,Petición HTTP,502,Bad Gateway,Alcaldia 1-952,text,false,,155,191,492,492,156,0,91
+1485111619793,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-923,text,false,,155,191,492,492,188,0,121
+1485111619801,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-930,text,false,,155,191,490,490,181,0,113
+1485111619830,153,Petición HTTP,502,Bad Gateway,Alcaldia 1-957,text,false,,155,191,489,489,153,0,86
+1485111619791,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-921,text,false,,155,191,467,467,195,0,118
+1485111619841,146,Petición HTTP,502,Bad Gateway,Alcaldia 1-967,text,false,,155,191,467,467,146,0,76
+1485111619828,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-955,text,false,,155,191,466,466,160,0,89
+1485111619837,151,Petición HTTP,502,Bad Gateway,Alcaldia 1-963,text,false,,155,191,465,465,151,0,80
+1485111619829,160,Petición HTTP,502,Bad Gateway,Alcaldia 1-956,text,false,,155,191,464,464,160,0,88
+1485111619835,154,Petición HTTP,502,Bad Gateway,Alcaldia 1-961,text,false,,155,191,463,463,154,0,81
+1485111619809,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-938,text,false,,155,191,461,461,192,0,109
+1485111619803,199,Petición HTTP,502,Bad Gateway,Alcaldia 1-932,text,false,,155,191,461,461,199,0,115
+1485111619805,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-934,text,false,,155,191,461,461,198,0,113
+1485111619797,206,Petición HTTP,502,Bad Gateway,Alcaldia 1-927,text,false,,155,191,461,461,206,0,120
+1485111619799,205,Petición HTTP,502,Bad Gateway,Alcaldia 1-929,text,false,,155,191,461,461,205,0,119
+1485111619794,210,Petición HTTP,502,Bad Gateway,Alcaldia 1-924,text,false,,155,191,461,461,210,0,124
+1485111619813,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-941,text,false,,155,191,456,456,193,0,106
+1485111619815,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-943,text,false,,155,191,455,455,191,0,103
+1485111619814,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-942,text,false,,155,191,455,455,192,0,104
+1485111619816,190,Petición HTTP,502,Bad Gateway,Alcaldia 1-944,text,false,,155,191,453,453,190,0,102
+1485111619798,209,Petición HTTP,502,Bad Gateway,Alcaldia 1-928,text,false,,155,191,452,452,209,0,120
+1485111619812,202,Petición HTTP,502,Bad Gateway,Alcaldia 1-940,text,false,,155,191,450,450,202,0,107
+1485111619811,203,Petición HTTP,502,Bad Gateway,Alcaldia 1-939,text,false,,155,191,449,449,203,0,108
+1485111619809,206,Petición HTTP,502,Bad Gateway,Alcaldia 1-937,text,false,,155,191,448,448,206,0,111
+1485111619807,208,Petición HTTP,502,Bad Gateway,Alcaldia 1-936,text,false,,155,191,447,447,208,0,112
+1485111619836,179,Petición HTTP,502,Bad Gateway,Alcaldia 1-962,text,false,,155,191,446,446,179,0,84
+1485111619806,209,Petición HTTP,502,Bad Gateway,Alcaldia 1-935,text,false,,155,191,446,446,209,0,114
+1485111619843,176,Petición HTTP,502,Bad Gateway,Alcaldia 1-968,text,false,,155,191,444,444,176,0,77
+1485111619850,170,Petición HTTP,502,Bad Gateway,Alcaldia 1-975,text,false,,155,191,443,443,170,0,71
+1485111619849,171,Petición HTTP,502,Bad Gateway,Alcaldia 1-974,text,false,,155,191,442,442,171,0,73
+1485111619826,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-953,text,false,,155,191,441,441,195,0,96
+1485111619844,177,Petición HTTP,502,Bad Gateway,Alcaldia 1-969,text,false,,155,191,440,440,177,0,77
+1485111619824,207,Petición HTTP,502,Bad Gateway,Alcaldia 1-951,text,false,,155,191,439,439,207,0,97
+1485111619839,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-965,text,false,,155,191,438,438,192,0,81
+1485111619848,184,Petición HTTP,502,Bad Gateway,Alcaldia 1-973,text,false,,155,191,437,437,184,0,74
+1485111619838,194,Petición HTTP,502,Bad Gateway,Alcaldia 1-964,text,false,,155,191,436,436,194,0,83
+1485111619846,187,Petición HTTP,502,Bad Gateway,Alcaldia 1-971,text,false,,155,191,435,435,187,0,75
+1485111619840,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-966,text,false,,155,191,435,435,193,0,81
+1485111619804,229,Petición HTTP,502,Bad Gateway,Alcaldia 1-933,text,false,,155,191,435,435,229,0,116
+1485111619845,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-970,text,false,,155,191,432,432,191,0,76
+1485111619795,243,Petición HTTP,502,Bad Gateway,Alcaldia 1-925,text,false,,155,191,431,431,243,0,128
+1485111619796,243,Petición HTTP,502,Bad Gateway,Alcaldia 1-926,text,false,,155,191,430,430,243,0,124
+1485111619858,181,Petición HTTP,502,Bad Gateway,Alcaldia 1-982,text,false,,155,191,430,430,181,0,66
+1485111619847,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-972,text,false,,155,191,430,430,193,0,74
+1485111619861,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-985,text,false,,155,191,427,427,188,0,63
+1485111619860,191,Petición HTTP,502,Bad Gateway,Alcaldia 1-984,text,false,,155,191,426,426,191,0,64
+1485111619859,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-983,text,false,,155,191,425,425,193,0,65
+1485111619866,188,Petición HTTP,502,Bad Gateway,Alcaldia 1-989,text,false,,155,191,424,424,188,0,62
+1485111619856,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-980,text,false,,155,191,424,424,198,0,68
+1485111619868,186,Petición HTTP,502,Bad Gateway,Alcaldia 1-991,text,false,,155,191,424,424,186,0,60
+1485111619857,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-981,text,false,,155,191,424,424,198,0,67
+1485111619865,197,Petición HTTP,502,Bad Gateway,Alcaldia 1-988,text,false,,155,191,420,420,197,0,63
+1485111619862,201,Petición HTTP,502,Bad Gateway,Alcaldia 1-986,text,false,,155,191,419,419,201,0,66
+1485111619867,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-990,text,false,,155,191,418,418,196,0,62
+1485111619869,195,Petición HTTP,502,Bad Gateway,Alcaldia 1-992,text,false,,155,191,417,417,195,0,60
+1485111619864,200,Petición HTTP,502,Bad Gateway,Alcaldia 1-987,text,false,,155,191,416,416,200,0,64
+1485111619874,193,Petición HTTP,502,Bad Gateway,Alcaldia 1-995,text,false,,155,191,415,415,193,0,56
+1485111619875,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-997,text,false,,155,191,415,415,192,0,55
+1485111619876,192,Petición HTTP,502,Bad Gateway,Alcaldia 1-998,text,false,,155,191,415,415,192,0,54
+1485111619831,237,Petición HTTP,502,Bad Gateway,Alcaldia 1-958,text,false,,155,191,415,415,237,0,103
+1485111619872,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-994,text,false,,155,191,415,415,196,0,58
+1485111619851,221,Petición HTTP,502,Bad Gateway,Alcaldia 1-976,text,false,,155,191,410,410,221,0,83
+1485111619874,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-996,text,false,,155,191,410,410,198,0,56
+1485111619832,240,Petición HTTP,502,Bad Gateway,Alcaldia 1-959,text,false,,155,191,409,409,240,0,103
+1485111619870,202,Petición HTTP,502,Bad Gateway,Alcaldia 1-993,text,false,,155,191,408,408,202,0,66
+1485111619855,219,Petición HTTP,502,Bad Gateway,Alcaldia 1-979,text,false,,155,191,406,406,219,0,82
+1485111619853,222,Petición HTTP,502,Bad Gateway,Alcaldia 1-977,text,false,,155,191,405,405,222,0,84
+1485111619822,253,Petición HTTP,502,Bad Gateway,Alcaldia 1-949,text,false,,155,191,405,405,253,0,114
+1485111619879,196,Petición HTTP,502,Bad Gateway,Alcaldia 1-1000,text,false,,155,191,405,405,196,0,59
+1485111619877,198,Petición HTTP,502,Bad Gateway,Alcaldia 1-999,text,false,,155,191,405,405,198,0,61
+1485111619854,221,Petición HTTP,502,Bad Gateway,Alcaldia 1-978,text,false,,155,191,405,405,221,0,83
+1485111618954,1122,Petición HTTP,502,Bad Gateway,Alcaldia 1-231,text,false,,155,191,400,400,1122,0,1045
+1485111618955,1127,Petición HTTP,502,Bad Gateway,Alcaldia 1-232,text,false,,155,191,399,399,1127,0,1045
+1485111618953,1129,Petición HTTP,502,Bad Gateway,Alcaldia 1-230,text,false,,155,191,399,399,1129,0,1046
+1485111619081,1071,Petición HTTP,502,Bad Gateway,Alcaldia 1-335,text,false,,155,191,397,397,1071,0,1039
+1485111619081,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-334,text,false,,155,191,396,396,1073,0,1039
+1485111619083,1071,Petición HTTP,502,Bad Gateway,Alcaldia 1-338,text,false,,155,191,396,396,1071,0,1037
+1485111619082,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-336,text,false,,155,191,396,396,1073,0,1037
+1485111619080,1075,Petición HTTP,502,Bad Gateway,Alcaldia 1-331,text,false,,155,191,396,396,1075,0,1039
+1485111619081,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-333,text,false,,155,191,396,396,1074,0,1039
+1485111619085,1070,Petición HTTP,502,Bad Gateway,Alcaldia 1-340,text,false,,155,191,396,396,1070,0,1034
+1485111619081,1075,Petición HTTP,502,Bad Gateway,Alcaldia 1-332,text,false,,155,191,395,395,1075,0,1038
+1485111619082,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-337,text,false,,155,191,389,389,1074,0,1034
+1485111619084,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-339,text,false,,155,191,389,389,1073,0,1034
+1485111619104,1071,Petición HTTP,502,Bad Gateway,Alcaldia 1-357,text,false,,155,191,387,387,1071,0,1044
+1485111619098,1090,Petición HTTP,502,Bad Gateway,Alcaldia 1-352,text,false,,155,191,386,386,1090,0,1054
+1485111619101,1087,Petición HTTP,502,Bad Gateway,Alcaldia 1-354,text,false,,155,191,386,386,1087,0,1051
+1485111619100,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-353,text,false,,155,191,386,386,1088,0,1051
+1485111619103,1085,Petición HTTP,502,Bad Gateway,Alcaldia 1-356,text,false,,155,191,386,386,1085,0,1049
+1485111619102,1087,Petición HTTP,502,Bad Gateway,Alcaldia 1-355,text,false,,155,191,382,382,1087,0,1049
+1485111619145,1061,Petición HTTP,502,Bad Gateway,Alcaldia 1-394,text,false,,155,191,381,381,1060,0,1034
+1485111619151,1059,Petición HTTP,502,Bad Gateway,Alcaldia 1-400,text,false,,155,191,380,380,1059,0,1029
+1485111619144,1067,Petición HTTP,502,Bad Gateway,Alcaldia 1-393,text,false,,155,191,379,379,1067,0,1039
+1485111619147,1068,Petición HTTP,502,Bad Gateway,Alcaldia 1-396,text,false,,155,191,378,378,1068,0,1039
+1485111619146,1080,Petición HTTP,502,Bad Gateway,Alcaldia 1-395,text,false,,155,191,377,377,1080,0,1039
+1485111619123,1108,Petición HTTP,502,Bad Gateway,Alcaldia 1-374,text,false,,155,191,377,377,1108,0,1062
+1485111619148,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-397,text,false,,155,191,377,377,1084,0,1037
+1485111619121,1111,Petición HTTP,502,Bad Gateway,Alcaldia 1-372,text,false,,155,191,377,377,1111,0,1065
+1485111619124,1109,Petición HTTP,502,Bad Gateway,Alcaldia 1-375,text,false,,155,191,377,377,1109,0,1063
+1485111619138,1095,Petición HTTP,502,Bad Gateway,Alcaldia 1-388,text,false,,155,191,377,377,1095,0,1049
+1485111619141,1093,Petición HTTP,502,Bad Gateway,Alcaldia 1-391,text,false,,155,191,377,377,1093,0,1046
+1485111619129,1105,Petición HTTP,502,Bad Gateway,Alcaldia 1-380,text,false,,155,191,377,377,1105,0,1058
+1485111619122,1112,Petición HTTP,502,Bad Gateway,Alcaldia 1-373,text,false,,155,191,377,377,1112,0,1064
+1485111619150,1087,Petición HTTP,502,Bad Gateway,Alcaldia 1-398,text,false,,155,191,377,377,1087,0,1036
+1485111619150,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-399,text,false,,155,191,376,376,1088,0,1036
+1485111619125,1113,Petición HTTP,502,Bad Gateway,Alcaldia 1-376,text,false,,155,191,376,376,1113,0,1062
+1485111619126,1113,Petición HTTP,502,Bad Gateway,Alcaldia 1-377,text,false,,155,191,375,375,1113,0,1061
+1485111619140,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-390,text,false,,155,191,375,375,1099,0,1046
+1485111619143,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-392,text,false,,155,191,375,375,1096,0,1043
+1485111619850,397,Petición HTTP,502,Bad Gateway,Alcaldia 1-960,text,false,,155,191,362,362,397,0,88
+1485111619172,1076,Petición HTTP,502,Bad Gateway,Alcaldia 1-419,text,false,,155,191,362,362,1076,0,1044
+1485111619175,1077,Petición HTTP,502,Bad Gateway,Alcaldia 1-422,text,false,,155,191,360,360,1077,0,1047
+1485111619170,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-417,text,false,,155,191,359,359,1083,0,1050
+1485111619174,1079,Petición HTTP,502,Bad Gateway,Alcaldia 1-421,text,false,,155,191,359,359,1079,0,1046
+1485111619171,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-418,text,false,,155,191,357,357,1084,0,1051
+1485111619169,1087,Petición HTTP,502,Bad Gateway,Alcaldia 1-416,text,false,,155,191,357,357,1087,0,1054
+1485111619168,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-415,text,false,,155,191,357,357,1088,0,1057
+1485111619152,1105,Petición HTTP,502,Bad Gateway,Alcaldia 1-401,text,false,,155,191,357,357,1105,0,1071
+1485111619173,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-420,text,false,,155,191,353,353,1094,0,1058
+1485111619154,1113,Petición HTTP,502,Bad Gateway,Alcaldia 1-402,text,false,,155,191,353,353,1113,0,1079
+1485111619155,1113,Petición HTTP,502,Bad Gateway,Alcaldia 1-403,text,false,,155,191,352,352,1113,0,1076
+1485111619198,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-441,text,false,,155,191,350,350,1073,0,1047
+1485111619192,1079,Petición HTTP,502,Bad Gateway,Alcaldia 1-436,text,false,,155,191,349,349,1079,0,1054
+1485111619198,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-442,text,false,,155,191,348,348,1084,0,1048
+1485111619199,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-444,text,false,,155,191,347,347,1084,0,1048
+1485111619197,1086,Petición HTTP,502,Bad Gateway,Alcaldia 1-440,text,false,,155,191,346,346,1086,0,1049
+1485111619197,1086,Petición HTTP,502,Bad Gateway,Alcaldia 1-439,text,false,,155,191,345,345,1086,0,1050
+1485111619198,1085,Petición HTTP,502,Bad Gateway,Alcaldia 1-443,text,false,,155,191,344,344,1085,0,1053
+1485111619192,1092,Petición HTTP,502,Bad Gateway,Alcaldia 1-435,text,false,,155,191,343,343,1092,0,1059
+1485111619192,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-437,text,false,,155,191,342,342,1094,0,1059
+1485111619196,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-438,text,false,,155,191,341,341,1096,0,1055
+1485111619200,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-445,text,false,,155,191,341,341,1094,0,1051
+1485111619226,1091,Petición HTTP,502,Bad Gateway,Alcaldia 1-467,text,false,,155,191,339,339,1091,0,1062
+1485111619230,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-473,text,false,,155,191,338,338,1088,0,1059
+1485111619230,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-472,text,false,,155,191,338,338,1088,0,1053
+1485111619222,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-465,text,false,,155,191,336,336,1096,0,1068
+1485111619219,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-463,text,false,,155,191,336,336,1099,0,1069
+1485111619226,1092,Petición HTTP,502,Bad Gateway,Alcaldia 1-469,text,false,,155,191,335,335,1092,0,1063
+1485111619217,1106,Petición HTTP,502,Bad Gateway,Alcaldia 1-461,text,false,,155,191,333,333,1106,0,1073
+1485111619225,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-468,text,false,,155,191,332,332,1099,0,1069
+1485111619220,1104,Petición HTTP,502,Bad Gateway,Alcaldia 1-464,text,false,,155,191,331,331,1104,0,1071
+1485111619218,1106,Petición HTTP,502,Bad Gateway,Alcaldia 1-462,text,false,,155,191,330,330,1106,0,1073
+1485111619225,1100,Petición HTTP,502,Bad Gateway,Alcaldia 1-466,text,false,,155,191,329,329,1100,0,1067
+1485111619253,1098,Petición HTTP,502,Bad Gateway,Alcaldia 1-494,text,false,,155,191,328,328,1098,0,1069
+1485111619251,1100,Petición HTTP,502,Bad Gateway,Alcaldia 1-491,text,false,,155,191,328,328,1100,0,1071
+1485111619251,1107,Petición HTTP,502,Bad Gateway,Alcaldia 1-492,text,false,,155,191,326,326,1107,0,1072
+1485111619279,1079,Petición HTTP,502,Bad Gateway,Alcaldia 1-518,text,false,,155,191,326,326,1079,0,1044
+1485111619278,1080,Petición HTTP,502,Bad Gateway,Alcaldia 1-517,text,false,,155,191,326,326,1080,0,1045
+1485111619254,1105,Petición HTTP,502,Bad Gateway,Alcaldia 1-495,text,false,,155,191,324,324,1105,0,1069
+1485111619253,1107,Petición HTTP,502,Bad Gateway,Alcaldia 1-493,text,false,,155,191,323,323,1107,0,1070
+1485111619298,1077,Petición HTTP,502,Bad Gateway,Alcaldia 1-535,text,false,,155,191,321,321,1077,0,1044
+1485111619285,1090,Petición HTTP,502,Bad Gateway,Alcaldia 1-523,text,false,,155,191,321,321,1090,0,1057
+1485111619304,1071,Petición HTTP,502,Bad Gateway,Alcaldia 1-540,text,false,,155,191,321,321,1071,0,1038
+1485111619302,1075,Petición HTTP,502,Bad Gateway,Alcaldia 1-537,text,false,,155,191,321,321,1075,0,1039
+1485111619310,1067,Petición HTTP,502,Bad Gateway,Alcaldia 1-544,text,false,,155,191,320,320,1067,0,1036
+1485111619297,1080,Petición HTTP,502,Bad Gateway,Alcaldia 1-534,text,false,,155,191,317,317,1080,0,1045
+1485111619301,1076,Petición HTTP,502,Bad Gateway,Alcaldia 1-533,text,false,,155,191,317,317,1076,0,1046
+1485111619300,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-536,text,false,,155,191,314,314,1084,0,1047
+1485111619309,1075,Petición HTTP,502,Bad Gateway,Alcaldia 1-542,text,false,,155,191,313,313,1075,0,1038
+1485111619281,1110,Petición HTTP,502,Bad Gateway,Alcaldia 1-520,text,false,,155,191,312,312,1110,0,1069
+1485111619297,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-531,text,false,,155,191,311,311,1096,0,1052
+1485111619305,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-541,text,false,,155,191,311,311,1088,0,1044
+1485111619309,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-543,text,false,,155,191,311,311,1084,0,1041
+1485111619284,1112,Petición HTTP,502,Bad Gateway,Alcaldia 1-522,text,false,,155,191,308,308,1112,0,1068
+1485111619303,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-539,text,false,,155,191,308,308,1094,0,1049
+1485111619280,1118,Petición HTTP,502,Bad Gateway,Alcaldia 1-519,text,false,,155,191,308,308,1118,0,1071
+1485111619283,1116,Petición HTTP,502,Bad Gateway,Alcaldia 1-521,text,false,,155,191,308,308,1116,0,1067
+1485111619302,1097,Petición HTTP,502,Bad Gateway,Alcaldia 1-538,text,false,,155,191,308,308,1097,0,1046
+1485111619339,1082,Petición HTTP,502,Bad Gateway,Alcaldia 1-571,text,false,,155,191,303,303,1082,0,1037
+1485111619337,1085,Petición HTTP,502,Bad Gateway,Alcaldia 1-570,text,false,,155,191,303,303,1085,0,1040
+1485111619338,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-564,text,false,,155,191,303,303,1084,0,1038
+1485111619313,1112,Petición HTTP,502,Bad Gateway,Alcaldia 1-547,text,false,,155,191,303,303,1112,0,1064
+1485111619345,1118,Petición HTTP,502,Bad Gateway,Alcaldia 1-574,text,false,,155,191,303,303,1118,0,1072
+1485111619335,1133,Petición HTTP,502,Bad Gateway,Alcaldia 1-565,text,false,,155,191,302,302,1133,0,1041
+1485111619334,1135,Petición HTTP,502,Bad Gateway,Alcaldia 1-567,text,false,,155,191,301,301,1135,0,1044
+1485111619311,1159,Petición HTTP,502,Bad Gateway,Alcaldia 1-546,text,false,,155,191,300,300,1159,0,1073
+1485111619333,1137,Petición HTTP,502,Bad Gateway,Alcaldia 1-563,text,false,,155,191,300,300,1137,0,1043
+1485111619313,1157,Petición HTTP,502,Bad Gateway,Alcaldia 1-545,text,false,,155,191,300,300,1157,0,1070
+1485111619335,1135,Petición HTTP,502,Bad Gateway,Alcaldia 1-568,text,false,,155,191,298,298,1135,0,1041
+1485111619336,1135,Petición HTTP,502,Bad Gateway,Alcaldia 1-569,text,false,,155,191,295,294,1135,0,1040
+1485111619314,1157,Petición HTTP,502,Bad Gateway,Alcaldia 1-548,text,false,,155,191,292,292,1157,0,1063
+1485111619399,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-623,text,false,,155,191,290,290,1099,0,1064
+1485111619397,1102,Petición HTTP,502,Bad Gateway,Alcaldia 1-621,text,false,,155,191,290,290,1102,0,1066
+1485111619401,1098,Petición HTTP,502,Bad Gateway,Alcaldia 1-625,text,false,,155,191,290,290,1098,0,1062
+1485111619400,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-624,text,false,,155,191,290,290,1099,0,1064
+1485111619395,1104,Petición HTTP,502,Bad Gateway,Alcaldia 1-619,text,false,,155,191,290,290,1104,0,1068
+1485111619403,1097,Petición HTTP,502,Bad Gateway,Alcaldia 1-626,text,false,,155,191,290,290,1097,0,1060
+1485111619398,1100,Petición HTTP,502,Bad Gateway,Alcaldia 1-622,text,false,,155,191,290,290,1100,0,1066
+1485111619421,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-642,text,false,,155,191,283,283,1083,0,1052
+1485111619345,1161,Petición HTTP,502,Bad Gateway,Alcaldia 1-572,text,false,,155,191,283,283,1161,0,1070
+1485111619423,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-644,text,false,,155,191,283,283,1083,0,1049
+1485111619422,1089,Petición HTTP,502,Bad Gateway,Alcaldia 1-643,text,false,,155,191,280,280,1089,0,1058
+1485111619452,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-669,text,false,,155,191,279,279,1074,0,1045
+1485111619456,1070,Petición HTTP,502,Bad Gateway,Alcaldia 1-672,text,false,,155,191,279,279,1070,0,1042
+1485111619457,1071,Petición HTTP,502,Bad Gateway,Alcaldia 1-673,text,false,,155,191,277,277,1071,0,1040
+1485111619446,1091,Petición HTTP,502,Bad Gateway,Alcaldia 1-663,text,false,,155,191,276,276,1091,0,1057
+1485111619450,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-667,text,false,,155,191,275,275,1088,0,1053
+1485111619448,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-665,text,false,,155,191,275,275,1094,0,1057
+1485111619447,1095,Petición HTTP,502,Bad Gateway,Alcaldia 1-664,text,false,,155,191,275,275,1095,0,1057
+1485111619453,1090,Petición HTTP,502,Bad Gateway,Alcaldia 1-670,text,false,,155,191,275,275,1090,0,1049
+1485111619455,1088,Petición HTTP,502,Bad Gateway,Alcaldia 1-671,text,false,,155,191,275,275,1088,0,1050
+1485111619451,1092,Petición HTTP,502,Bad Gateway,Alcaldia 1-668,text,false,,155,191,275,275,1092,0,1052
+1485111619449,1095,Petición HTTP,502,Bad Gateway,Alcaldia 1-666,text,false,,155,191,275,275,1095,0,1055
+1485111619503,1060,Petición HTTP,502,Bad Gateway,Alcaldia 1-714,text,false,,155,191,268,268,1060,0,1033
+1485111619499,1072,Petición HTTP,502,Bad Gateway,Alcaldia 1-710,text,false,,155,191,267,267,1072,0,1039
+1485111619502,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-713,text,false,,155,191,266,266,1073,0,1038
+1485111619498,1077,Petición HTTP,502,Bad Gateway,Alcaldia 1-709,text,false,,155,191,266,266,1077,0,1042
+1485111619492,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-700,text,false,,155,191,266,266,1083,0,1049
+1485111619501,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-712,text,false,,155,191,266,266,1074,0,1038
+1485111619495,1081,Petición HTTP,502,Bad Gateway,Alcaldia 1-706,text,false,,155,191,266,266,1081,0,1043
+1485111619493,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-705,text,false,,155,191,266,266,1083,0,1046
+1485111619496,1081,Petición HTTP,502,Bad Gateway,Alcaldia 1-707,text,false,,155,191,265,265,1081,0,1046
+1485111619492,1080,Petición HTTP,502,Bad Gateway,Alcaldia 1-704,text,false,,155,191,266,266,1080,0,1046
+1485111619497,1082,Petición HTTP,502,Bad Gateway,Alcaldia 1-708,text,false,,155,191,258,258,1082,0,1045
+1485111619500,1079,Petición HTTP,502,Bad Gateway,Alcaldia 1-711,text,false,,155,191,258,258,1079,0,1041
+1485111619494,1085,Petición HTTP,502,Bad Gateway,Alcaldia 1-699,text,false,,155,191,258,258,1085,0,1049
+1485111619507,1094,Petición HTTP,502,Bad Gateway,Alcaldia 1-717,text,false,,155,191,255,255,1094,0,1065
+1485111619506,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-716,text,false,,155,191,255,255,1096,0,1067
+1485111619504,1098,Petición HTTP,502,Bad Gateway,Alcaldia 1-715,text,false,,155,191,255,255,1098,0,1069
+1485111619508,1095,Petición HTTP,502,Bad Gateway,Alcaldia 1-718,text,false,,155,191,252,252,1095,0,1065
+1485111619491,1118,Petición HTTP,502,Bad Gateway,Alcaldia 1-703,text,false,,155,191,251,251,1118,0,1084
+1485111619509,1100,Petición HTTP,502,Bad Gateway,Alcaldia 1-719,text,false,,155,191,251,251,1100,0,1067
+1485111619536,1073,Petición HTTP,502,Bad Gateway,Alcaldia 1-739,text,false,,155,191,251,251,1073,0,1040
+1485111619563,1067,Petición HTTP,502,Bad Gateway,Alcaldia 1-745,text,false,,155,191,248,248,1067,0,1036
+1485111619563,1068,Petición HTTP,502,Bad Gateway,Alcaldia 1-746,text,false,,155,191,247,247,1068,0,1037
+1485111619564,1068,Petición HTTP,502,Bad Gateway,Alcaldia 1-747,text,false,,155,191,246,246,1068,0,1037
+1485111619563,1070,Petición HTTP,502,Bad Gateway,Alcaldia 1-744,text,false,,155,191,245,245,1070,0,1038
+1485111619536,1098,Petición HTTP,502,Bad Gateway,Alcaldia 1-736,text,false,,155,191,244,244,1098,0,1064
+1485111619566,1068,Petición HTTP,502,Bad Gateway,Alcaldia 1-748,text,false,,155,191,243,243,1068,0,1035
+1485111619538,1098,Petición HTTP,502,Bad Gateway,Alcaldia 1-737,text,false,,155,191,242,242,1098,0,1070
+1485111619567,1069,Petición HTTP,502,Bad Gateway,Alcaldia 1-749,text,false,,155,191,242,242,1069,0,1034
+1485111619538,1099,Petición HTTP,502,Bad Gateway,Alcaldia 1-738,text,false,,155,191,240,240,1099,0,1070
+1485111619541,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-740,text,false,,155,191,240,240,1096,0,1067
+1485111619562,1075,Petición HTTP,502,Bad Gateway,Alcaldia 1-743,text,false,,155,191,238,238,1075,0,1046
+1485111619568,1092,Petición HTTP,502,Bad Gateway,Alcaldia 1-750,text,false,,155,191,237,237,1092,0,1062
+1485111619661,1057,Petición HTTP,502,Bad Gateway,Alcaldia 1-805,text,false,,155,191,236,236,1057,0,1029
+1485111619679,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-819,text,false,,155,191,235,235,1074,0,1045
+1485111619680,1074,Petición HTTP,502,Bad Gateway,Alcaldia 1-820,text,false,,155,191,234,234,1074,0,1044
+1485111619683,1072,Petición HTTP,502,Bad Gateway,Alcaldia 1-822,text,false,,155,191,233,233,1072,0,1042
+1485111619676,1079,Petición HTTP,502,Bad Gateway,Alcaldia 1-818,text,false,,155,191,233,233,1079,0,1048
+1485111619682,1076,Petición HTTP,502,Bad Gateway,Alcaldia 1-821,text,false,,155,191,231,231,1076,0,1043
+1485111619700,1077,Petición HTTP,502,Bad Gateway,Alcaldia 1-837,text,false,,155,191,230,230,1077,0,1051
+1485111619698,1084,Petición HTTP,502,Bad Gateway,Alcaldia 1-831,text,false,,155,191,229,229,1084,0,1054
+1485111619700,1083,Petición HTTP,502,Bad Gateway,Alcaldia 1-836,text,false,,155,191,228,228,1083,0,1051
+1485111619699,1089,Petición HTTP,502,Bad Gateway,Alcaldia 1-833,text,false,,155,191,227,227,1089,0,1058
+1485111619698,1090,Petición HTTP,502,Bad Gateway,Alcaldia 1-835,text,false,,155,191,227,227,1090,0,1060
+1485111619697,1091,Petición HTTP,502,Bad Gateway,Alcaldia 1-834,text,false,,155,191,227,227,1091,0,1060
+1485111619736,1092,Petición HTTP,502,Bad Gateway,Alcaldia 1-870,text,false,,155,191,224,224,1092,0,1055
+1485111619733,1096,Petición HTTP,502,Bad Gateway,Alcaldia 1-867,text,false,,155,191,223,223,1096,0,1057
+1485111619766,1085,Petición HTTP,502,Bad Gateway,Alcaldia 1-883,text,false,,155,191,222,222,1085,0,1055
+1485111619766,1087,Petición HTTP,502,Bad Gateway,Alcaldia 1-898,text,false,,155,191,221,221,1087,0,1055
+1485111619820,1057,Petición HTTP,502,Bad Gateway,Alcaldia 1-948,text,false,,155,191,220,220,1057,0,1030
+1485111619819,1062,Petición HTTP,502,Bad Gateway,Alcaldia 1-947,text,false,,155,191,219,219,1062,0,1032
+1485111618752,8721,Petición HTTP,200,OK,Alcaldia 1-62,text,true,,77104,191,218,218,8448,0,43
+1485111618781,8802,Petición HTTP,200,OK,Alcaldia 1-85,text,true,,77104,191,217,217,8488,0,38
+1485111618727,8942,Petición HTTP,200,OK,Alcaldia 1-40,text,true,,77104,191,216,216,8549,0,55
+1485111618719,9086,Petición HTTP,200,OK,Alcaldia 1-33,text,true,,77104,191,215,215,8600,0,51
+1485111618794,9058,Petición HTTP,200,OK,Alcaldia 1-94,text,true,,77104,191,214,214,8544,0,40
+1485111618805,9144,Petición HTTP,200,OK,Alcaldia 1-104,text,true,,77104,191,213,213,8572,0,28
+1485111618742,9220,Petición HTTP,200,OK,Alcaldia 1-53,text,true,,77104,191,212,212,8741,0,52
+1485111618718,9286,Petición HTTP,200,OK,Alcaldia 1-32,text,true,,77104,191,211,211,8758,0,54
+1485111618726,9305,Petición HTTP,200,OK,Alcaldia 1-39,text,true,,77104,191,210,210,8624,0,55
+1485111618749,9316,Petición HTTP,200,OK,Alcaldia 1-59,text,true,,77104,191,209,209,8791,0,45
+1485111618801,9271,Petición HTTP,200,OK,Alcaldia 1-100,text,true,,77104,191,208,208,8675,0,32
+1485111618777,9300,Petición HTTP,200,OK,Alcaldia 1-81,text,true,,77104,191,207,207,8842,0,40
+1485111618806,14104,Petición HTTP,404,Not Found,Alcaldia 1-105,text,false,,640,428,206,206,6140,0,31
+1485111618812,14099,Petición HTTP,404,Not Found,Alcaldia 1-111,text,false,,640,428,205,205,6300,0,29
+1485111618808,14103,Petición HTTP,404,Not Found,Alcaldia 1-103,text,false,,640,428,205,205,6146,0,28
+1485111618808,14103,Petición HTTP,404,Not Found,Alcaldia 1-107,text,false,,640,428,203,203,6309,0,33
+1485111618811,14101,Petición HTTP,404,Not Found,Alcaldia 1-110,text,false,,640,428,202,202,6476,0,31
+1485111618813,14099,Petición HTTP,404,Not Found,Alcaldia 1-112,text,false,,640,428,202,202,6483,0,29
+1485111618807,14106,Petición HTTP,404,Not Found,Alcaldia 1-106,text,false,,640,428,200,200,6583,0,32
+1485111618808,14106,Petición HTTP,404,Not Found,Alcaldia 1-102,text,false,,640,428,199,199,6729,0,34
+1485111618827,14088,Petición HTTP,404,Not Found,Alcaldia 1-123,text,false,,640,428,199,199,7185,0,34
+1485111618814,14101,Petición HTTP,404,Not Found,Alcaldia 1-113,text,false,,640,428,199,199,6918,0,37
+1485111618818,14096,Petición HTTP,404,Not Found,Alcaldia 1-116,text,false,,640,428,199,199,7198,0,33
+1485111618815,14099,Petición HTTP,404,Not Found,Alcaldia 1-114,text,false,,640,428,199,199,6925,0,34
+1485111618824,14274,Petición HTTP,404,Not Found,Alcaldia 1-121,text,false,,640,428,194,194,7472,0,37
+1485111618819,14279,Petición HTTP,404,Not Found,Alcaldia 1-117,text,false,,640,428,193,193,7510,0,32
+1485111618823,14309,Petición HTTP,404,Not Found,Alcaldia 1-120,text,false,,640,428,192,192,7756,0,28
+1485111618821,14311,Petición HTTP,404,Not Found,Alcaldia 1-119,text,false,,640,428,192,192,7819,0,30
+1485111618817,14316,Petición HTTP,404,Not Found,Alcaldia 1-115,text,false,,640,428,190,190,6804,0,33
+1485111618820,14396,Petición HTTP,404,Not Found,Alcaldia 1-118,text,false,,640,428,189,189,7994,0,31
+1485111618831,14385,Petición HTTP,404,Not Found,Alcaldia 1-126,text,false,,640,428,189,189,8157,0,30
+1485111618829,14387,Petición HTTP,404,Not Found,Alcaldia 1-125,text,false,,640,428,189,189,8243,0,31
+1485111618828,14389,Petición HTTP,404,Not Found,Alcaldia 1-124,text,false,,640,428,186,186,8302,0,28
+1485111618832,14385,Petición HTTP,404,Not Found,Alcaldia 1-128,text,false,,640,428,186,186,8309,0,30
+1485111618833,14388,Petición HTTP,404,Not Found,Alcaldia 1-129,text,false,,640,428,184,184,8354,0,29
+1485111618847,14375,Petición HTTP,404,Not Found,Alcaldia 1-138,text,false,,640,428,183,183,8897,0,32
+1485111618848,14383,Petición HTTP,404,Not Found,Alcaldia 1-139,text,false,,640,428,182,182,8958,0,31
+1485111618861,14372,Petición HTTP,404,Not Found,Alcaldia 1-145,text,false,,640,428,181,181,9046,0,28
+1485111618862,14371,Petición HTTP,404,Not Found,Alcaldia 1-146,text,false,,640,428,180,180,9152,0,28
+1485111618864,14371,Petición HTTP,404,Not Found,Alcaldia 1-147,text,false,,640,428,179,179,9198,0,35
+1485111618868,14367,Petición HTTP,404,Not Found,Alcaldia 1-151,text,false,,640,428,178,178,9351,0,28
+1485111618872,14363,Petición HTTP,404,Not Found,Alcaldia 1-155,text,false,,640,428,177,177,9251,0,25
+1485111618864,14372,Petición HTTP,404,Not Found,Alcaldia 1-148,text,false,,640,428,176,176,9363,0,36
+1485111618849,14387,Petición HTTP,404,Not Found,Alcaldia 1-140,text,false,,640,428,176,176,9187,0,38
+1485111618870,14366,Petición HTTP,404,Not Found,Alcaldia 1-153,text,false,,640,428,176,176,9433,0,31
+1485111618874,14363,Petición HTTP,404,Not Found,Alcaldia 1-157,text,false,,640,428,173,173,9544,0,32
+1485111618865,14372,Petición HTTP,404,Not Found,Alcaldia 1-149,text,false,,640,428,173,173,9500,0,36
+1485111618869,14368,Petición HTTP,404,Not Found,Alcaldia 1-152,text,false,,640,428,173,173,9509,0,31
+1485111618877,14360,Petición HTTP,404,Not Found,Alcaldia 1-160,text,false,,640,428,171,171,9632,0,29
+1485111618871,14368,Petición HTTP,404,Not Found,Alcaldia 1-154,text,false,,640,428,169,169,9697,0,30
+1485111618883,14356,Petición HTTP,404,Not Found,Alcaldia 1-165,text,false,,640,428,168,168,9870,0,29
+1485111618875,14364,Petición HTTP,404,Not Found,Alcaldia 1-158,text,false,,640,428,168,168,9805,0,31
+1485111618879,14361,Petición HTTP,404,Not Found,Alcaldia 1-162,text,false,,640,428,166,166,10038,0,34
+1485111618879,14361,Petición HTTP,404,Not Found,Alcaldia 1-161,text,false,,640,428,166,166,9989,0,27
+1485111618876,14364,Petición HTTP,404,Not Found,Alcaldia 1-159,text,false,,640,428,165,165,9827,0,30
+1485111618873,14367,Petición HTTP,404,Not Found,Alcaldia 1-156,text,false,,640,428,166,166,9783,0,33
+1485111618867,14373,Petición HTTP,404,Not Found,Alcaldia 1-150,text,false,,640,428,164,164,9646,0,34
+1485111618882,14358,Petición HTTP,404,Not Found,Alcaldia 1-164,text,false,,640,428,164,164,10031,0,31
+1485111618885,14373,Petición HTTP,404,Not Found,Alcaldia 1-167,text,false,,640,428,160,160,10175,0,30
+1485111618886,14373,Petición HTTP,404,Not Found,Alcaldia 1-168,text,false,,640,428,159,159,10208,0,29
+1485111618896,14364,Petición HTTP,404,Not Found,Alcaldia 1-177,text,false,,640,428,158,158,10476,0,34
+1485111618884,14376,Petición HTTP,404,Not Found,Alcaldia 1-166,text,false,,640,428,158,158,10331,0,29
+1485111618892,14369,Petición HTTP,404,Not Found,Alcaldia 1-173,text,false,,640,428,158,158,10625,0,28
+1485111618881,14380,Petición HTTP,404,Not Found,Alcaldia 1-163,text,false,,640,428,155,155,10188,0,33
+1485111618889,14372,Petición HTTP,404,Not Found,Alcaldia 1-171,text,false,,640,428,154,154,10362,0,30
+1485111618890,14371,Petición HTTP,404,Not Found,Alcaldia 1-172,text,false,,640,428,153,153,10422,0,30
+1485111618900,14362,Petición HTTP,404,Not Found,Alcaldia 1-181,text,false,,640,428,152,152,10530,0,30
+1485111618894,14368,Petición HTTP,404,Not Found,Alcaldia 1-175,text,false,,640,428,151,151,10835,0,37
+1485111618887,14375,Petición HTTP,404,Not Found,Alcaldia 1-169,text,false,,640,428,151,151,10683,0,33
+1485111618893,14370,Petición HTTP,404,Not Found,Alcaldia 1-174,text,false,,640,428,151,151,10736,0,27
+1485111618902,14361,Petición HTTP,404,Not Found,Alcaldia 1-183,text,false,,640,428,150,150,11102,0,34
+1485111618906,14357,Petición HTTP,404,Not Found,Alcaldia 1-186,text,false,,640,428,149,149,10930,0,30
+1485111618888,14375,Petición HTTP,404,Not Found,Alcaldia 1-170,text,false,,640,428,149,149,10757,0,32
+1485111618898,14365,Petición HTTP,404,Not Found,Alcaldia 1-179,text,false,,640,428,146,146,10895,0,33
+1485111618895,14371,Petición HTTP,404,Not Found,Alcaldia 1-176,text,false,,640,428,144,144,11201,0,36
+1485111618899,14367,Petición HTTP,404,Not Found,Alcaldia 1-180,text,false,,640,428,144,144,11123,0,31
+1485111618897,14369,Petición HTTP,404,Not Found,Alcaldia 1-178,text,false,,640,428,144,144,11043,0,35
+1485111618903,14364,Petición HTTP,404,Not Found,Alcaldia 1-184,text,false,,640,428,141,141,11294,0,34
+1485111618909,14358,Petición HTTP,404,Not Found,Alcaldia 1-189,text,false,,640,428,141,141,11740,0,35
+1485111618904,14363,Petición HTTP,404,Not Found,Alcaldia 1-185,text,false,,640,428,140,140,11296,0,32
+1485111618908,14360,Petición HTTP,404,Not Found,Alcaldia 1-188,text,false,,640,428,138,138,11303,0,36
+1485111618901,14367,Petición HTTP,404,Not Found,Alcaldia 1-182,text,false,,640,428,138,138,11443,0,37
+1485111618912,14356,Petición HTTP,404,Not Found,Alcaldia 1-192,text,false,,640,428,138,138,11432,0,32
+1485111618907,14361,Petición HTTP,404,Not Found,Alcaldia 1-187,text,false,,640,428,137,137,11568,0,39
+1485111618911,14357,Petición HTTP,404,Not Found,Alcaldia 1-191,text,false,,640,428,135,135,11572,0,33
+1485111618913,14356,Petición HTTP,404,Not Found,Alcaldia 1-193,text,false,,640,428,134,134,11762,0,33
+1485111618920,14399,Petición HTTP,404,Not Found,Alcaldia 1-199,text,false,,640,428,132,132,12293,0,33
+1485111618925,14394,Petición HTTP,404,Not Found,Alcaldia 1-204,text,false,,640,428,132,132,12387,0,34
+1485111618916,14404,Petición HTTP,404,Not Found,Alcaldia 1-196,text,false,,640,428,130,130,12031,0,35
+1485111618917,14403,Petición HTTP,404,Not Found,Alcaldia 1-197,text,false,,640,428,130,130,12190,0,36
+1485111618915,14405,Petición HTTP,404,Not Found,Alcaldia 1-195,text,false,,640,428,130,130,12124,0,38
+1485111618914,14406,Petición HTTP,404,Not Found,Alcaldia 1-194,text,false,,640,428,128,128,12033,0,32
+1485111618910,14411,Petición HTTP,404,Not Found,Alcaldia 1-190,text,false,,640,428,126,126,11978,0,36
+1485111618919,14408,Petición HTTP,404,Not Found,Alcaldia 1-198,text,false,,640,428,125,125,12218,0,34
+1485111618791,14537,Petición HTTP,200,OK,Alcaldia 1-92,text,true,,77104,191,124,124,14343,0,43
+1485111618922,14417,Petición HTTP,404,Not Found,Alcaldia 1-201,text,false,,640,428,123,123,12509,0,39
+1485111618926,14414,Petición HTTP,404,Not Found,Alcaldia 1-205,text,false,,640,428,122,122,12576,0,36
+1485111618921,14421,Petición HTTP,404,Not Found,Alcaldia 1-200,text,false,,640,428,121,121,12688,0,38
+1485111618923,14420,Petición HTTP,404,Not Found,Alcaldia 1-202,text,false,,640,428,120,120,12727,0,39
+1485111618924,14419,Petición HTTP,404,Not Found,Alcaldia 1-203,text,false,,640,428,119,119,12685,0,37
+1485111618933,14410,Petición HTTP,404,Not Found,Alcaldia 1-211,text,false,,640,428,118,118,12925,0,34
+1485111618927,14418,Petición HTTP,404,Not Found,Alcaldia 1-206,text,false,,640,428,118,118,12978,0,36
+1485111618937,14408,Petición HTTP,404,Not Found,Alcaldia 1-215,text,false,,640,428,118,118,13177,0,41
+1485111618935,14410,Petición HTTP,404,Not Found,Alcaldia 1-213,text,false,,640,428,118,118,13029,0,32
+1485111618934,14411,Petición HTTP,404,Not Found,Alcaldia 1-212,text,false,,640,428,118,118,12813,0,33
+1485111618932,14412,Petición HTTP,404,Not Found,Alcaldia 1-210,text,false,,640,428,118,118,12970,0,35
+1485111618936,14409,Petición HTTP,404,Not Found,Alcaldia 1-214,text,false,,640,428,118,118,13119,0,31
+1485111618929,14415,Petición HTTP,404,Not Found,Alcaldia 1-208,text,false,,640,428,118,118,12827,0,34
+1485111618928,14416,Petición HTTP,404,Not Found,Alcaldia 1-207,text,false,,640,428,118,118,12873,0,35
+1485111618938,14406,Petición HTTP,404,Not Found,Alcaldia 1-216,text,false,,640,428,118,118,13120,0,40
+1485111619346,14005,Petición HTTP,404,Not Found,Alcaldia 1-576,text,false,,640,428,108,108,12899,0,1074
+1485111619384,13968,Petición HTTP,404,Not Found,Alcaldia 1-610,text,false,,640,428,108,108,12914,0,71
+1485111618930,14422,Petición HTTP,404,Not Found,Alcaldia 1-209,text,false,,640,428,107,107,13303,0,39
+1485111619652,13700,Petición HTTP,404,Not Found,Alcaldia 1-803,text,false,,640,428,106,106,12716,0,1036
+1485111619396,13956,Petición HTTP,404,Not Found,Alcaldia 1-620,text,false,,640,428,106,106,12957,0,1067
+1485111619477,13875,Petición HTTP,404,Not Found,Alcaldia 1-690,text,false,,640,428,106,106,13018,0,3069
+1485111619491,13861,Petición HTTP,404,Not Found,Alcaldia 1-694,text,false,,640,428,106,106,13273,0,3054
+1485111619476,13877,Petición HTTP,404,Not Found,Alcaldia 1-689,text,false,,640,428,103,103,13152,0,3069
+1485111619475,13878,Petición HTTP,404,Not Found,Alcaldia 1-688,text,false,,640,428,102,102,13213,0,3070
+1485111619491,13862,Petición HTTP,404,Not Found,Alcaldia 1-695,text,false,,640,428,99,99,13329,0,3055
+1485111619492,13861,Petición HTTP,404,Not Found,Alcaldia 1-701,text,false,,640,428,99,99,13469,0,3055
+1485111619492,13861,Petición HTTP,404,Not Found,Alcaldia 1-702,text,false,,640,428,97,97,13419,0,3055
+1485111618801,14661,Petición HTTP,200,OK,Alcaldia 1-95,text,true,,77104,191,96,96,14412,0,34
+1485111618783,14998,Petición HTTP,200,OK,Alcaldia 1-87,text,true,,77104,191,95,95,14477,0,35
+1485111618751,15098,Petición HTTP,200,OK,Alcaldia 1-61,text,true,,77104,191,94,94,14508,0,43
+1485111618805,15099,Petición HTTP,200,OK,Alcaldia 1-98,text,true,,77104,191,93,93,14517,0,30
+1485111618765,15148,Petición HTTP,200,OK,Alcaldia 1-70,text,true,,77104,191,92,92,14577,0,37
+1485111618690,15703,Petición HTTP,200,OK,Alcaldia 1-7,text,true,,77104,191,91,91,14726,0,103
+1485111618701,15791,Petición HTTP,200,OK,Alcaldia 1-17,text,true,,77104,191,90,90,14665,0,77
+1485111618768,15763,Petición HTTP,200,OK,Alcaldia 1-73,text,true,,77104,191,89,89,14765,0,37
+1485111618686,15892,Petición HTTP,200,OK,Alcaldia 1-4,text,true,,77104,191,88,88,14634,0,108
+1485111618806,15942,Petición HTTP,200,OK,Alcaldia 1-99,text,true,,77104,191,87,87,14589,0,27
+1485111618739,16402,Petición HTTP,200,OK,Alcaldia 1-50,text,true,,77104,191,86,86,15167,0,56
+1485111618704,16528,Petición HTTP,200,OK,Alcaldia 1-20,text,true,,77104,191,85,85,14789,0,89
+1485111618685,17027,Petición HTTP,200,OK,Alcaldia 1-3,text,true,,77104,191,84,84,14735,0,109
+1485111618773,16989,Petición HTTP,200,OK,Alcaldia 1-77,text,true,,77104,191,83,83,15207,0,45
+1485111618763,17108,Petición HTTP,200,OK,Alcaldia 1-68,text,true,,77104,191,82,82,15171,0,39
+1485111618713,17171,Petición HTTP,200,OK,Alcaldia 1-28,text,true,,77104,191,81,81,15326,0,69
+1485111618766,17192,Petición HTTP,200,OK,Alcaldia 1-71,text,true,,77104,191,80,80,15940,0,39
+1485111618689,17312,Petición HTTP,200,OK,Alcaldia 1-6,text,true,,77104,191,79,79,16124,0,89
+1485111618691,17373,Petición HTTP,200,OK,Alcaldia 1-8,text,true,,77104,191,78,78,15017,0,94
+1485111618764,17314,Petición HTTP,200,OK,Alcaldia 1-69,text,true,,77104,191,77,77,14601,0,37
+1485111618734,17533,Petición HTTP,200,OK,Alcaldia 1-46,text,true,,77104,191,76,76,15939,0,25
+1485111618729,17559,Petición HTTP,200,OK,Alcaldia 1-42,text,true,,77104,191,75,75,14776,0,52
+1485111618809,17615,Petición HTTP,200,OK,Alcaldia 1-108,text,true,,77104,191,74,74,14951,0,32
+1485111618776,17683,Petición HTTP,200,OK,Alcaldia 1-80,text,true,,77104,191,73,73,15269,0,41
+1485111618807,17730,Petición HTTP,200,OK,Alcaldia 1-96,text,true,,77104,191,72,72,15064,0,28
+1485111618855,17694,Petición HTTP,200,OK,Alcaldia 1-143,text,true,,77104,191,71,71,16649,0,30
+1485111618810,17754,Petición HTTP,200,OK,Alcaldia 1-109,text,true,,77104,191,70,70,15961,0,32
+1485111618712,17899,Petición HTTP,200,OK,Alcaldia 1-27,text,true,,77104,191,69,69,15967,0,60
+1485111618740,17878,Petición HTTP,200,OK,Alcaldia 1-51,text,true,,77104,191,68,68,15838,0,54
+1485111618708,18056,Petición HTTP,200,OK,Alcaldia 1-23,text,true,,77104,191,67,67,16173,0,68
+1485111618767,18028,Petición HTTP,200,OK,Alcaldia 1-72,text,true,,77104,191,66,66,15777,0,35
+1485111618687,18113,Petición HTTP,200,OK,Alcaldia 1-5,text,true,,77104,191,65,65,14742,0,106
+1485111618834,18012,Petición HTTP,200,OK,Alcaldia 1-130,text,true,,77104,191,64,64,16356,0,37
+1485111618804,18079,Petición HTTP,200,OK,Alcaldia 1-101,text,true,,77104,191,63,63,15021,0,30
+1485111618709,18211,Petición HTTP,200,OK,Alcaldia 1-24,text,true,,77104,191,62,62,15869,0,67
+1485111618731,18244,Petición HTTP,200,OK,Alcaldia 1-44,text,true,,77104,191,61,61,15091,0,51
+1485111618721,18260,Petición HTTP,200,OK,Alcaldia 1-35,text,true,,77104,191,60,60,16464,0,51
+1485111618750,18297,Petición HTTP,200,OK,Alcaldia 1-60,text,true,,77104,191,59,59,14777,0,45
+1485111618779,18316,Petición HTTP,200,OK,Alcaldia 1-83,text,true,,77104,191,58,58,15122,0,38
+1485111618769,18372,Petición HTTP,200,OK,Alcaldia 1-64,text,true,,77104,191,57,57,16248,0,36
+1485111618790,18357,Petición HTTP,200,OK,Alcaldia 1-91,text,true,,77104,191,56,56,15624,0,45
+1485111618738,18470,Petición HTTP,200,OK,Alcaldia 1-49,text,true,,77104,191,55,55,15202,0,56
+1485111618780,18433,Petición HTTP,200,OK,Alcaldia 1-84,text,true,,77104,191,54,54,15153,0,40
+1485111618711,18604,Petición HTTP,200,OK,Alcaldia 1-26,text,true,,77104,191,53,53,16208,0,65
+1485111618742,18589,Petición HTTP,200,OK,Alcaldia 1-52,text,true,,77104,191,52,52,16181,0,48
+1485111618725,18619,Petición HTTP,200,OK,Alcaldia 1-38,text,true,,77104,191,51,51,16092,0,47
+1485111618761,18650,Petición HTTP,200,OK,Alcaldia 1-66,text,true,,77104,191,50,50,15172,0,42
+1485111618706,18709,Petición HTTP,200,OK,Alcaldia 1-21,text,true,,77104,191,49,49,15169,0,88
+1485111618735,18707,Petición HTTP,200,OK,Alcaldia 1-47,text,true,,77104,191,48,48,15970,0,38
+1485111618743,18702,Petición HTTP,200,OK,Alcaldia 1-54,text,true,,77104,191,47,47,15962,0,52
+1485111618792,18674,Petición HTTP,200,OK,Alcaldia 1-93,text,true,,77104,191,46,46,16228,0,43
+1485111618716,18794,Petición HTTP,200,OK,Alcaldia 1-30,text,true,,77104,191,45,45,15902,0,50
+1485111618771,18757,Petición HTTP,200,OK,Alcaldia 1-76,text,true,,77104,191,44,44,16197,0,46
+1485111618692,18845,Petición HTTP,200,OK,Alcaldia 1-9,text,true,,77104,191,43,43,15978,0,94
+1485111618717,18822,Petición HTTP,200,OK,Alcaldia 1-31,text,true,,77104,191,42,42,15954,0,64
+1485111618722,18850,Petición HTTP,200,OK,Alcaldia 1-36,text,true,,77104,191,41,41,15121,0,59
+1485111618769,18847,Petición HTTP,200,OK,Alcaldia 1-74,text,true,,77104,191,40,40,15730,0,35
+1485111618831,18835,Petición HTTP,200,OK,Alcaldia 1-127,text,true,,77104,191,39,39,16593,0,27
+1485111618700,19075,Petición HTTP,200,OK,Alcaldia 1-16,text,true,,77104,191,38,38,15919,0,85
+1485111618710,19170,Petición HTTP,200,OK,Alcaldia 1-25,text,true,,77104,191,37,37,15992,0,65
+1485111618841,19045,Petición HTTP,200,OK,Alcaldia 1-132,text,true,,77104,191,36,36,16794,0,30
+1485111618748,19282,Petición HTTP,200,OK,Alcaldia 1-58,text,true,,77104,191,35,35,15927,0,47
+1485111618782,19305,Petición HTTP,200,OK,Alcaldia 1-86,text,true,,77104,191,34,34,15922,0,37
+1485111618784,19313,Petición HTTP,200,OK,Alcaldia 1-88,text,true,,77104,191,33,33,15136,0,36
+1485111618778,19333,Petición HTTP,200,OK,Alcaldia 1-82,text,true,,77104,191,32,32,15763,0,42
+1485111618845,19284,Petición HTTP,200,OK,Alcaldia 1-135,text,true,,77104,191,31,31,16655,0,34
+1485111618843,19286,Petición HTTP,200,OK,Alcaldia 1-134,text,true,,77104,191,31,31,17075,0,37
+1485111618842,19291,Petición HTTP,200,OK,Alcaldia 1-133,text,true,,77104,191,29,29,16988,0,29
+1485111618714,19426,Petición HTTP,200,OK,Alcaldia 1-29,text,true,,77104,191,28,28,18261,0,59
+1485111618826,19320,Petición HTTP,200,OK,Alcaldia 1-122,text,true,,77104,191,27,27,17003,0,32
+1485111618850,19336,Petición HTTP,200,OK,Alcaldia 1-141,text,true,,77104,191,26,26,16993,0,36
+1485111618703,19532,Petición HTTP,200,OK,Alcaldia 1-19,text,true,,77104,191,25,25,15828,0,84
+1485111618747,19502,Petición HTTP,200,OK,Alcaldia 1-57,text,true,,77104,191,24,24,15775,0,47
+1485111618681,19603,Petición HTTP,200,OK,Alcaldia 1-1,text,true,,77104,191,23,23,18357,0,80
+1485111618720,19598,Petición HTTP,200,OK,Alcaldia 1-34,text,true,,77104,191,22,22,15983,0,61
+1485111618728,19661,Petición HTTP,200,OK,Alcaldia 1-41,text,true,,77104,191,21,21,16357,0,54
+1485111618706,19722,Petición HTTP,200,OK,Alcaldia 1-22,text,true,,77104,191,20,20,16305,0,87
+1485111618757,19809,Petición HTTP,200,OK,Alcaldia 1-63,text,true,,77104,191,19,19,15902,0,38
+1485111618785,20107,Petición HTTP,200,OK,Alcaldia 1-89,text,true,,77104,191,18,18,18807,0,47
+1485111618770,20134,Petición HTTP,200,OK,Alcaldia 1-75,text,true,,77104,191,17,17,15850,0,32
+1485111618745,20194,Petición HTTP,200,OK,Alcaldia 1-55,text,true,,77104,191,16,16,18848,0,49
+1485111618760,20198,Petición HTTP,200,OK,Alcaldia 1-65,text,true,,77104,191,15,15,15895,0,42
+1485111618733,20249,Petición HTTP,200,OK,Alcaldia 1-45,text,true,,77104,191,14,14,15932,0,31
+1485111618702,20290,Petición HTTP,200,OK,Alcaldia 1-18,text,true,,77104,191,13,13,15959,0,87
+1485111618805,20205,Petición HTTP,200,OK,Alcaldia 1-97,text,true,,77104,191,12,12,14840,0,30
+1485111618723,20297,Petición HTTP,200,OK,Alcaldia 1-37,text,true,,77104,191,11,11,19144,0,47
+1485111618730,20323,Petición HTTP,200,OK,Alcaldia 1-43,text,true,,77104,191,10,10,19175,0,51
+1485111618736,20364,Petición HTTP,200,OK,Alcaldia 1-48,text,true,,77104,191,9,9,19288,0,58
+1485111618762,20390,Petición HTTP,200,OK,Alcaldia 1-67,text,true,,77104,191,8,8,19279,0,39
+1485111618845,20438,Petición HTTP,200,OK,Alcaldia 1-136,text,true,,77104,191,7,7,19892,0,33
+1485111618835,20457,Petición HTTP,200,OK,Alcaldia 1-131,text,true,,77104,191,6,6,19757,0,36
+1485111618846,20458,Petición HTTP,200,OK,Alcaldia 1-137,text,true,,77104,191,5,5,19818,0,33
+1485111618775,20671,Petición HTTP,200,OK,Alcaldia 1-79,text,true,,77104,191,4,4,15220,0,42
+1485111618774,20819,Petición HTTP,200,OK,Alcaldia 1-78,text,true,,77104,191,3,3,14994,0,43
+1485111618746,21024,Petición HTTP,200,OK,Alcaldia 1-56,text,true,,77104,191,2,2,15170,0,48
+1485111618789,25141,Petición HTTP,200,OK,Alcaldia 1-90,text,true,,77104,191,1,1,18863,0,45

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="450dp"
+    android:padding="16dp"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:paddingBottom="16dp"
+        android:text="Filtrar: "/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:paddingBottom="8dp"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxPropiedadVenta"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@color/predioPropiedadVenta"
+            app:circle_color="@color/predioPropiedadVenta"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:paddingLeft="16dp"
+            android:text="Predio propiedad del Mcpio para la Venta"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:paddingBottom="8dp"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxPropiedad"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@color/predioPropiedad"
+            app:circle_color="@color/predioPropiedad"/>
+
+
+        <TextView
+            android:layout_weight="3"
+            android:text="Predio Propiedad del Mcpio"
+            android:textSize="12dp"
+            android:paddingLeft="16dp"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:weightSum="4"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxParcialPropiedad"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@color/predioParcialPropiedad"
+            app:circle_color="@color/predioParcialPropiedad"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:paddingLeft="16dp"
+            android:layout_weight="3"
+            android:text="Predio Parcialmente Propiedad del Mcpio"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxParcialVenta"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@color/predioParcialVenta"
+            app:circle_color="@color/predioParcialVenta"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:paddingLeft="16dp"
+            android:layout_weight="3"
+            android:text="Predio Parcialmente del Mcpio para la Venta"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:weightSum="4"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:layout_weight="1"
+            android:id="@+id/checkboxConstrucciones"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:stroke_width="2dp"
+            app:stroke_color="@android:color/black"
+            app:circle_color="@android:color/black"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:textSize="12dp"
+            android:text="Construcciones"
+            android:paddingLeft="16dp"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:weightSum="4"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxMobiliario"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@android:color/holo_green_dark"
+            app:circle_color="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:text="Amoblamientos I"
+            android:paddingLeft="16dp"
+            android:layout_weight="3"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:weightSum="4"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxMobiliario2"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@android:color/holo_green_dark"
+            app:circle_color="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:text="Amoblamientos II"
+            android:paddingLeft="16dp"
+            android:layout_weight="3"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:paddingBottom="8dp"
+        android:weightSum="4"
+        android:layout_height="0px">
+
+        <com.github.lguipeng.library.animcheckbox.AnimCheckBox
+            android:id="@+id/checkboxMobiliario3"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:stroke_width="3dp"
+            app:stroke_color="@android:color/holo_green_dark"
+            app:circle_color="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:textSize="12dp"
+            android:text="Amoblamientos III"
+            android:paddingLeft="16dp"
+            android:layout_weight="3"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ok"
+        android:text="Ok"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0px" />
+
+</LinearLayout>

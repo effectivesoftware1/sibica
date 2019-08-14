@@ -1,0 +1,22 @@
+repositorio de documentacion
+https://github.com/effectivesoftware1/sibica
+_________________________________________________
+
+repositorio app movil
+https://github.com/effectivesoftware1/sibicaMovil
+
+__________________________________________________
+
+repo web
+https://github.com/effectivesoftware1/sibicaWeb
+_________________________________________________
+
+trello para gestion de tareas 
+https://trello.com/b/6IsBZ2wk/sibica
+
+las tareas deben crearse segun las actividades asignadas del product backlog es cual esta en
+el repositorio de documentacion:
+
+https://github.com/effectivesoftware1/sibica/tree/master/documentacion/desarrollo/cronograma
+______________________________________________________
+

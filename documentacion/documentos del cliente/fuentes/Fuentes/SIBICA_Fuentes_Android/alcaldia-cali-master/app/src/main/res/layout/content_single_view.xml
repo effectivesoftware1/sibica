@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_single_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.javpoblano.alcaldia.activities.SingleViewActivity"
+    tools:showIn="@layout/activity_single_view">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.google.android.gms.maps.MapView>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_below="@id/mapview"
+        android:weightSum="2.01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:onClick="openReport"
+            android:text="Reportar Irregularidad"/>
+
+        <View
+            android:layout_width="0px"
+            android:layout_weight="0.01"
+            android:layout_height="32dp"></View>
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="10dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorTextPrimary"
+            android:onClick="openStreetView"
+            android:text="Google Street View"
+            android:id="@+id/button2" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_below="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Predial Terreno"/>
+
+            <TextView
+                android:id="@+id/predialTerreno"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Predial Edificación"/>
+
+            <TextView
+                android:id="@+id/predialConstruccion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Dirección"/>
+
+            <TextView
+                android:id="@+id/direccion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Tipo de bien"/>
+
+            <TextView
+                android:id="@+id/tipoBien"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Nombre del proyecto"/>
+
+            <TextView
+                android:id="@+id/nombreProyecto"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Nombre del área cedida"/>
+
+            <TextView
+                android:id="@+id/nombreAreaCedida"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Nombre edificación"/>
+
+            <TextView
+                android:id="@+id/nombreEdificacion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Área edificación"/>
+
+            <TextView
+                android:id="@+id/areaEdificacion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Dirección edificacion"/>
+
+            <TextView
+                android:id="@+id/direccionEdificacion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Matrícula"/>
+
+            <TextView
+                android:id="@+id/matricula"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Área Cesión"/>
+
+            <TextView
+                android:id="@+id/areaCesion"
+                style="@style/TextViewContent"/>
+
+            <View
+                style="@style/Separator"/>
+
+            <TextView
+                style="@style/TextViewTitle"
+                android:text="Nombre Común"/>
+
+            <TextView
+                android:id="@+id/nombreComun"
+                style="@style/TextViewContent"/>
+
+
+
+            <LinearLayout
+                android:id="@+id/dataExtra"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Código Nacional"/>
+
+                <TextView
+                    android:id="@+id/codigo_nacional"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Número Activo Fijo"/>
+
+                <TextView
+                    android:id="@+id/num_activo_fijo"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Barrio"/>
+
+                <TextView
+                    android:id="@+id/barrio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Comuna"/>
+
+                <TextView
+                    android:id="@+id/comuna"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Estrato"/>
+
+                <TextView
+                    android:id="@+id/estrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Cedente"/>
+
+                <TextView
+                    android:id="@+id/cedente"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre CB"/>
+
+                <TextView
+                    android:id="@+id/nombre_cb"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Orfeo"/>
+
+                <TextView
+                    android:id="@+id/orfeo"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre TB"/>
+
+                <TextView
+                    android:id="@+id/nombre_tb"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre TU"/>
+
+                <TextView
+                    android:id="@+id/nombre_tu"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre madq"/>
+
+                <TextView
+                    android:id="@+id/nombre_madq"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Norte Predio"/>
+
+                <TextView
+                    android:id="@+id/lind_norte_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Sur Predio"/>
+
+                <TextView
+                    android:id="@+id/lind_sur_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Este Predio"/>
+
+                <TextView
+                    android:id="@+id/lind_este_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Oeste Predio"/>
+
+                <TextView
+                    android:id="@+id/lind_oeste_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Adición"/>
+
+                <TextView
+                    android:id="@+id/lind_adic_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Estado predio"/>
+
+                <TextView
+                    android:id="@+id/estado_predio"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre Tipo"/>
+
+                <TextView
+                    android:id="@+id/nombre_tipo"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Número Documento"/>
+
+                <TextView
+                    android:id="@+id/numero_doc"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Fecha Documento"/>
+
+                <TextView
+                    android:id="@+id/fecha_documento"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre Not"/>
+
+                <TextView
+                    android:id="@+id/nombre_not"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Numero Contrato"/>
+
+                <TextView
+                    android:id="@+id/numero_cont"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Area Entregada"/>
+
+                <TextView
+                    android:id="@+id/area_entregada"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Fecha Inicio Contrato"/>
+
+                <TextView
+                    android:id="@+id/fecha_inicio_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Fecha Fin Contrato"/>
+
+                <TextView
+                    android:id="@+id/fecha_fin_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Estado Contrato"/>
+
+                <TextView
+                    android:id="@+id/estado_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Norte Contrato"/>
+
+                <TextView
+                    android:id="@+id/lind_norte_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Sur Contrato"/>
+
+                <TextView
+                    android:id="@+id/lind_sur_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Este Contrato"/>
+
+                <TextView
+                    android:id="@+id/lind_este_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Oeste Contrato"/>
+
+                <TextView
+                    android:id="@+id/lind_oeste_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Lind Adicional Contrato"/>
+
+                <TextView
+                    android:id="@+id/lind_adic_contrato"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Tercero"/>
+
+                <TextView
+                    android:id="@+id/tercero"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Número Pisos Construcción"/>
+
+                <TextView
+                    android:id="@+id/numero_pisos_construccion"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Activo Fijo COnstrucción"/>
+
+                <TextView
+                    android:id="@+id/activo_fijo_construccion"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre Dependencia"/>
+
+                <TextView
+                    android:id="@+id/nombre_dependencia"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Path Archivo"/>
+
+                <TextView
+                    android:id="@+id/path_archivo_digital"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Path Fotos"/>
+
+                <TextView
+                    android:id="@+id/path_archivo_fotos"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Fecha Observación"/>
+
+                <TextView
+                    android:id="@+id/fecha_observacion"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Observación"/>
+
+                <TextView
+                    android:id="@+id/observacion"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Nombre Usuario"/>
+
+                <TextView
+                    android:id="@+id/nombre_usuario"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="Apellido Usuario"/>
+
+                <TextView
+                    android:id="@+id/apellido_usuario"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="URL1"/>
+
+                <TextView
+                    android:id="@+id/url1"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="URL2"/>
+
+                <TextView
+                    android:id="@+id/url2"
+                    style="@style/TextViewContent"/>
+                <View
+                    style="@style/Separator"/>
+
+                <TextView
+                    style="@style/TextViewTitle"
+                    android:text="URL3"/>
+
+                <TextView
+                    android:id="@+id/url3"
+                    style="@style/TextViewContent"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

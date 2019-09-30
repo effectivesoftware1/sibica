@@ -1,0 +1,23 @@
+SELECT      CAST (geo_constr_mc.oid AS INTEGER),
+            geo_constr_mc.gid, 
+			geo_constr_mc.the_geom,  
+			terreno.mensaje_p,
+			terreno.identifica_p, 
+			construccion.predial_edificacion_const, 
+			terreno.direccion_p, 
+			tipo_bien.nombre_tb,  
+			COALESCE(terreno.nombre_areacedida_p, '' ) nombre_areacedida_p, 
+			construccion.nombre_const, 
+			COALESCE(construccion.area_edifica_const, 0) area_edifica_const, 
+			COALESCE(construccion.direccion_const, '' ) direccion_const,
+			COALESCE(terreno.mat_inmob_p, '' ) mat_inmob_p,
+			terreno.area_cesion_p, 
+			terreno.nombrecomun_p, 
+			terreno.id_capa
+FROM        geo_constr_mc
+LEFT JOIN   construccion ON construccion.gid = geo_constr_mc.gid
+LEFT JOIN   terreno ON terreno.identifica_p = construccion.predialterreno_const_fk
+LEFT JOIN   barrios ON barrios.id_barrio = terreno.id_barrio
+LEFT JOIN   tipo_bien ON tipo_bien.id_tb = terreno.id_tb_fk
+WHERE       terreno.id_estado_fk = 1
+ORDER BY    geo_constr_mc.oid

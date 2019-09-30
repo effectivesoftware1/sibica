@@ -1,0 +1,138 @@
+CREATE OR REPLACE VIEW public.vw_geo_predio_interno_mc (
+    oid,
+    gid,
+    the_geom,
+    id_shp,
+    id_catastro_p,
+    identifica_p,
+    predial_edificacion_const,
+    codigonal_p,
+    num_activofijo_p,
+    direccion_p,
+    barrio,
+    comuna,
+    estra_moda,
+    proyecto_p,
+    nombre_areacedida_p,
+    cedente,
+    mat_inmob_p,
+    area_cesion_p,
+    nombre_cb,
+    orfeo_cb_p,
+    nombre_tb,
+    nombre_tu,
+    nombre_madq,
+    lind_norte_p,
+    lind_sur_p,
+    lind_este_p,
+    lind_oeste_p,
+    lind_adic_p,
+    nombrecomun_p,
+    estado_predio,
+    nombre_tipod,
+    numero_doc,
+    fecha_doc,
+    nombre_not,
+    nombre_tc,
+    numero_cont,
+    area_entregada_cont,
+    fecha_ini_cont,
+    fecha_fin_cont,
+    estado_cto,
+    lind_norte_cont,
+    lind_sur_cont,
+    lind_este_cont,
+    lind_oeste_cont,
+    lind_adic_cont,
+    tercero,
+    nombre_const,
+    numpisos_const,
+    area_edifica_const,
+    activofijo_const,
+    nombre_depen,
+    path_archivo_digi,
+    path_foto_digi,
+    nombre_to,
+    fecha_obs,
+    observacion_obs,
+    nombre_usu,
+    apellido_usu,
+    id_capa,
+    url1,
+    url2,
+    url3)
+AS
+SELECT g.oid, g.gid, g.the_geom, g.id_shp,
+    prediomunicipio.id_catastro_p::character varying(7) AS id_catastro_p, prediomunicipio.identifica_p, construccion.predial_edificacion_const, prediomunicipio.codigonal_p, prediomunicipio.num_activofijo_p, prediomunicipio.direccion_p, barrios.barrio, barrios.comuna, barrios.estra_moda, prediomunicipio.proyecto_p, prediomunicipio.nombre_areacedida_p, tercero.nombre_tcro AS cedente, prediomunicipio.mat_inmob_p, prediomunicipio.area_cesion_p, calidad_bien.nombre_cb, prediomunicipio.orfeo_cb_p, tipo_bien.nombre_tb, uso_predio.nombre_tu, modo_adq.nombre_madq, prediomunicipio.lind_norte_p, prediomunicipio.lind_sur_p, prediomunicipio.lind_este_p, prediomunicipio.lind_oeste_p, prediomunicipio.lind_adic_p, prediomunicipio.nombrecomun_p, estado_a.nombre_estado AS estado_predio, tipo_doc.nombre_tipod, documento.numero_doc, documento.fecha_doc, notaria.nombre_not, tipo_contrato.nombre_tc, contrato.numero_cont, contrato.area_entregada_cont, contrato.fecha_ini_cont, contrato.fecha_fin_cont, estado.nombre_estado AS estado_cto, contrato.lind_norte_cont, contrato.lind_sur_cont, contrato.lind_este_cont, contrato.lind_oeste_cont, contrato.lind_adic_cont, tercero_a.nombre_tcro AS tercero, construccion.nombre_const, construccion.numpisos_const, construccion.area_edifica_const, construccion.activofijo_const, dependencia.nombre_depen, digital.path_archivo_digi, digital.path_foto_digi, tipo_observacion.nombre_to, observacion.fecha_obs, observacion.observacion_obs, usuario.nombre_usu, usuario.apellido_usu, prediomunicipio.id_capa, prediomunicipio.url1, prediomunicipio.doc_calidad_bien AS url2, prediomunicipio.url3
+FROM barrios
+   RIGHT JOIN prediomunicipio prediomunicipio ON barrios.id_barrio::text =
+       prediomunicipio.id_barrio::text
+   LEFT JOIN tercero tercero ON prediomunicipio.nit_cede_fk = tercero.nit_tcro
+   LEFT JOIN calidad_bien calidad_bien ON prediomunicipio.id_cb_fk = calidad_bien.id_cb
+   LEFT JOIN geo_predio_mc g ON prediomunicipio.id_shp_p::text = g.id_shp::text
+   LEFT JOIN tipo_bien tipo_bien ON prediomunicipio.id_tb_fk = tipo_bien.id_tb
+   LEFT JOIN uso_predio uso_predio ON prediomunicipio.id_tu_fk = uso_predio.id_tu
+   LEFT JOIN modo_adq modo_adq ON prediomunicipio.id_madq_fk = modo_adq.id_madq
+   LEFT JOIN documento_predio documento_predio ON
+       prediomunicipio.identifica_p::text = documento_predio.predial_p::text
+   LEFT JOIN contrato contrato ON prediomunicipio.identifica_p::text =
+       contrato.predial_cont_fk::text
+   LEFT JOIN tercero tercero_a ON contrato.nit_entidad_cont = tercero_a.nit_tcro
+   LEFT JOIN construccion construccion ON prediomunicipio.identifica_p::text =
+       construccion.predialterreno_const_fk::text
+   LEFT JOIN dependencia dependencia ON prediomunicipio.id_depen_fk::numeric =
+       dependencia.id_depen
+   LEFT JOIN digital digital ON prediomunicipio.identifica_p::text =
+       digital.predial_digi_fk::text
+   LEFT JOIN estado estado_a ON prediomunicipio.id_estado_fk = estado_a.id_estado
+   LEFT JOIN observacion observacion ON prediomunicipio.identifica_p::text =
+       observacion.predial_obs_fk::text
+   LEFT JOIN tipo_observacion tipo_observacion ON observacion.tipo_ob =
+       tipo_observacion.id_to
+   LEFT JOIN usuario usuario ON observacion.id_usu_fk::text = usuario.id_usu::text
+   LEFT JOIN tipo_contrato tipo_contrato ON contrato.id_tc_fk = tipo_contrato.id_tc
+   LEFT JOIN estado estado ON contrato.id_estado_fk = estado.id_estado
+   LEFT JOIN documento documento ON documento_predio.id_doc::text =
+       documento.numero_doc::text
+   LEFT JOIN tipo_doc ON documento.id_tipod_fk = tipo_doc.id_tipod
+   LEFT JOIN notaria notaria ON documento.id_not_fk = notaria.id_not
+WHERE prediomunicipio.id_estado_fk = 1
+ORDER BY g.oid;
+
+
+
+----------------------------------------
+
+
+
+
+CREATE OR REPLACE VIEW public.vw_geo_predio_externo_mc (
+    oid,
+    the_geom,
+    mensaje_p,
+    identifica_p,
+    predial_edificacion_const,
+    direccion_p,
+    nombre_tb,
+    proyecto_p,
+    nombre_areacedida_p,
+    nombre_const,
+    area_edifica_const,
+    direccion_const,
+    mat_inmob_p,
+    area_cesion_p,
+    nombrecomun_p,
+    id_capa,
+    url1)
+AS
+SELECT geo_predio_mc.oid, geo_predio_mc.the_geom, prediomunicipio.mensaje_p,
+    prediomunicipio.identifica_p, construccion.predial_edificacion_const, prediomunicipio.direccion_p, tipo_bien.nombre_tb, prediomunicipio.proyecto_p, prediomunicipio.nombre_areacedida_p, construccion.nombre_const, construccion.area_edifica_const, construccion.direccion_const, prediomunicipio.mat_inmob_p, prediomunicipio.area_cesion_p, prediomunicipio.nombrecomun_p, prediomunicipio.id_capa, prediomunicipio.url1
+FROM tipo_bien tipo_bien
+   RIGHT JOIN prediomunicipio prediomunicipio ON tipo_bien.id_tb =
+       prediomunicipio.id_tb_fk
+   LEFT JOIN construccion construccion ON prediomunicipio.identifica_p::text =
+       construccion.predialterreno_const_fk::text
+   LEFT JOIN geo_predio_mc geo_predio_mc ON prediomunicipio.id_shp_p::text =
+       geo_predio_mc.id_shp::text
+WHERE prediomunicipio.id_estado_fk = 1
+ORDER BY geo_predio_mc.oid;

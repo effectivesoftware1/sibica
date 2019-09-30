@@ -1,0 +1,79 @@
+SELECT      geo_predio_mc.oid, 
+			geo_predio_mc.gid, 
+			geo_predio_mc.the_geom, 
+			geo_predio_mc.id_shp,
+			terreno.id_catastro_p, 
+			terreno.identifica_p, 
+			COALESCE(construccion.predial_edificacion_const, '' ) predial_edificacion_const, 
+			terreno.codigonal_p, 
+			COALESCE(terreno.num_activofijo_p, '' ) num_activofijo_p, 
+			terreno.direccion_p, 
+			barrios.barrio, 
+			barrios.comuna, 
+			barrios.estra_moda, 
+			COALESCE(terreno.nombre_areacedida_p, '' ) nombre_areacedida_p, 
+			COALESCE(tercero.nombre_tcro, '' ) cedente, 
+			terreno.mat_inmob_p, 
+			COALESCE(terreno.area_cesion_p, 0 ) area_cesion_p, 
+			COALESCE(calidad_bien.nombre_cb, '' ) nombre_cb, 
+			COALESCE(terreno.orfeo_cb_p, '' ) orfeo_cb_p, 
+			tipo_bien.nombre_tb, 
+			COALESCE(uso_predio.nombre_tu, '' ) nombre_tu, 
+			COALESCE(modo_adq.nombre_madq, '' ) nombre_madq, 
+			COALESCE(terreno.lind_norte_p, '' ) lind_norte_p, 
+			COALESCE(terreno.lind_sur_p, '' ) lind_sur_p, 
+			COALESCE(terreno.lind_este_p, '' ) lind_este_p, 
+			COALESCE(terreno.lind_oeste_p, '' ) lind_oeste_p, 
+			COALESCE(terreno.lind_adic_p, '' ) lind_adic_p, 
+			COALESCE(terreno.nombrecomun_p, '' ) nombrecomun_p, 
+			COALESCE(tipo_doc.nombre_tipod, '' ) nombre_tipod, 
+			COALESCE(documento.numero_doc, '' ) numero_doc, 
+			documento.fecha_doc, 
+			notaria.nombre_not, 
+			tipo_contrato.nombre_tc, 
+			contrato.numero_cont, 
+			contrato.area_entregada_cont, 
+			contrato.fecha_ini_cont, 
+			contrato.fecha_fin_cont, 
+			estado.nombre_estado AS estado_cto, 
+			contrato.lind_norte_cont, 
+			contrato.lind_sur_cont, 
+			contrato.lind_este_cont, 
+			contrato.lind_oeste_cont, 
+			contrato.lind_adic_cont, 
+			construccion.nombre_const, 
+			construccion.numpisos_const, 
+			construccion.area_edifica_const, 
+			construccion.activofijo_const, 
+			dependencia.nombre_depen, 
+			tipo_observacion.nombre_to, 
+			observacion.fecha_obs, 
+			observacion.observacion_obs, 
+			usuario.nombre_usu, 
+			usuario.apellido_usu, 
+			terreno.id_capa, 
+			terreno.doc_calidad_bien AS url2
+FROM 	    geo_predio_mc
+LEFT JOIN   terreno ON geo_predio_mc.id_shp = terreno.id_shp_p
+LEFT JOIN   tipo_bien ON tipo_bien.id_tb = terreno.id_tb_fk
+LEFT JOIN   construccion ON construccion.predialterreno_const_fk = terreno.identifica_p
+LEFT JOIN   capa ON capa.id_capa = terreno.id_capa
+LEFT JOIN   barrios ON barrios.id_barrio = terreno.id_barrio
+LEFT JOIN   dependencia ON dependencia.id_depen = terreno.id_depen_fk
+LEFT JOIN   tercero ON terreno.nit_cede_fk = tercero.nit_tcro
+LEFT JOIN   calidad_bien ON terreno.id_cb_fk = calidad_bien.id_cb
+LEFT JOIN   uso_predio ON terreno.id_tu_fk = uso_predio.id_tu
+LEFT JOIN   modo_adq ON terreno.id_madq_fk = modo_adq.id_madq
+LEFT JOIN   documento_predio ON  terreno.identifica_p = documento_predio.predial_p
+LEFT JOIN   documento ON documento_predio.id_doc = documento.numero_doc
+LEFT JOIN   tipo_doc ON documento.id_tipod_fk = tipo_doc.id_tipod
+LEFT JOIN   notaria ON documento.id_not_fk = notaria.id_not
+LEFT JOIN   contrato ON terreno.identifica_p = contrato.predial_cont_fk
+LEFT JOIN   tipo_contrato ON contrato.id_tc_fk = tipo_contrato.id_tc
+LEFT JOIN   observacion ON terreno.identifica_p = observacion.predial_obs_fk
+LEFT JOIN   tipo_observacion ON observacion.tipo_ob = tipo_observacion.id_to
+LEFT JOIN   usuario ON observacion.id_usu_fk = usuario.id_usu
+LEFT JOIN   estado ON contrato.id_estado_fk = estado.id_estado
+WHERE       terreno.id_estado_fk = 1
+AND         terreno.id_capa = 3
+ORDER BY    geo_predio_mc.oid
